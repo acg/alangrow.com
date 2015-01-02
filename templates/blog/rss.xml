@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  {% set baseurl = plugins.Regex("^(https?://[^/]+)/.*").replace(site.url,"\g<1>") -%}
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ baseurl }}{{ uri }}" rel="self" type="application/rss+xml" />
+    <description>{{ site.description }}</description>
+    <language>{{ site.lang }}</language>
+
+    {% for post in site.posts %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>{{ site.url }}/{{ post.slug }}?from=rss</link>
+      <pubDate>{{ post.date | strftime("%a, %d %b %Y %H:%M:%S %Z") }}</pubDate>
+      <author>{{ site.author.email }}({{ site.author.name }})</author>
+      <guid>{{ site.url }}/{{ post.slug }}</guid>
+      <description>{{ post.content }}</description>
+    </item>
+    {% endfor %}
+
+  </channel> 
+</rss>

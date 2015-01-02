@@ -1,0 +1,8 @@
+{% set data = {
+  "post": {
+    "title"  : page.title,
+    "date"   : page.date,
+    "slug"   : plugins.Regex("^/.*/([^/.]+)(\.[^.]+)?$").replace(uri,"\g<1>"),
+    "content": (content | safe | markdown)
+  } } -%}
+{{ plugins.JSON.encode(data) | safe }}

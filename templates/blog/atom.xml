@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  {% set baseurl = plugins.Regex("^(https?://[^/]+)/.*").replace(site.url,"\g<1>") -%}
+  <title>{{ site.title }}</title>
+  <link href="{{ site.url }}"/>
+  <link type="application/atom+xml" rel="self" href="{{ baseurl }}{{ uri }}"/>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>{{ site.url }}/{{ post.slug }}</id>
+    <link type="text/html" rel="alternate" href="{{ site.url }}/{{ post.slug }}?from=atom"/>
+    <title>{{ post.title }}</title>
+    <updated>{{ post.date | strftime("%Y-%m-%dT%H:%M:%S%z") }}</updated>
+    <author>
+      <name>{{ site.author.name }}</name>
+      <email>{{ site.author.email }}</email>
+    </author>
+    <content type="html">{{ post.content }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>

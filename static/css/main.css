@@ -1,0 +1,255 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background: #ddd;
+}
+
+#header {
+  height: 60px;
+  border-bottom: 1px solid black;
+}
+
+#footer {
+  height: 50px;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+#header, #footer {
+  padding: 10px 0px;
+}
+
+#header h1 {
+  padding: 0px 20px;
+  display: inline;
+}
+
+#header h1 a,
+#header h1 a:visited,
+#header h1 a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#header .banner {
+  padding-top: 10px;
+}
+
+#header .banner i {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  width: 40%;
+  padding-left: 20px;
+}
+
+/* left column */
+.threecol .colleft {
+  background: #ddd;
+  min-height: 400px;
+  border-right: 1px solid black;
+}
+
+.col2 blockquote {
+  font-size: 12px;
+  font-style: italic;
+  padding: 10px 10px;
+}
+
+.col2 .caption {
+  font-size: 12px;
+  padding: 10px 10px;
+  color: #333;
+}
+
+/* center column */
+.threecol .colmid {
+  background: #fff;
+  min-height: 400px;
+  border-right: 1px solid black;
+}
+
+/* right column */
+.threecol {
+  background: #ddd;
+  min-height: 400px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* right columns */
+
+.col3 {
+  padding: 10px 0px;
+}
+
+.col3 .date {
+  font-size: 12px;
+  white-space: nowrap;
+  color: #333;
+}
+
+.col3 li {
+  padding: 5px 0px;
+}
+
+.col3 .feed .icon {
+  display: inline-block;
+  background: url(/images/feed-icon-28x28.png) no-repeat 0 0;
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+/* center column */
+
+.col1 .toc {
+  padding: 10px 0px;
+}
+
+/* Posts */
+
+.post {
+  padding: 10px 15px 40px 15px;
+}
+
+.post .content {
+  padding: 10px 0px 40px 0px;
+}
+
+.post h2 {
+  margin: 30px 0px 10px 0px;
+}
+
+.post h3 {
+  margin: 20px 0px 10px 0px;
+}
+
+.post h3 {
+  border-bottom: 1px solid #666;
+}
+
+.post .top-date {
+  font-style: italic;
+  font-size: 12px;
+  color: #666;
+  padding-top: 4px;
+}
+
+.post ul, .post ol {
+  margin: 20px 30px;
+}
+
+.post li {
+  list-style: disc;
+  padding: 5px 20px;
+}
+
+.post ol li {
+  list-style: decimal;
+}
+
+.post p {
+  padding: 10px 0 0 0;
+}
+
+.post li p {
+  padding: 0; 
+}
+
+.post em {
+  font-style: italic;
+}
+
+.post strong {
+  font-weight: bold;
+}
+
+.post pre {
+  padding: 10px 10px;
+  margin: 10px 0px;
+  border: 1px solid #666;
+  background: #efefef;
+  white-space: pre-wrap;
+}
+
+.post code {
+  background: #efefef;
+  font-family: courier;
+}
+
+.post p code {
+  padding: 1px 4px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.post blockquote {
+  margin: 10px 10px;
+  border-left: 10px solid #ddd;
+  padding-left: 10px;
+}
+
+.post blockquote p:first-child {
+  padding: 0; 
+}
+
+.post small {
+  font-style: italic;
+  font-size: 12px;
+  color: #666;
+}
+
+.post .image {
+  margin: 10px 0px;
+}
+
+.post .image a img {
+  border: 2px solid blue;
+}
+
+.post .image a:visited img {
+  border: 2px solid purple;
+}
+
+.post .matrix {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post .matrix td {
+  border: 1px solid gray;
+  padding: 4px 8px;
+}
+
+.post .matrix .col-header,
+.post .matrix .row-header {
+  background: #ddd;
+}
+
+.post .matrix .col-header.row-header {
+  border: none;
+  background: inherit;
+}
+
+.post .center {
+  text-align: center;
+}
+
+
