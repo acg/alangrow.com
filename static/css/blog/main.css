@@ -21,7 +21,9 @@ body {
 
 #header h1 {
   padding: 0px 20px;
-  display: inline;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20%;
 }
 
 #header h1 a,
@@ -36,12 +38,8 @@ body {
 }
 
 #header .banner i {
-  display: block;
-  position: absolute;
-  top: 20px;
-  left: 300px;
-  width: 40%;
-  padding-left: 20px;
+  display: inline-block;
+  padding-left: 10px;
 }
 
 /* left column */
@@ -269,6 +267,9 @@ h3 {
     width: 100%;
     left: 0;
     overflow: auto;
+  }
+  #header h1 {
+    font-size: 32px;
   }
 }
 
