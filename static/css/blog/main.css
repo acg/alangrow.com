@@ -252,4 +252,23 @@ h3 {
   text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .threecol .colmid, .threecol .colleft {
+    right: 0;
+  }
+  .threecol .col1 {
+    width: 100%;
+    left: 0;
+    background-color: white;
+  }
+  .threecol .col2 {
+    display: none;
+  }
+  .threecol .col3 {
+    float: none;
+    width: 100%;
+    left: 0;
+    overflow: auto;
+  }
+}
 
