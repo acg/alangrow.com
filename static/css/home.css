@@ -5,8 +5,11 @@ html {
 
 body {
   font-size: 1rem;
+  margin: 1rem 10% 1rem 10%;
+}
+
+* {
   line-height: 130%;
-  margin: 1% 10%;
 }
 
 h1, h2, h3, h4 {
@@ -50,5 +53,13 @@ h2 { font-size: 4rem; }
   -moz-column-break-before: always;
   -o-column-break-before: always;
   -ms-column-break-before: always;
+}
+
+@media only screen and (max-device-width: 568px) {
+  #main {
+    font-size: 1.5rem;
+    column-count: 1;
+    -webkit-column-count: 1;
+  }
 }
 
