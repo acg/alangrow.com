@@ -38,8 +38,8 @@ My motivation initially was to avoid beeping console prompts. The xterm escape s
 In the course of things, I discovered the `\t` bash escape sequence, which gives you the current time in `hh:mm:ss` form. Nice. By incorporating this into the prompt you can now tell by inspection how long you've been sitting with your jaw open trying to remember what you were about to do. Or, how severe one's random spastic `ls`-ing has gotten.
 
 <div class="image">
-<a href="{{ page.root }}/images/blog/bash-prompt-with-time.png">
-<img src="{{ page.root }}/images/blog/bash-prompt-with-time-small.png" />
+<a href="../images/blog/bash-prompt-with-time.png">
+<img src="../images/blog/bash-prompt-with-time-small.png" />
 </a>
 </div>
 

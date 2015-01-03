@@ -9,7 +9,7 @@
     }
 
 <div class="center image">
-  <a href="{{ page.root }}/images/blog/vim-as-spreadsheet.png"><img src="{{ page.root }}/images/blog/vim-as-spreadsheet-thumbnail.png" /></a><br/>
+  <a href="../images/blog/vim-as-spreadsheet.png"><img src="../images/blog/vim-as-spreadsheet-thumbnail.png" /></a><br/>
   <small>Vim editing <a href="http://www.census.gov/econ/cbp/download/">US census data on 2010 county business patterns</a></small>
 </div>
 
