@@ -38,7 +38,7 @@ h3 { font-size: 0.28rem; }
 #main .posts { float: right; }
 #main .footer { clear: both; }
 
-@media only screen and (max-device-width: 568px) {
+@media screen and (max-width: 1024px) {
   body.home {
     margin-left: 5%;
     margin-right: 5%;
