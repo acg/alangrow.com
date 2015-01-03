@@ -12,7 +12,13 @@
 
 ### hello
 
-Hi, I'm Alan Grow.
+- Alan Grow
+- [alan grow at gmail](mailto:alangrow+nospam@gmail.com)
+- pgp: 4096R/9B1B5556
+- [@alangrow](https://twitter.com/alangrow)
+- [github.com/acg](https://github.com/acg)
+- [sigil on HN](https://news.ycombinator.com/user?id=sigil)
+- [~acg](http://squiggle.city/~acg/)
 
 ### code
 
@@ -22,7 +28,7 @@ Hi, I'm Alan Grow.
 - [python-cdb](https://github.com/acg/python-cdb) - A Python interface to djb's cdb library.
 - [python-flattery](https://github.com/acg/python-flattery) - Fast flattening and unflattening of nested data structures.
 - [python-percentcoding](https://github.com/acg/python-percentcoding) - Fast percent encoding and decoding.
-- [spectool-web](https://github.com/acg/spectool-web) - A web viewer for WiSPY and Ubertooth spectrum data.
+- [spectool-web](https://github.com/acg/spectool-web) - A web viewer for 802.11 spectrum data.
 - [tcpforward](https://github.com/acg/tcpforward) - Forward or tunnel TCP connections.
 - [logbot](https://github.com/acg/logbot) - IRC is so easy even a tiny shell script can do something useful.
 - ...and lots more: [github.com/acg](https://github.com/acg)
@@ -38,12 +44,4 @@ Hi, I'm Alan Grow.
 - [Endcrawl](http://endcrawl.com) - Co-founder, &frac12; of Hacker & Hustler team.
 - [iLuminate](http://iluminate.com) - Co-founder, Coder of the Blinking Lights.
 
-### contact
-
-- [alan grow at gmail](mailto:alangrow+nospam@gmail.com)
-- pgp: 4096R/9B1B5556
-- [@alangrow](https://twitter.com/alangrow)
-- [github.com/acg](https://github.com/acg)
-- [sigil on HN](https://news.ycombinator.com/user?id=sigil)
-- [~acg](http://squiggle.city/~acg/)
 
