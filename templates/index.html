@@ -4,22 +4,27 @@
   <link rel="stylesheet" href="{{ page.root }}/css/reset.css" type="text/css" />
   <link rel="stylesheet" href="{{ page.root }}/css/home.css" type="text/css" />
 </head>
-<body>
+<body class="home">
 
 <div id="main">
 
-{% filter markdown %}
-{{ content | safe }}
-{% endfilter %}
+  <div class="info">
+  {% filter markdown %}
+  {{ content | safe }}
+  {% endfilter %}
+  </div>
 
-<div id="posts">
-  <h3>posts</h3>
-  <ul>
-  {% for post in posts %}
-    <li><a href="./blog/{{ post.slug }}">{{ post.title }}</a></li>
-  {% endfor %}
-  </ul>
-</div>
+  <div class="posts">
+    <h3>posts</h3>
+    <ul>
+    {% for post in posts %}
+      <li><a href="./blog/{{ post.slug }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="footer">
+  </div>
 
 </div>
 
