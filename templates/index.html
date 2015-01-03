@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ page.root }}/css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="{{ page.root }}/css/home.css" type="text/css" />
+</head>
+<body>
+
+<div id="main">
+
+{% filter markdown %}
+{{ content | safe }}
+{% endfilter %}
+
+<div id="posts">
+  <h3>posts</h3>
+  <ul>
+  {% for post in posts %}
+    <li><a href="./blog/{{ post.slug }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
+
+</div>
+
+</body>
+</html>

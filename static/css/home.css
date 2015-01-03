@@ -1,0 +1,54 @@
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 130%;
+  margin: 1% 10%;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, p {
+  margin: 1.0rem 0;
+}
+
+h1 { font-size: 6rem; }
+h2 { font-size: 5rem; }
+h2 { font-size: 4rem; }
+
+#main {
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -o-column-count: 2;
+}
+
+#main p, #main ul {
+  column-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  -o-column-break-inside: avoid;
+  -ms-column-break-inside: avoid;
+}
+
+#main h1, #main h2, #main h3 {
+  break-after: avoid;
+  -webkit-column-break-after: avoid;
+  -moz-column-break-after: avoid;
+  -o-column-break-after: avoid;
+  -ms-column-break-after: avoid;
+}
+
+#main #posts {
+  break-before: always;
+  -webkit-column-break-before: always;
+  -moz-column-break-before: always;
+  -o-column-break-before: always;
+  -ms-column-break-before: always;
+}
+
