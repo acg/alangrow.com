@@ -80,11 +80,21 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h5 {
   font-size: 16px;
   font-weight: bold;
 }
@@ -139,6 +149,10 @@ h3 {
 
 .post h3 {
   border-bottom: 1px solid #666;
+}
+
+.post h4, .post h5 {
+  margin: 20px 0px 10px 0px;
 }
 
 .post .top-date {
