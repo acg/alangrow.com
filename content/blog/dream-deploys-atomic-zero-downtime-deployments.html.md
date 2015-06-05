@@ -106,7 +106,7 @@ This is a problem, but there's also a straightforward solution.
 
 Let's clarify the problem first: during a deployment, a client may request a page from the old server, then open more connections that request assets from the new server. (Remember, consistency is only guaranteed within the same connection.) So you can get old page content mixed with new css, js, images, etc.
 
-In the prevailing practice, the solution is to build a new tagged set of static assets for every deployment, then have the page refer to all assets via this tag. You can do this by modifying the [`./deploy` script](https://github.com/acg/dream-deploys/blob/master/deploy) to do this, like so:
+The solution in prevailing practice is to build a new tagged set of static assets for every deployment, then have the page refer to all assets via this tag. You can do this by modifying the [`./deploy` script](https://github.com/acg/dream-deploys/blob/master/deploy) to do this, like so:
 
 - Update the new files.
 - Generate a unique tag `$TAG`. Epoch timestamps are usually good enough.
