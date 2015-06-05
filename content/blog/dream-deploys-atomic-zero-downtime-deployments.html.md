@@ -52,15 +52,15 @@ Edit code, static files, or both under `./root.unused`. Then leave `./root.unuse
 
 ## Questions & Answers
 
-#### What do you mean by a "zero downtime" deployment?
+### What do you mean by a "zero downtime" deployment?
 
 At no point is the site unavailable. Requests will continue to be served without transport layer errors before, during, and after the deployment. In other words, this is about **Availability**.
 
-#### What do you mean by an "atomic" deployment?
+### What do you mean by an "atomic" deployment?
 
 For a given connection, either you will talk to the new code working against the new files, or you will talk to the old code working against the old files. You will never see a mix of old and new. In other words, this is about **Consistency**.
 
-#### How does the zero downtime part work?
+### How does the zero downtime part work?
 
 This brings us to Unix trick #1. If you keep the same listen socket open throughout the deployment, clients won't get `ECONNREFUSED` under normal circumstances. The kernel places them in a listen backlog until our server gets around to calling `accept(2)`.
 
@@ -76,7 +76,7 @@ The trick in a nutshell, then, is this:
 
 - When it's time to restart the server process, we tell the server to exit after handling the current connection, if any. That way deployment doesn't disrupt any pending requests. We tell the server process to gracefully exit by sending it a `SIGHUP` signal.
 
-##### A Quick Rant on Web Frameworks and SO_REUSEPORT
+#### A Quick Rant on Web Frameworks and SO_REUSEPORT
 
 **Note**: a shocking, saddening number of web frameworks force you to call `listen(2)` in your Big Ball Of App Code That Needs To Be Restarted. The [connect](https://github.com/strongloop-forks/connect/blob/7edb875a9f305e38f4d960fa46ac674038241892/lib/proto.js#L231) HTTP server framework used by [express](https://github.com/strongloop/express), the most popular web app framework for [Node.js](https://nodejs.org/), is one of them.
 
@@ -90,7 +90,7 @@ At any rate, an `accept(2)`-based server is simpler. It also has some nice added
 
 - An `accept(2)`-based server is a more secure factoring of concerns. If your server listens directly on a privileged port (80 or 443), you'll need root privileges or a fancy capabilities setup. After binding, a listen server should also drop root privileges (horrifyingly, some don't). The `accept(2)` factoring means a tiny, well-audited program can bind to the privileged port, drop privileges to a minimally empowered user account, and run a known program. This is a huge security win.
 
-#### How does the atomic part work?
+### How does the atomic part work?
 
 A connection will either be served by the old server process or the new server process. The question is whether the old process might possibly see new files, or the new process might see old files. If we update files in-place then one of these inconsistencies can happen. This forces us to keep two complete copies of the files, an old copy and a new copy.
 
@@ -102,7 +102,7 @@ While we're updating the new files, no server process should use them. If the ol
 
 There are a number of [things Unix can do atomically](http://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html). Among them: use `rename(2)` to replace a symlink with another symlink. If the "switch" is a simply a symlink pointing at one directory or the other, then deployments are atomic. This is Unix trick #2.
 
-#### What about serving inconsistent assets? Browsers open multiple connections.
+### What about serving inconsistent assets? Browsers open multiple connections.
 
 This is a problem, but there's also a straightforward solution.
 
@@ -122,23 +122,23 @@ That's pretty much it. Eventually you'll want to delete them, but if you keep th
 
 The long term solution to this problem is [HTTP/2 multiplexing](https://http2.github.io/faq/#why-is-http2-multiplexed), which makes multiple browser connections unnecessary.
 
-#### What about serving inconsistent ajax requests?
+### What about serving inconsistent ajax requests?
 
 Let's clarify this problem: during a deployment, a client may request a page from the old server, then open more connections that make ajax requests of the new server using old client code.
 
 There's a less technical solution to this one: simply make your API backwards compatible. This is a good idea regardless.
 
-#### What about concurrency? Your example only serves one connection at a time.
+### What about concurrency? Your example only serves one connection at a time.
 
 You can run as many `accept(2)`-calling server processes as you want on the same listen socket. The kernel will efficiently multiplex connections to them.
 
 In production, I use a small program I wrote called `forkpool` that keeps N concurrent child processes running. It doesn't do anything beyond this, which means it doesn't have any bugs at this point and never needs restarting. Remember, children are a precious resource, but without a parent to keep that listen socket open they're *orphans*.
 
-#### What about deployment collisions?
+### What about deployment collisions?
 
 Yes, you really should prevent concurrent deployments via a lock. That's not demonstrated here, but it's extremely easy and reliable to do with [the setlock(8) program from daemontools](http://cr.yp.to/daemontools/setlock.html).
 
-#### What about deploying database schema changes?
+### What about deploying database schema changes?
 
 This topic has been covered [well elsewhere](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/).
 
