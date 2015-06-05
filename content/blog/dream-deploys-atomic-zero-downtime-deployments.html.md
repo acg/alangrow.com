@@ -76,8 +76,6 @@ The trick in a nutshell, then, is this:
 
 - When it's time to restart the server process, we tell the server to exit after handling the current connection, if any. That way deployment doesn't disrupt any pending requests. We tell the server process to gracefully exit by sending it a `SIGHUP` signal.
 
-#### A Quick Rant on Web Frameworks and SO_REUSEPORT
-
 **Note**: a shocking, saddening number of web frameworks force you to call `listen(2)` in your Big Ball Of App Code That Needs To Be Restarted. The [connect](https://github.com/strongloop-forks/connect/blob/7edb875a9f305e38f4d960fa46ac674038241892/lib/proto.js#L231) HTTP server framework used by [express](https://github.com/strongloop/express), the most popular web app framework for [Node.js](https://nodejs.org/), is one of them.
 
 "I'll just use the new [`SO_REUSEPORT` socket option in Linux](https://lwn.net/Articles/542629/)!" you say.
