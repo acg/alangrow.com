@@ -213,7 +213,8 @@ h3 {
 }
 
 .post .image {
-  margin: 10px 0px;
+  margin: 20px 0px;
+  text-align: center;
 }
 
 .post .image a img {

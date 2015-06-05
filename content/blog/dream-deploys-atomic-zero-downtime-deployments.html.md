@@ -12,7 +12,7 @@ Are you afraid to deploy? Do deployments always mean downtime, leaving your site
 
 Let's conquer our fear. Let's deploy whenever we damn well feel like it.
 
-<div style="text-align:center">
+<div class="image">
 <img src="../images/blog/donnie-darko-not-afraid-anymore.jpg" width="100%"/>
 </div>
 
@@ -96,9 +96,8 @@ A connection will either be served by the old server process or the new server p
 
 While we're updating the new files, no server process should use them. If the old server process is restarted during this phase, intentionally or accidentally, it should continue to work off the old files. When the new copy is finally ready, we want to "throw the switch": deactivate the old files and simultaneously activate the new files for future server processes. The trick is to make throwing the switch an atomic operation.
 
-<div style="text-align:center;">
+<div class="image">
 <img src="../images/blog/mad-scientist-with-switch.jpg" width="100%"/>
-<p>&nbsp;</p>
 </div>
 
 There are a number of [things Unix can do atomically](http://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html). Among them: use `rename(2)` to replace a symlink with another symlink. If the "switch" is a simply a symlink pointing at one directory or the other, then deployments are atomic. This is Unix trick #2.
