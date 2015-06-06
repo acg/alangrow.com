@@ -54,7 +54,7 @@ Edit code, static files, or both under `./root.unused`. Then leave `./root.unuse
 
 ### What do you mean by a "zero downtime" deployment?
 
-At no point is the site unavailable. Requests will continue to be served without transport layer errors before, during, and after the deployment. In other words, this is about **availability**.
+At no point is the site unavailable. Requests will continue to be served before, during, and after the deployment. In other words, this is about **availability**.
 
 ### What do you mean by an "atomic" deployment?
 
