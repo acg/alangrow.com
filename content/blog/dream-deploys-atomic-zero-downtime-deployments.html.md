@@ -33,7 +33,7 @@ All you need is a couple old-school Unix tricks.
 
 ## A Quick Demo
 
-Grab the code [here](https://github.com/acg/dream-deploys) with:
+Don't take my word for it. Grab the code [here](https://github.com/acg/dream-deploys) with:
 
     git clone git@github.com:acg/dream-deploys.git
     cd dream-deploys
