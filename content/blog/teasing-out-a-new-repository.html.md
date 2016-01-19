@@ -19,7 +19,7 @@ All of the files I want to extract from the main repository live under the same 
 {% highlight bash %}
 mkdir newrepo
 cd newrepo
-git clone --no-hardlinks /oldrepo/subdir ./
+git clone --no-hardlinks /oldrepo ./
 git filter-branch --subdirectory-filter subdir HEAD
 git reset --hard
 git gc --aggressive
