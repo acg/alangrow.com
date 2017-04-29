@@ -1,7 +1,6 @@
 body {
   font-family: sans-serif;
   font-size: 16px;
-  background: #ddd;
 }
 
 #footer {
@@ -34,9 +33,7 @@ body {
 
 /* left column */
 .threecol .colleft {
-  background: #ddd;
   min-height: 400px;
-  border-right: 1px solid black;
 }
 
 .col2 blockquote {
@@ -53,14 +50,11 @@ body {
 
 /* center column */
 .threecol .colmid {
-  background: #fff;
   min-height: 400px;
-  border-right: 1px solid black;
 }
 
 /* right column */
 .threecol {
-  background: #ddd;
   min-height: 400px;
 }
 
