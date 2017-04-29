@@ -42,6 +42,24 @@ body {
   padding-left: 10px;
 }
 
+.feeds {
+  display: inline-block;
+}
+
+.feed {
+  display: inline;
+  margin: 0 12px;
+}
+
+.feed .icon {
+  display: inline-block;
+  background: url(../../images/blog/feed-icon-28x28.png) no-repeat 0 0;
+  background-size: 100%;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
 /* left column */
 .threecol .colleft {
   background: #ddd;
@@ -100,28 +118,6 @@ h5 {
 }
 
 /* right columns */
-
-.col3 {
-  padding: 10px 0px;
-}
-
-.col3 .date {
-  font-size: 12px;
-  white-space: nowrap;
-  color: #333;
-}
-
-.col3 li {
-  padding: 5px 0px;
-}
-
-.col3 .feed .icon {
-  display: inline-block;
-  background: url(../../images/blog/feed-icon-28x28.png) no-repeat 0 0;
-  width: 28px;
-  height: 28px;
-  vertical-align: middle;
-}
 
 /* center column */
 
