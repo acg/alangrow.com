@@ -7,7 +7,6 @@
     "author": {
       "name": "Alan",
       "email": "alangrow+maelstrom@gmail.com"
-    },
-    "#extend": [ "./posts.json" ]
+    }
   }
 }

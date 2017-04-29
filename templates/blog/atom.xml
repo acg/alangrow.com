@@ -10,7 +10,7 @@
     <email>{{ site.author.email }}</email>
   </author>
 
-  {% for post in site.posts %}
+  {% for post in posts %}
   <entry>
     <id>{{ site.url }}/{{ post.slug }}</id>
     <link type="text/html" rel="alternate" href="{{ site.url }}/{{ post.slug }}?from=atom"/>

@@ -8,7 +8,7 @@
     <description>{{ site.description }}</description>
     <language>{{ site.lang }}</language>
 
-    {% for post in site.posts %}
+    {% for post in posts %}
     <item>
       <title>{{ post.title }}</title>
       <link>{{ site.url }}/{{ post.slug }}?from=rss</link>

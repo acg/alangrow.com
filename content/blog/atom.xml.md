@@ -1,5 +1,8 @@
 
     {
-      "#extend": [ "../_include/blog.json" ]
+      "#extend": [
+        "../_include/blog.json",
+        "../_include/posts.json"
+      ]
     }
 
