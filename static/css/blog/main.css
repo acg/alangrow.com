@@ -5,30 +5,17 @@ body {
 
 #footer {
   height: 50px;
-  border-top: 1px solid black;
   text-align: center;
+  display: inline-block;
 }
 
 #footer {
   padding: 10px 0px;
 }
 
-.feeds {
-  display: inline-block;
-}
-
-.feed {
+#footer * {
   display: inline;
-  margin: 0 12px;
-}
-
-.feed .icon {
-  display: inline-block;
-  background: url(../../images/blog/feed-icon-28x28.png) no-repeat 0 0;
-  background-size: 100%;
-  width: 18px;
-  height: 18px;
-  vertical-align: middle;
+  margin: 0 4px;
 }
 
 /* left column */
@@ -94,7 +81,8 @@ h5 {
 /* Posts */
 
 .post {
-  padding: 10px 15px 40px 15px;
+  padding: 10px 15px 20px 15px;
+  border-bottom: 1px solid #ccc;
 }
 
 .post .content {
