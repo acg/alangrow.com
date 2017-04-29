@@ -4,42 +4,14 @@ body {
   background: #ddd;
 }
 
-#header {
-  height: 60px;
-  border-bottom: 1px solid black;
-}
-
 #footer {
   height: 50px;
   border-top: 1px solid black;
   text-align: center;
 }
 
-#header, #footer {
+#footer {
   padding: 10px 0px;
-}
-
-#header h1 {
-  padding: 0px 20px;
-  display: inline-block;
-  box-sizing: border-box;
-  width: 20%;
-}
-
-#header h1 a,
-#header h1 a:visited,
-#header h1 a:hover {
-  color: #000;
-  text-decoration: none;
-}
-
-#header .banner {
-  padding-top: 10px;
-}
-
-#header .banner i {
-  display: inline-block;
-  padding-left: 10px;
 }
 
 .feeds {
