@@ -8,7 +8,6 @@
       "name": "Alan",
       "email": "alangrow+maelstrom@gmail.com"
     },
-    "disqus": "maelstrom",
     "#extend": [ "./posts.json" ]
   }
 }

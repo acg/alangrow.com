@@ -14,11 +14,7 @@
           {{ content | safe }}
           {% endfilter %}
           </div>
-          <em>Posted by <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a> on {{ page.date | strftime("%A, %B %d, %Y") }}.</em> <a href="#comments">(Discuss)</a>
-          <br/>
-          <a name="comments"></a>
-          <br/>
-          {% include "../_include/blog/disqus.html" %}
+          <em>Posted by <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a> on {{ page.date | strftime("%A, %B %d, %Y") }}.</em>
         </div>
       </div> <!-- .col1 -->
 
