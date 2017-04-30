@@ -6,9 +6,9 @@ POST_DATA  = ${BLOG_FILES:$(CONTENT_ROOT)/blog/%.md=$(BUILD_ROOT)/post/%.json}
 
 # Build the post index file before anything else.
 
-pages : | $(CONTENT_ROOT)/_include/posts.json
+$(PAGES) : | $(CONTENT_ROOT)/_include/posts.json
 
-deps  : | $(CONTENT_ROOT)/_include/posts.json
+$(DEPS) : | $(CONTENT_ROOT)/_include/posts.json
 
 $(CONTENT_ROOT)/_include/posts.json : $(POST_DATA)
 	@ cat $^ | jq -s 'sort_by(.post.date) | reverse | {posts:[.[].post]}' > "${@:%=%.tmp}"
