@@ -19,8 +19,8 @@ Is there a more efficient way to do this if the two databases are hosted by the 
 
 Then again, if the databases are on different servers, this works:
 
-    psql -c 'COPY table1 TO STDOUT' db1 | \
-    ssh host2 psql -c 'COPY table2 FROM STDIN' db2
+    psql -c 'COPY table1 TO STDOUT' db1 | gzip -c | \
+    ssh host2 "gunzip -c | psql -c 'COPY table2 FROM STDIN' db2"
 
 Bonus: with [pv(1)](http://www.ivarch.com/programs/pv.shtml), you can see how quickly the data is flowing:
 
