@@ -1,7 +1,7 @@
 include tinysite.mk
 
-BLOG_FILES = $(shell find ${CONTENT_ROOT}/blog -type f -a -name \*.html.md -a -not -path "*/_*/*" | sort)
-POST_DATA  = ${BLOG_FILES:$(CONTENT_ROOT)/blog/%.md=$(BUILD_ROOT)/post/%.json}
+BLOG_FILES := $(shell find ${CONTENT_ROOT}/blog -type f -a -name \*.html.md -a -not -path "*/_*/*" | sort)
+POST_DATA  := ${BLOG_FILES:$(CONTENT_ROOT)/blog/%.md=$(BUILD_ROOT)/post/%.json}
 
 
 # Build the post index file before anything else.
