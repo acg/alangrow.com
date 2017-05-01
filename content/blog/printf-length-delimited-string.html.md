@@ -8,7 +8,7 @@
       }
     }
 
-Sometimes you're dealing with a string that isn't null-delimited, but rather length-delimited, and you wind up doing somersaults just to print it out:
+Sometimes you're dealing with a string that isn't null-delimited but rather length-delimited, and you wind up doing somersaults just to print it out:
 
 {% highlight c %}
 void logit(const char *string, size_t length) {
