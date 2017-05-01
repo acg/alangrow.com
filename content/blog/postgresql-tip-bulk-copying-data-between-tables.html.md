@@ -12,18 +12,24 @@ Suppose you have two different PostgreSQL databases, db1 and db2. You want to po
 
 Try this:
 
-    psql -c 'COPY table1 TO STDOUT' db1 | \
-    psql -c 'COPY table2 FROM STDIN' db2
+```bash
+psql -c 'COPY table1 TO STDOUT' db1 | \
+psql -c 'COPY table2 FROM STDIN' db2
+```
 
 Is there a more efficient way to do this if the two databases are hosted by the same server instance? Probably.
 
 Then again, if the databases are on different servers, this works:
 
-    psql -c 'COPY table1 TO STDOUT' db1 | gzip -c | \
-    ssh host2 "gunzip -c | psql -c 'COPY table2 FROM STDIN' db2"
+```bash
+psql -c 'COPY table1 TO STDOUT' db1 | gzip -c | \
+ssh host2 "gunzip -c | psql -c 'COPY table2 FROM STDIN' db2"
+```
 
 Bonus: with [pv(1)](http://www.ivarch.com/programs/pv.shtml), you can see how quickly the data is flowing:
 
-    psql -c 'COPY table1 TO STDOUT' db1 | pv | \
-    psql -c 'COPY table2 FROM STDIN' db2
+```bash
+psql -c 'COPY table1 TO STDOUT' db1 | pv | \
+psql -c 'COPY table2 FROM STDIN' db2
+```
 

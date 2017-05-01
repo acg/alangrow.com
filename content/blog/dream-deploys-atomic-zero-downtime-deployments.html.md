@@ -35,16 +35,22 @@ All you need is a couple old-school Unix tricks.
 
 Don't take my word for it. Grab the code [here](https://github.com/acg/dream-deploys) with:
 
-    git clone git@github.com:acg/dream-deploys.git
-    cd dream-deploys
+```bash
+git clone git@github.com:acg/dream-deploys.git
+cd dream-deploys
+```
 
 In a terminal, run this and visit the link:
 
-    ./serve
+```bash
+./serve
+```
 
 In a second terminal, deploy whenever you want:
 
-    ./deploy
+```bash
+./deploy
+```
 
 Refresh the page to see it change.
 

@@ -18,7 +18,9 @@ I'd rather not go rewrite every rule in the Makefile, prefixing it with this wra
 
 The solution is to [set the shell](http://www.gnu.org/software/make/manual/make.html#Choosing-the-Shell) in your Makefile to:
 
-    SHELL = rusage sh
+```make
+SHELL = rusage sh
+```
 
 Where `rusage` is a wrapper shell script that looks like this:
 
