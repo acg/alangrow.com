@@ -8,6 +8,8 @@
       }
     }
 
+*Update: I've since switched from this syntax to [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/).*
+
 [Markdown](http://daringfireball.net/projects/markdown/syntax) is great for semi-structured text. [Pygments](http://pygments.org/) is great for syntax highlighting. This blog uses both: [jekyll](https://github.com/mojombo/jekyll)+[liquid](http://www.liquidmarkup.org/) passes code snippets surrounded by \{`% highlight languageX %`\} and \{`% endhighlight %`\} to pygments. The rest gets processed with markdown.
 
 So is there anything to complain about here? As usual, the answer is yes.

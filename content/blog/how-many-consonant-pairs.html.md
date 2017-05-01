@@ -14,14 +14,14 @@ The question came up at a party during a disappointing Ouija board session where
 
 This is a nice little problem for the unix text processing toolset. I used the [2006 Scrabble Tournament Word List](http://www.isc.ro/lists/twl06.zip) because /usr/share/dict/words contains many proper names and non-words. To get the count:
 
-{% highlight bash %}
+```bash
 tr '[A-Z]' '[a-z]' < TWL06.txt |
 sed -nEe 's/^([a-z]{2}).*$/\1/p' | 
 grep -v '[aeiouy]' |
 sort -u | 
 wc -l
 82
-{% endhighlight %}
+```
 
 There are 20 consonants in the language after removing "aeiouy", so that makes 400 possible pairs of consonants.
 
@@ -29,13 +29,13 @@ So only 20.5% of all consonant pairs are valid beginnings for an English word.
 
 To see the 82 valid pairs:
 
-{% highlight bash %}
+```bash
 tr '[A-Z]' '[a-z]' < TWL06.txt |
 sed -nEe 's/^([a-z]{2}).*$/\1/p' | 
 grep -v '[aeiouy]' |
 sort -u |
 tr '\n' ' '
-{% endhighlight %}
+```
 
     bd bh bl br bw ch cl cn cr ct cw cz
     dh dj dr dw fj fl fr gh gj gl gn gr
@@ -47,7 +47,7 @@ tr '\n' ' '
 
 To see an example word for each valid pair (remember, this is the Scrabble dictionary, so there's some pretty weird stuff in there):
 
-{% highlight bash %}
+```bash
 tr '[A-Z]' '[a-z]' < TWL06.txt |
 tr -d '\r' |
 sed -nEe 's/^([a-z]{2})(.*)$/\1\2 \1/p' |
@@ -55,7 +55,7 @@ grep ' [^aeiouy][^aeiouy]' |
 sort |
 uniq -f1 |
 awk '{ print $2, $1 }'
-{% endhighlight %}
+```
 
     bd bdellium
     bh bhakta

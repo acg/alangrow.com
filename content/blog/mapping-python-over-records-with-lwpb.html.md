@@ -34,9 +34,9 @@ Sure, you could dump the entire content of each document with *pbio* and pipe th
 
 Here's a better way:
 
-{% highlight bash %}
+```bash
 pbio.py -F 'url,length' -e 'length=len(content)' -p schema.pb -m org.Document < docs.pb
-{% endhighlight %}
+```
 
 Let's break down what's going on here:
 
@@ -60,17 +60,17 @@ The input record, which has been decoded by *lwpb* into a dictionary, becomes th
 <span id="wc-pbio-example"></span>
 More complicated code is possible. For instance, here's `wc(1)`:
 
-{% highlight bash %}
+```bash
 pbio.py -F 'lines,words,chars,url' -p schema.pb -m org.Document < docs.pb -e '
 chars=len(content)
 words=len(content.split())
 lines=len(content.split("\n"))'
-{% endhighlight %}
+```
 
 <span id="top10-pbio-example"></span>
 To wrap up the original example, let's find the top 10 longest documents:
 
-{% highlight bash %}
+```bash
 pbio.py -F 'url,length' -e 'length=len(content)' -p schema.pb -m org.Document < docs.pb | sort -k2 -nr | head -10
-{% endhighlight %}
+```
 

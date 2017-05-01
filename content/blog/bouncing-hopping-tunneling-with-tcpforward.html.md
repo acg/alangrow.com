@@ -28,21 +28,21 @@ The lowest-hassle option I can think of is to use tcpforward. Suppose you and yo
 
 Run the following on *moon*:
 
-{% highlight bash %}
+```bash
 tcpforward -v -N 1 -l moon:9922 -l moon:9921
-{% endhighlight %}
+```
 
 Arrange for your friend to run the following on his local machine:
 
-{% highlight bash %}
+```bash
 ./tcpforward -v -N 1 -c moon:9922 -c localhost:22
-{% endhighlight %}
+```
 
 Now, on your machine, run:
 
-{% highlight bash %}
+```bash
 ssh -p 9921 moon
-{% endhighlight %}
+```
 
 And voila, your SSH connection is forwarded past your friend's NAT, to his machine. The <code>-N 1</code> option makes this a one-shot connection. The <code>-v</code> option gives him something to watch while you go to work -- some realtime transfer statistics.
 
@@ -57,21 +57,21 @@ Ever wanted to copy files to a machine you could only reach from an intermediate
 
 Yes. First, ssh to *gateway* and run:
 
-{% highlight bash %}
+```bash
 tcpforward -v -k -l 0.0.0.0:9922 -c production:22
-{% endhighlight %}
+```
 
 In another tty on your local machine, you can now run:
 
-{% highlight bash %}
+```bash
 scp -o Port=9922 somefile gateway:somefile
-{% endhighlight %}
+```
 
 Or, rsync:
 
-{% highlight bash %}
+```bash
 rsync -e "ssh -p 9922" -avzp somedir/ gateway:somedir/
-{% endhighlight %}
+```
 
 Remember to kill the tcpforward session on *gateway*, or your sysadmin may get angry, annoyed, frightened, or all of the above.
 
@@ -88,15 +88,15 @@ Alternately, let's say you're not running anything on *freedom:443*. Most corpor
 
 Before going off to work, run the following on *freedom*:
 
-{% highlight bash %}
+```bash
 tcpforward -v -k -l 0.0.0.0:443 -c localhost:22
-{% endhighlight %}
+```
 
 From work:
 
-{% highlight bash %}
+```bash
 ssh -p 443 freedom  # scream FREEEEEEDOOOOMMM!!! as you're doing this
-{% endhighlight %}
+```
 
 <span id="how-it-works"></span> 
 ### How it Works ###

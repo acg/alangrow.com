@@ -22,10 +22,10 @@ The solution is to [set the shell](http://www.gnu.org/software/make/manual/make.
 
 Where `rusage` is a wrapper shell script that looks like this:
 
-{% highlight bash %}
+```bash
 #!/bin/sh
 exec time -f 'rc=%x elapsed=%e user=%U system=%S maxrss=%M avgrss=%t ins=%I outs=%O minflt=%R majflt=%F swaps=%W avgmem=%K avgdata=%D argv="%C"' "$@"
-{% endhighlight %}
+```
 
 Note that this uses `/usr/bin/time`, **not to be confused** with the bash builtin `time`, which is what you're using probably 90% of the time at the command line.
 

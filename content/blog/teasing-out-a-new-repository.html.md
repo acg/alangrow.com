@@ -16,7 +16,7 @@ So how does one extract *part* of a git repository into a new repository, preser
 
 All of the files I want to extract from the main repository live under the same subdirectory, which should become the top-level directory of the new repository. So a good place to start is this [stack overflow thread](http://stackoverflow.com/questions/359424/detach-subdirectory-into-separate-git-repository) which explains `git filter-branch --subdirectory-filter subdir`. It goes something like this:
 
-{% highlight bash %}
+```bash
 mkdir newrepo
 cd newrepo
 git clone --no-hardlinks /oldrepo ./
@@ -24,13 +24,13 @@ git filter-branch --subdirectory-filter subdir HEAD
 git reset --hard
 git gc --aggressive
 git prune
-{% endhighlight %}
+```
 
 As a comment on the stackoverflow thread mentions, it's also a good idea to remove the old repo as a remote of the new repo, so you don't accidentally push changes back to it:
 
-{% highlight bash %}
+```bash
 git remote rm origin
-{% endhighlight %}
+```
 
 So far so good. But I only want *some* of the files under this subdirectory in the new repo. The rest shouldn't be there. Can I rewrite the commit history again, this time file-wise?
 
@@ -38,27 +38,27 @@ Yes. For this I used `git filter-branch --tree-filter command`. This works by ch
 
 In my case, I only want to remove certain files, so the filter command is a shell script that looks like this:
 
-{% highlight bash %}
+```bash
 #!/bin/sh
 find . -type f -not -path "*/.git/*" | \
 sed -e 's#^./##' | \
 grep -v -E '^(pb.*\.py|flat\.py|percent.*)$' | \
 xargs rm -v
-{% endhighlight %}
+```
 
 The `rm -v` lets me see all the deletions this script makes for each commit. I saved this as my-git-filter and ran
 
-{% highlight bash %}
+```bash
 git filter-branch -f --prune-empty --tree-filter my-git-filter HEAD
-{% endhighlight %}
+```
 
 The `-f` option forces the operation even if there's already a backup of the original repo from a previous `git filter-branch` run.
 
 Follow this up with the same cleanup procedure from the `--subdirectory-filter` example:
 
-{% highlight bash %}
+```bash
 git reset --hard
 git gc --aggressive
 git prune
-{% endhighlight %}
+```
 
