@@ -36,14 +36,14 @@ Another solution might be to use a [modeline](http://everything2.com/title/model
 
 Here's an example code snippet from the documentation for [python-percentcoding](https://github.com/acg/python-percentcoding):
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 from percentcoding import quote, unquote
 str = "This is a test!"
 escaped = quote(str)
 print escaped
 assert(str == unquote(escaped))
-{% endhighlight %}
+```
 
 I've already implemented the proposal in Python [here](https://github.com/acg/python-percentcoding/blob/master/hilite_markdown.py), in order to generate html documentation for pypi. It would need to be ported over to Ruby for use in jekyll+liquid.
 
