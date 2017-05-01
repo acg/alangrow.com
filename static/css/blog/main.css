@@ -24,7 +24,6 @@ body {
 }
 
 blockquote {
-  font-size: 80%;
   font-style: italic;
   padding: 10px 10px;
 }
@@ -141,7 +140,7 @@ h5 {
 
 .post blockquote {
   margin: 10px 10px;
-  border-left: 10px solid #ddd;
+  border-left: 10px solid #efefef;
   padding-left: 10px;
 }
 
