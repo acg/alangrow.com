@@ -8,6 +8,8 @@
       }
     }
 
+*Update: this was written before [youtube-dl](https://rg3.github.io/youtube-dl/). You should use that instead. The tricks below probably don't work anymore, but I'm leaving this post up for historical curiosity.*
+
 Sometimes, when I'm watching a flash video in my browser, I'd like to download the video file itself and watch it later, offline.
 
 With older versions of the linux flash plugin this was easy: the flash video file was downloaded to a temporary path like `/tmp/FlashXX1sjAm9`. You could just copy the file to somewhere outside of `/tmp`.
