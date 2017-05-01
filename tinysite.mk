@@ -1,1 +1,1 @@
-../tinysite/Makefile
+../tinysite/tinysite.mk
