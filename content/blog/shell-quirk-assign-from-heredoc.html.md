@@ -8,7 +8,7 @@
       }
     }
 
-I have a ~~fetish for~~ fascination with POSIX shell corner cases. It started 10 years ago with a segfault. A shell script with a certain `while read` loop ran fine on every Unix I could find, except for [AIX](https://en.wikipedia.org/wiki/IBM_AIX) (don't ask).
+I have a ~~fetish for~~ fascination with POSIX shell corner cases. It all started a decade ago with a segfault: a certain `while read` loop ran fine on every Unix except AIX. We were stumped, and I was hooked.
 
 Here's a new find. What will the following POSIX shell program print?
 
