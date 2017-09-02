@@ -29,14 +29,13 @@
 ### code
 
 - [shellac](https://github.com/acg/shellac) - Extend Chrome with unix shell commands.
-- [lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python.
 - [python-cdb](https://github.com/acg/python-cdb) - A Python interface to djb's cdb library.
-- [python-flattery](https://github.com/acg/python-flattery) - Fast flattening and unflattening of nested data structures.
-- [python-percentcoding](https://github.com/acg/python-percentcoding) - Fast percent encoding and decoding.
+- [deployer](https://github.com/endcrawl/deployer) - Automated zero downtime deployments.
+- [lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python.
+- [fsq-run](https://github.com/endcrawl/fsq-run) - A filesystem queue processor.
+- [daemontools-encore](https://github.com/acg/daemontools-encore/tree/ubuntu-package-1.13) - A daemontools-encore fork with better multiprocess service support.
+- [tinysite](https://github.com/acg/tinysite) - The static site generator used by this site.
 - [spectool-web](https://github.com/acg/spectool-web) - A web viewer for 802.11 spectrum data.
-- [tinysite](https://github.com/acg/tinysite) - A static site generator.
-- [tcpforward](https://github.com/acg/tcpforward) - Forward or tunnel TCP connections.
-- [logbot](https://github.com/acg/logbot) - IRC is so easy even a tiny shell script can do something useful.
 - more: [github.com/acg](https://github.com/acg)
 
 ### interact
