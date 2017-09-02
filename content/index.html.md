@@ -23,8 +23,8 @@
 ### companies
 
 - [Endcrawl](https://endcrawl.com) - Co-founder, Video Hacker.
+- [ROLI](https://roli.com) - Senior Software Engineer and Platform Hacker.
 - [iLuminate](http://iluminate.com) - Co-founder, Wireless and Lighting Hacker.
-- [Blend.io](https://blend.io) - Hired Gun, Full Stack Software Engineer.
 
 ### code
 
