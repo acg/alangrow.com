@@ -10,15 +10,15 @@
 
 (A very old post, but I've used this prompt ever since.)
 
-Setting your bash prompt is one of those geek machismo things that usually culminates in something like
+Customizing a shell prompt often culminates in an impressive plumage display like
 
 ```bash
 export PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\n\[\e[0m\]$ '
 ```
 
-the idea being that lots of escape sequences = eliteness. (After a while you only see blondes, brunettes, and redheads.) Though, I'd guess most people just copy someone else's bash prompt and foist it off as their own, rather than learn ansi / xterm / bash escape sequences. Like <a href="http://blogs.thegotonerd.com/maelstrom/archives/000453.html">me initially</a>. :)
+the idea being that lots of escape sequences = eliteness. Though, I'd guess most people just copy someone else's bash prompt and foist it off as their own, rather than learn ansi / xterm / bash escape sequences. Like me initially. :)
 
-However, you can easily make your prompt setup readable by breaking it down. I've started doing this in my <a href="http://thegotonerd.com/scripts/agrow/conf/prompt.html">prompt</a> file.
+However, you can easily make your prompt setup readable by breaking it down.
 
 ```bash
 # ansi color escape sequences
