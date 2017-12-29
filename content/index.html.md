@@ -40,7 +40,7 @@
 
 ### interact
 
-- [mandelbrot canvas](./projects/mandelbrot canvas/) - A zoomable fractal explorer.
+- [mandelbrot canvas](./projects/mandelbrot-canvas/) - A zoomable fractal explorer.
 - [flagboy](./projects/flagboy/) - A Salt Lake City puzzle game.
 - [beatdown](./projects/beatdown/) - Random beat pattern generator.
 - [laptop prices](./projects/laptop-prices/) - Visualizing the price of a used laptop.
