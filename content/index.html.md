@@ -14,7 +14,7 @@
 
 - Alan Grow
 - [alan grow at gmail](mailto:alangrow+nospam@gmail.com)
-- pgp: 4096R/9B1B5556
+- pgp: [4096R/9B1B5556](./alangrow.asc)
 - [@alangrow](https://twitter.com/alangrow)
 - [github.com/acg](https://github.com/acg)
 - [sigil on HN](https://news.ycombinator.com/user?id=sigil)
