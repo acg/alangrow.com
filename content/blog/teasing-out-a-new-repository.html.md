@@ -43,7 +43,8 @@ In my case, I only want to remove certain files, so the filter command is a shel
 find . -type f -not -path "*/.git/*" | \
 sed -e 's#^./##' | \
 grep -v -E '^(pb.*\.py|flat\.py|percent.*)$' | \
-xargs rm -v
+tr '\n' '\0' | \
+xargs -0 rm -v
 ```
 
 The `rm -v` lets me see all the deletions this script makes for each commit. I saved this as my-git-filter and ran
