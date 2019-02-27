@@ -22,7 +22,7 @@ Eventually, in frustration, the tech lead said, "Here's the list. You order it."
 
 The client services lead was taken aback and refused: "It all has to be done. As soon as possible."
 
-Not helpful.
+This is not helpful.
 
 While I do think there are better ways of scheduling work than imposing a single ordering -- which breaks down when multiple workers are able to proceed in parallel -- I also think the ability to see and maintain consistent priorities is an important thing to look for in a project manager. Or any manager, really.
 
