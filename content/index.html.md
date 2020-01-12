@@ -34,12 +34,11 @@
 - [daemontools-encore](https://github.com/acg/daemontools-encore/tree/ubuntu-package-1.13) - A daemontools-encore fork with better multiprocess service support.
 - [tinysite](https://github.com/acg/tinysite) - The static site generator used by this site.
 - [spectool-web](https://github.com/acg/spectool-web) - A web viewer for 802.11 spectrum data.
-- more: [github.com/acg](https://github.com/acg)
+- ...more: [github.com/acg](https://github.com/acg)
 
 ### interact
 
 - [mandelbrot canvas](./projects/mandelbrot-canvas/) - A zoomable fractal explorer.
 - [flagboy](./projects/flagboy/) - A Salt Lake City puzzle game.
 - [beatdown](./projects/beatdown/) - Random beat pattern generator.
-- [laptop prices](./projects/laptop-prices/) - Visualizing the price of a used laptop.
 
