@@ -1,0 +1,4 @@
+build/
+content/_include/posts.json
+static/index.html
+static/blog/
