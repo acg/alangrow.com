@@ -4,7 +4,8 @@
       "page": {
         "title": "LCD Smashed, So...Ratpoison",
         "date": "2007-02-05T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "buried": true
       }
     }
 

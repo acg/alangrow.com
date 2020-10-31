@@ -4,7 +4,8 @@
       "page": {
         "title": "How Tech is Ruining Things by Making Things Better",
         "date": "2020-10-31T21:12:32-0000",
-        "root": ".."
+        "root": "..",
+        "buried": true
       }
     }
 

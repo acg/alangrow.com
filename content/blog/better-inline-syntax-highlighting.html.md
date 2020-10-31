@@ -4,7 +4,8 @@
       "page": {
         "title": "Coding for the Web: A Proposal for Better Inline Syntax Highlighting",
         "date": "2011-03-14T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "buried": true
       }
     }
 

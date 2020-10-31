@@ -4,7 +4,8 @@
       "page": {
         "title": "Mapping Python Code Over Records With lwpb",
         "date": "2011-02-08T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "buried": true
       }
     }
 

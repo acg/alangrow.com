@@ -4,7 +4,8 @@
       "page": {
         "title": "Patching is a Normal Activity",
         "date": "2011-11-23T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "buried": true
       }
     }
 
