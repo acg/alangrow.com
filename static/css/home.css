@@ -1,17 +1,37 @@
 html {
   font-size: 100px;  /* 1rem = 100px */
+  -webkit-text-size-adjust: none;
 }
 
 body.home {
   margin: 0.10rem 10% 0.10rem 10%;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Roboto-Bold.ttf');
+}
+
+#main {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 0.22rem;
+}
+
 * {
-  line-height: 130%;
+  line-height: 1.35;
 }
 
 h1, h2, h3, h4 {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 h1, h2, h3, h4, p {
@@ -21,11 +41,6 @@ h1, h2, h3, h4, p {
 h1 { font-size: 0.32rem; }
 h2 { font-size: 0.30rem; }
 h3 { font-size: 0.28rem; }
-
-#main {
-  font-family: Roboto, sans-serif;
-  font-size: 0.22rem;
-}
 
 #main .info, #main .posts {
   width: 50%;
@@ -46,6 +61,7 @@ h3 { font-size: 0.28rem; }
 #main .posts li i {
   flex: 0 0 1.0rem;
   width: 1.0rem;
+  font-style: normal;
 }
 #main .posts li a {
   flex: 1 1 80%;
@@ -53,6 +69,9 @@ h3 { font-size: 0.28rem; }
 }
 
 @media screen and (max-width: 1024px) {
+  html {
+    font-size: 150px; /* 1rem = 150px; */
+  }
   body.home {
     margin-left: 5%;
     margin-right: 5%;
