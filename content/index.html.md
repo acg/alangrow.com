@@ -20,11 +20,18 @@
 - [sigil on HN](https://news.ycombinator.com/user?id=sigil)
 - [acg on lobste.rs](https://lobste.rs/u/acg)
 
-### companies
+### currently
 
 - [Endcrawl](https://endcrawl.com) - Technical Co-founder.
 
-### code
+### past
+
+- [ROLI](https://roli.com) - Lead Platform Engineer.
+- [Blend.io (Betaworks)](https://blend.io) - Software Engineer.
+- [iLuminate](https://iluminate.com) - Technical Co-founder.
+- [Bloomberg](https://en.wikipedia.org/wiki/Bloomberg_L.P.), [Microsoft](https://en.wikipedia.org/wiki/Microsoft), [Siemens](https://en.wikipedia.org/wiki/Siemens), [General Dynamics](https://en.wikipedia.org/wiki/General_Dynamics)
+
+### some code
 
 - [shellac](https://github.com/acg/shellac) - Extend Chrome with unix shell commands.
 - [python-cdb](https://github.com/acg/python-cdb) - A Python interface to djb's cdb library.
@@ -36,7 +43,7 @@
 - [spectool-web](https://github.com/acg/spectool-web) - A web viewer for 802.11 spectrum data.
 - ...more: [github.com/acg](https://github.com/acg)
 
-### interact
+### some interaction
 
 - [mandelbrot canvas](./projects/mandelbrot-canvas/) - A zoomable fractal explorer.
 - [flagboy](./projects/flagboy/) - A Salt Lake City puzzle game.
