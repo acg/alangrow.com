@@ -3,6 +3,7 @@
     "title"  : page.title,
     "date"   : page.date,
     "slug"   : plugins.Regex("^/.*/([^/.]+)(\.[^.]+)?$").replace(uri,"\g<1>"),
-    "content": (content | safe | markdown)
+    "content": (content | safe | markdown),
+    "buried" : (page.buried if 'buried' in page else false)
   } } -%}
 {{ plugins.JSON.encode(data) | safe }}
