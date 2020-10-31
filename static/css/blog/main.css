@@ -26,30 +26,34 @@ body {
   margin-right: auto;
 }
 
+* {
+  line-height: 1.4;
+}
+
 #footer {
   width: 100%;
-  height: 50px;
+  height: 0.50rem;
   text-align: center;
   display: inline-block;
 }
 
 #footer {
-  padding: 10px 0px;
+  padding: 0.20rem 0.00rem;
 }
 
 #footer * {
   display: inline;
-  margin: 0 4px;
+  margin: 0 0.04rem;
 }
 
 blockquote {
   font-style: italic;
-  padding: 10px 10px;
+  padding: 0.10rem 0.10rem;
 }
 
 .caption {
   font-size: 80%;
-  padding: 10px 10px;
+  padding: 0.10rem 0.10rem;
   color: #333;
 }
 
@@ -81,40 +85,40 @@ h5 {
 /* Posts */
 
 .post {
-  padding: 10px 15px 20px 15px;
-  border-bottom: 1px solid #ccc;
+  padding: 0.10rem 0.15rem 0.20rem 0.15rem;
+  border-bottom: 0.01rem solid #ccc;
 }
 
 .post .content {
-  padding: 10px 0px 40px 0px;
+  padding: 0.10rem 0.00rem 0.40rem 0.00rem;
 }
 
 .post h2 {
-  margin: 20px 0px 10px 0px;
+  margin: 0.20rem 0.00rem 0.10rem 0.00rem;
 }
 
 .post h3 {
-  margin: 20px 0px 10px 0px;
+  margin: 0.20rem 0.00rem 0.10rem 0.00rem;
 }
 
 .post h4, .post h5 {
-  margin: 20px 0px 10px 0px;
+  margin: 0.20rem 0.00rem 0.10rem 0.00rem;
 }
 
 .post .top-date {
   font-style: italic;
   font-size: 75%;
   color: #666;
-  padding-top: 4px;
+  padding-top: 0.04rem;
 }
 
 .post ul, .post ol {
-  margin: 16px 30px 0 30px;
+  margin: 0.16rem 0.30rem 0 0.30rem;
 }
 
 .post li {
   list-style: disc;
-  padding: 5px 5px;
+  padding: 0.05rem 0.05rem;
 }
 
 .post ol li {
@@ -122,8 +126,7 @@ h5 {
 }
 
 .post p {
-  padding: 16px 0 0 0;
-  line-height: 1.4;
+  padding: 0.16rem 0 0 0;
 }
 
 .post li p {
@@ -139,9 +142,9 @@ h5 {
 }
 
 .post pre {
-  padding: 10px 10px;
-  margin: 10px 0px;
-  border: 1px solid #666;
+  padding: 0.10rem 0.10rem;
+  margin: 0.10rem 0.00rem;
+  border: 0.01rem solid #666;
   background: #efefef;
   white-space: pre-wrap;
 }
@@ -152,14 +155,14 @@ h5 {
 }
 
 .post p code {
-  padding: 0 4px;
+  padding: 0 0.04rem;
   white-space: nowrap;
 }
 
 .post blockquote {
-  margin: 10px 10px;
-  border-left: 10px solid #efefef;
-  padding-left: 10px;
+  margin: 0.10rem 0.10rem;
+  border-left: 0.10rem solid #efefef;
+  padding-left: 0.10rem;
 }
 
 .post blockquote p:first-child {
@@ -177,28 +180,28 @@ h5 {
 }
 
 .post .image {
-  margin: 20px 0px;
+  margin: 0.20rem 0.00rem;
   text-align: center;
 }
 
 .post .image a img {
-  border: 2px solid blue;
+  border: 0.02rem solid blue;
 }
 
 .post .image a:visited img {
-  border: 2px solid purple;
+  border: 0.02rem solid purple;
 }
 
 .post .matrix {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.10rem;
+  margin-bottom: 0.10rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 .post .matrix td {
-  border: 1px solid gray;
-  padding: 4px 8px;
+  border: 0.01rem solid gray;
+  padding: 0.04rem 0.08rem;
 }
 
 .post .matrix .col-header,
@@ -215,9 +218,9 @@ h5 {
   text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1020px) {
   html {
-    font-size: 150px;  /* 1rem = 150px */
+    font-size: 200px;  /* 1rem = 200px */
   }
   #header h1 {
     font-size: 175%;
