@@ -38,6 +38,20 @@ h3 { font-size: 0.28rem; }
 #main .posts { float: right; }
 #main .footer { clear: both; }
 
+#main .posts li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+#main .posts li i {
+  flex: 0 0 1.0rem;
+  width: 1.0rem;
+}
+#main .posts li a {
+  flex: 1 1 80%;
+  width: 80%;
+}
+
 @media screen and (max-width: 1024px) {
   body.home {
     margin-left: 5%;

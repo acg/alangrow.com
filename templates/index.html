@@ -19,7 +19,10 @@
     <ul>
     {% for post in posts %}
       {% if not post.buried %}
-      <li>{{ post.date | string | truncate(7, False, '') }} <a href="./blog/{{ post.slug }}">{{ post.title }}</a></li>
+      <li>
+        <i>{{ post.date | string | truncate(7, False, '') }}</i>
+        <a href="./blog/{{ post.slug }}">{{ post.title }}</a>
+      </li>
       {% endif %}
     {% endfor %}
     </ul>
