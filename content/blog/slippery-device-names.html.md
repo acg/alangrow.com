@@ -12,7 +12,7 @@ Pain, thy name is hotpluggable device name assignment.
 
 In the course of migrating some EC2 servers from C3 to C5, I learned why this feature in newer linux kernels is controversial.
 
-To be clear, most people couldn't care less whether their primary network interface is called `eth0` or `enx0150b6e42dfe`, or whether a drive appears as `/dev/xvda` or `/dev/nvme9n1`, as long as they can continue to do their Computer Stuff. For ops folks trying to make a portable system image, though, this can be a real problem.
+To be clear, most people couldn't care less whether their primary network interface is called `eth0` or `enx0150b6e42dfe`, or whether a drive appears as `/dev/xvda` or `/dev/nvme9n5`, as long as they can continue to do their Computer Stuff. For ops folks trying to make a portable system image, though, this can be a real problem.
 
 My goal was to create an AMI that can be booted on a variety of EC2 instance types. Here's how I got there.
 
@@ -39,16 +39,16 @@ Importantly for portability, this means any config files under `/etc/` can refer
 
 ### NVMe Disks
 
-Next we have the disk problem. C5 instances use NVMe throughout, even for EBS storage. [The AWS docs warn us](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/nvme-ebs-volumes.html) about the following:
+Next we have the disk problem. C5 instances use NVMe throughout, even for EBS storage. [The AWS docs warn us](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/nvme-ebs-volumes.html) that:
 
 > The block device driver can assign NVMe device names in a different order than you specified for the volumes in the block device mapping.
 
 And oh boy, do they ever like to assign in different order.
 
-If you only have one disk, you might never have this problem. Personally I'm a fan of using multiple heterogeneous disks on servers. There a couple main reasons:
+If you only have one disk, you might never have this problem. I use multiple disks because:
 
 1. Different subsystems have different access patterns and performance requirements. Using separate disks for, say, `/var/lib/postgresql/` and `/var/log/` lets you provision and tune them separately.
-2. The disk boundary is a convenient blast radius. To continue the example, if `/var/log/` runs out of disk space, you can have a server that otherwise continues to operate normally.
+2. The disk boundary is a convenient blast radius. Have you ever had a server fill up with log files and grind to a halt? A separate `/var/log/` disk will contain the problem and let other subsystems continue to run normally.
 
 So I've got 5 different NVMe disks attaching to an EC2 instance in random order. Once in a while it works, but usually home directories have become the database, logfiles are now volatile runtime state, and so on. A real Mister Potato Head mess.
 
@@ -56,15 +56,15 @@ So I've got 5 different NVMe disks attaching to an EC2 instance in random order.
 
 But we're not quite there yet. Armed with `ebsnvme-id`, you can create symlinks like `/dev/nvme1n1 -> /dev/xvdb`, but how and when you should you do this?
 
-The `/dev` directory gets populated anew via `udev` during boot. So there's a right time to do this, and there are many wrong times to do this — too early or too late in the boot process. My first attempt via `/etc/rc.local` failed horribly. It ran too late.
+The `/dev` directory gets populated anew via `udev` during boot. So there's a right time to do this, and there are many wrong times to do this. My first attempt via `/etc/rc.local` failed horribly. It ran too late.
 
-Eventually I came around to the idea of using `udev`, and I learned via this [nice udev primer](http://www.reactivated.net/writing_udev_rules.html) that udev rules can be flexible in the extreme. Not only can you do pattern matching on device names, but you can even run an external program that figures out how to rename a device. This culminated in the following magical one liner in `70-persistent-storage-ebsnvme.rules` under `/etc/udev/rules.d/`:
+Eventually I came around to the idea of using `udev`, and I learned from this [nice udev primer](http://www.reactivated.net/writing_udev_rules.html) that udev rules can be flexible in the extreme. You can pattern match on device names. You can also run an external program that figures out how to rename a device. This culminated in the following magical one liner:
 
 ```sh
 KERNEL=="nvme[0-9]*n1", PROGRAM="ebsnvme-namer %k", SYMLINK+="%c"
 ```
 
-You'll notice that this file doesn't hardcode any device names. So it's safe to include in a portable machine image. This creates `/dev` symlinks that look like this in my case:
+Save this to `70-persistent-ebsnvme.rules` under `/etc/udev/rules.d/`. You'll notice it doesn't hardcode any device names, so it's safe to include in a portable machine image. It creates `/dev` symlinks that look like:
 
 ```text
 lrwxrwxrwx 1 root root 7 Dec  9 14:34 xvda1 -> nvme0n1
@@ -74,7 +74,7 @@ lrwxrwxrwx 1 root root 7 Dec  9 14:34 xvdf -> nvme4n1
 lrwxrwxrwx 1 root root 7 Dec  9 14:34 xvdg -> nvme2n1
 ```
 
-These resemble the old disk device names on my C3 instances. In the end, I didn't need to modify any scripts or config that relied on the presence of specific `xvd*` devices!
+These match the old disk device names on my C3 instances. All my scripts and config files that reference specific `xvd*` names? In the end, not a single one needed changing for the C3 -> C5 upgrade!
 
 Finally, here's the `ebsnvme-namer` script:
 
