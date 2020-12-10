@@ -24,7 +24,7 @@ They also make sense for consumer devices that don't need to be portably imaged.
 
 However, those of us who operate and upgrade servers have different (higher?) expectations.
 
-The essential problem is described in gory detail on debian's [NetworkInterfaceNames wiki page](https://wiki.debian.org/NetworkInterfaceNames). "We're not in the 90s anymore, network devices come and go, deal with it. That said, here are a dozen different ways to avoid this new nonsense."
+The essential problem is described in gory detail on debian's [NetworkInterfaceNames wiki page](https://wiki.debian.org/NetworkInterfaceNames). "We're not in the 90s anymore, network devices come and go, deal with it. That said, here are a dozen different ways to avoid this new nonsense..."
 
 Adding `net.ifnames=0` boot parameters to `/etc/default/grub` worked for me:
 
@@ -35,7 +35,7 @@ GRUB_CMDLINE_LINUX="net.ifnames=0"
 
 Follow this up with a perfunctory `update-grub`.
 
-Importantly, this means any config files under `/etc/` can refer to `eth0` directly, and that will continue to work even if you make an AMI and boot it on another instance type — so long as it has just one network interface.
+Importantly for portability, this means any config files under `/etc/` can refer to `eth0` directly, and that will continue to work even if you make an AMI and boot it on another instance type — so long as it has just one network interface.
 
 ### NVMe Disks
 
