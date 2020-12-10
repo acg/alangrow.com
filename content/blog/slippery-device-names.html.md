@@ -29,7 +29,7 @@ The essential problem is described in gory detail on debian's [NetworkInterfaceN
 Adding `net.ifnames=0` boot parameters to `/etc/default/grub` worked for me:
 
 ```sh
-GRUB_CMDLINE_LINUX_DEFAULT="console=tty1 console=ttyS0 net.ifnames=0"
+GRUB_CMDLINE_LINUX_DEFAULT="... net.ifnames=0"
 GRUB_CMDLINE_LINUX="net.ifnames=0"
 ```
 
@@ -58,7 +58,7 @@ But we're not quite there yet. Armed with `ebsnvme-id`, you can create symlinks 
 
 The `/dev` directory gets populated anew via `udev` during boot. So there's a right time to do this, and there are many wrong times to do this — too early or too late in the boot process. My first attempt via `/etc/rc.local` failed horribly. It ran too late.
 
-Eventually I came around to the idea of using `udev`, and I learned via this [nice udev primer](http://www.reactivated.net/writing_udev_rules.html) that udev rules can be flexible in the extreme. Not only can you do pattern matching on device names, but you can even run an external program that figures out how to rename a device. This culminated in the following magical one liner in `/etc/udev/rules.d/70-persistent-storage-ebsnvme.rules`:
+Eventually I came around to the idea of using `udev`, and I learned via this [nice udev primer](http://www.reactivated.net/writing_udev_rules.html) that udev rules can be flexible in the extreme. Not only can you do pattern matching on device names, but you can even run an external program that figures out how to rename a device. This culminated in the following magical one liner in `70-persistent-storage-ebsnvme.rules` under `/etc/udev/rules.d/`:
 
 ```sh
 KERNEL=="nvme[0-9]*n1", PROGRAM="ebsnvme-namer %k", SYMLINK+="%c"
