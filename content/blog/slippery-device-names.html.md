@@ -47,18 +47,18 @@ And oh boy, do they ever like to assign in different order.
 
 If you only have one disk, you might never have this problem. Personally I'm a fan of using multiple heterogeneous disks on servers. There a couple main reasons:
 
-1. Different workloads have different access patterns and performance requirements. Using separate disks for, say, `/var/lib/postgresql/` and `/var/log/` lets you provision and tune them separately.
+1. Different subsystems have different access patterns and performance requirements. Using separate disks for, say, `/var/lib/postgresql/` and `/var/log/` lets you provision and tune them separately.
 2. The disk boundary is a convenient blast radius. To continue the example, if `/var/log/` runs out of disk space, you can have a server that otherwise continues to operate normally.
 
 So I've got 5 different NVMe disks attaching to an EC2 instance in random order. Once in a while it works, but usually home directories have become the database, logfiles are now volatile runtime state, and so on. A real Mister Potato Head mess.
 
-Russell Ballestrini ran into this same issue and wrote a nice script named [`ebsnvme-id`](https://russell.ballestrini.net/aws-nvme-to-block-mapping/). This lets you match up your randomly-ordered NVMe disks with the original names you specified in your EC2 block device mapping.
+[Russell Ballestrini](https://russell.ballestrini.net/contact/) ran into this same issue and wrote a nice script called [`ebsnvme-id`](https://russell.ballestrini.net/aws-nvme-to-block-mapping/). This lets you match up your randomly-ordered NVMe disks with the original names you specified in your EC2 block device mapping.
 
 But we're not quite there yet. Armed with `ebsnvme-id`, you can create symlinks like `/dev/nvme1n1 -> /dev/xvdb`, but how and when you should you do this?
 
-The `/dev` directory gets populated anew via `udev` during boot. There's a right time to do this, and there are many wrong times to do this — too early or too late in the boot process. My first attempt via `/etc/rc.local` failed horribly. It ran too late.
+The `/dev` directory gets populated anew via `udev` during boot. So there's a right time to do this, and there are many wrong times to do this — too early or too late in the boot process. My first attempt via `/etc/rc.local` failed horribly. It ran too late.
 
-Eventually I came around to the idea of using `udev`, and I learned via this [nice udev primer](http://www.reactivated.net/writing_udev_rules.html) that udev rules can be flexible in the extreme. Not only can you do pattern matching on device names, but you can even run an external program that figures out how to rename a device. I ended up with the following magical one liner in `/etc/udev/rules.d/70-persistent-storage-ebsnvme.rules`:
+Eventually I came around to the idea of using `udev`, and I learned via this [nice udev primer](http://www.reactivated.net/writing_udev_rules.html) that udev rules can be flexible in the extreme. Not only can you do pattern matching on device names, but you can even run an external program that figures out how to rename a device. This culminated in the following magical one liner in `/etc/udev/rules.d/70-persistent-storage-ebsnvme.rules`:
 
 ```sh
 KERNEL=="nvme[0-9]*n1", PROGRAM="ebsnvme-namer %k", SYMLINK+="%c"
