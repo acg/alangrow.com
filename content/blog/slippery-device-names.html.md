@@ -52,11 +52,11 @@ If you only have one disk, you might never have this problem. I use multiple dis
 
 So I've got 5 different NVMe disks attaching to an EC2 instance in random order. Once in a while it works, but usually home directories have become the database, logfiles are now volatile runtime state, and so on. A real Mister Potato Head mess.
 
-[Russell Ballestrini](https://russell.ballestrini.net/contact/) ran into this same issue and wrote a nice script called [`ebsnvme-id`](https://russell.ballestrini.net/aws-nvme-to-block-mapping/). This lets you match up your randomly-ordered NVMe disks with the original names you specified in your EC2 block device mapping.
+[Russell Ballestrini ran into this same issue](https://russell.ballestrini.net/aws-nvme-to-block-mapping/) and found a script, [`ebsnvme-id`](https://russell.ballestrini.net/uploads/2019/ebsnvme-id), that ships with Amazon Linux. This script interrogates an EBS NVMe device (eg `/dev/nvme1n1`) and outputs the original name specified in the block mapping (eg `/dev/xvdb`).
 
 But we're not quite there yet. Armed with `ebsnvme-id`, you can create symlinks like `/dev/nvme1n1 -> /dev/xvdb`, but how and when you should you do this?
 
-The `/dev` directory gets populated anew via `udev` during boot. So there's a right time to do this, and there are many wrong times to do this. My first attempt via `/etc/rc.local` failed horribly. It ran too late.
+The `/dev` directory gets populated anew via `udev` during boot. So there's a right time to do this, and there are many wrong times to do this. My first attempt via `/etc/rc.local` failed horribly — it ran too late.
 
 Eventually I came around to the idea of using `udev`, and I learned from this [nice udev primer](http://www.reactivated.net/writing_udev_rules.html) that udev rules can be flexible in the extreme. You can pattern match on device names. You can also run an external program that figures out how to rename a device. This culminated in the following magical one liner:
 
