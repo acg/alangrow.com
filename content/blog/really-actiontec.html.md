@@ -4,7 +4,8 @@
       "page": {
         "title": "Really, Actiontec?",
         "date": "2012-10-29T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "buried": true
       }
     }
 

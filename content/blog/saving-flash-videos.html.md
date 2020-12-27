@@ -4,7 +4,8 @@
       "page": {
         "title": "Saving Flash Videos with Linux",
         "date": "2011-02-28T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "buried": true
       }
     }
 
