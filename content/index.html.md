@@ -29,7 +29,7 @@
 - [ROLI](https://roli.com) - Lead Platform Engineer.
 - [Blend.io (Betaworks)](https://blend.io) - Software Engineer.
 - [iLuminate](https://www.iluminate.com) - Technical Co-founder.
-- [Bloomberg](https://en.wikipedia.org/wiki/Bloomberg_L.P.), [Microsoft](https://en.wikipedia.org/wiki/Microsoft), [Siemens](https://en.wikipedia.org/wiki/Siemens), [General Dynamics](https://en.wikipedia.org/wiki/General_Dynamics)
+- Bloomberg, Microsoft, Siemens, misc. startups
 
 ### some code
 
