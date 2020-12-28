@@ -11,6 +11,7 @@
   </author>
 
   {% for post in posts %}
+    {% if not post.buried %}
   <entry>
     <id>{{ site.url }}/{{ post.slug }}</id>
     <link type="text/html" rel="alternate" href="{{ site.url }}/{{ post.slug }}?from=atom"/>
@@ -22,6 +23,7 @@
     </author>
     <content type="html">{{ post.content }}</content>
   </entry>
+    {% endif %}
   {% endfor %}
  
 </feed>

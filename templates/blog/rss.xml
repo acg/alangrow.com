@@ -9,6 +9,7 @@
     <language>{{ site.lang }}</language>
 
     {% for post in posts %}
+      {% if not post.buried %}
     <item>
       <title>{{ post.title }}</title>
       <link>{{ site.url }}/{{ post.slug }}?from=rss</link>
@@ -17,6 +18,7 @@
       <guid>{{ site.url }}/{{ post.slug }}</guid>
       <description>{{ post.content }}</description>
     </item>
+      {% endif %}
     {% endfor %}
 
   </channel> 
