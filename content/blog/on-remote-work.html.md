@@ -26,7 +26,7 @@ What I realize now is that remote work starts and ends with a team of one: yours
 
 I begin and end my work days at my home office, but in the middle I almost always leave the house to work from a coffee shop. This is a crucial thing that I learned the hard way: even as my home office improves, I still need to get out of the house to clear my head and avoid cabin fever.
 
-Coffee shops and coworking spaces are less predictable in a couple ways that affect work. Sometimes there are network issues, and sometimes there's ~an annoying conversation~ noise. Both make it harder to have meetings. So I adapt by taking meetings at home and using these spaces instead for deep work.
+Coffee shops and coworking spaces are less predictable in a couple ways that affect work. Sometimes there are network issues, and sometimes there's ~~an annoying conversation~~ noise. Both make it harder to have meetings. So I adapt by taking meetings at home and using these spaces instead for deep work.
 
 That brings some challenges of its own. How do you focus deeply in a noisy public space, where people you know or strangers may interrupt you? For me: repetitive electronic music! A decent pair of headphones with focus-inducing music works wonders, both for your own mental state, and to signal to others that you're uninterruptible.
 
