@@ -8,6 +8,8 @@
       }
     }
 
+Update: here's a [real implementation called `deployer`](https://github.com/endcrawl/deployer).
+
 Are you afraid to deploy? Do deployments always mean either downtime, leaving your site in an inconsistent state for a while, or both? It doesn't have to be this way!
 
 Let's conquer our fear. Let's deploy whenever we damn well feel like it.
