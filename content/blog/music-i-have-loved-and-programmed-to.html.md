@@ -64,7 +64,7 @@ Programming is deep work. Tuning out distractions is key, and music is one of th
 
 But not all music helps you program. Music with lyrics can interfere with your ability to read and write code. Music with too many surprises can add rather than remove distraction. After some experimentation, many programmers arrive at the same conclusion: repetitive electronic music helps them program.
 
-After a couple decades of programming, including a decade of remote work with other musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to Get Shit Done. All music has a spotify embed and a quick description. Know the mood you're after? Here's an index of mental states.
+After a couple decades of programming, including a decade of remote work with other musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to Get Shit Done. All music has a spotify embed and a quick description. Know the mood you're after? Here's an index of mental states. As always, YMMV.
 
 
 ## By Desired Mental State
@@ -142,7 +142,7 @@ Some full-length albums that won't disappoint. Each is good for about an hour li
 
 <a name="microlith-dance-with-me"></a>
 
-An album of sublime electro from Maltese producer Rhys Celeste. Everything Rhys made until his tragic death at age 24 is worth a listen. Also file under Float House.
+An album of sublime electro from Maltese producer Rhys Celeste. Everything Rhys made until his [tragic death at age 24](https://ra.co/news/38277) is worth a listen. Also file under Float House.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/6yzYSkVba6an7sxMfWcFOg" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -202,7 +202,7 @@ By law I am required to include this album. I'm happy to comply. A landmark in e
 
 <a name="maurizio-m-series"></a>
 
-Minimal dub techno from the master of the genre, Basic Channel co-founder Moritz von Oswald. If you're new to dub techno you may be forgiven for thinking "nothing ever happens." That's kind of the point, but it's also not quite true: there's lots of subtle variation if you start looking for it, but never enough to distract if you aren't.
+Minimal dub techno from the master of the genre, [Basic Channel](#basic-channel-sampler) co-founder Moritz von Oswald. If you're new to dub techno you may be forgiven for thinking "nothing ever happens." That's kind of the point, but it's also not quite true: there's lots of subtle variation if you start looking for it, but never enough to distract if you aren't.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/3dQcknWb1G439u0whEtJCQ" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -212,7 +212,7 @@ Minimal dub techno from the master of the genre, Basic Channel co-founder Moritz
 
 <a name="tm404-tm404"></a>
 
-Even darker minimal dub techno from Swedish producer Berndt Andreas Tilliander.
+Even darker minimal dub techno from Swedish producer [Andreas Tilliander](https://en.wikipedia.org/wiki/Andreas_Tilliander).
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/playlist/6LyGRF6OjJ9KNANSYjtPRk" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -222,7 +222,7 @@ Even darker minimal dub techno from Swedish producer Berndt Andreas Tilliander.
 
 <a name="cn-the-expedition-beyond"></a>
 
-The year is 3985, and this is the soundtrack to our calm but mysterious outer space explorations. CN is one of several projects from the outrageously talented and prolific Norwegian producer Stian Gjevik.
+The year is 3985, and this is the soundtrack to our calm but mysterious outer space explorations. CN is one of several projects from the outrageously talented and prolific Norwegian producer [Stian Gjevik](https://eodtracks.bandcamp.com/).
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/65zlbg1882ABbikYSMkmZ9" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -277,7 +277,7 @@ These are half-albums that nonetheless stand out as excellent music to work to. 
 
 <a name="eod-utrecht"></a>
 
-Lush synth landscapes collide with hard-edge acid techno, leaving you stranded in the best of both worlds. EOD is Norwegian producer Stian Gjevik's main shingle. His melodic gift and impeccable arrangements are on full display here.
+Lush synth landscapes collide with hard-edge acid techno, leaving you stranded in the best of both worlds. [EOD](https://eodtracks.bandcamp.com/) is Norwegian producer Stian Gjevik's main shingle. His melodic gift and impeccable arrangements are on full display here.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/7IPZCf0sK3jXZoXSRoKIeJ" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -347,7 +347,7 @@ German minimal techno by way of Argentina. It's dark, but the opener is funkier 
 
 <a name="etapp-kyle-klockworks-10"></a>
 
-Dark, driving, haunting minimal techno of the German variety. All of the albums on Ben Klok's Klockworks series are worth a listen, but Klockworks 10 and 16 from this Ukranian producer are a standout.
+Dark, driving, haunting minimal techno of the German variety. All of the albums on [Ben Klok's](https://ra.co/dj/benklock/biography) Klockworks series are worth a listen, but Klockworks 10 and 16 from this Ukranian producer are a standout.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/0KpFLppuoYEtWSsmLq42lz" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -372,7 +372,7 @@ Some artists don't fit well into the album box. And some artists make albums of 
 
 <a name="basic-channel-sampler"></a>
 
-Basic Channel is legend. They more or less invented minimal dub techno. Except for BCD and BCD-2, their output consists of a series of cryptically labeled singles. Here's a curated selection.
+[Basic Channel](https://en.wikipedia.org/wiki/Basic_Channel) is legend. They more or less invented minimal dub techno. Except for BCD and BCD-2, their output consists of a series of cryptically labeled singles. Here's a curated selection.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/playlist/6jLp6IXv49MaE4MYHn077N" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -382,7 +382,7 @@ Basic Channel is legend. They more or less invented minimal dub techno. Except f
 
 <a name="trickfinger-sampler"></a>
 
-Did you know John Frusciante -- yes, that John Frusciante -- has a side gig making acid techno? Insane. I guess that explains the name. There are a couple tracks here where it really does sound like he plucked out techno melodies on the guitar.
+Did you know John Frusciante -- yes, [that John Frusciante](https://en.wikipedia.org/wiki/John_Frusciante) -- has a side gig making acid techno? Insane. I guess that explains the name. There are a couple tracks here where it really does sound like he plucked out techno melodies on the guitar.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/playlist/4wApGodUxCIQ0a5My3wsuM" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
