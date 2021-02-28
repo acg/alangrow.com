@@ -29,6 +29,10 @@ body {
 .post .content h2 + p {
   padding: 1em 0 2em 0;
 }
+.post ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 .spotify {
   width: 100%;
   height: 360px;
@@ -38,6 +42,55 @@ body {
   height: 240px;
 }
 </style>
+
+
+Programming is deep work. Tuning out distractions is key, and music is one of the most effective tools at your disposal.
+
+But not all music helps you program. Music with lyrics can interfere with your ability to read and write code. Music with too many surprises can add rather than remove distraction. After some experimentation, many programmers arrive at the same conclusion: repetitive electronic music helps them program.
+
+After a couple decades of programming, including a decade of remote work with other musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to get in the zone and Get Shit Done.
+
+
+## By Desired Mental State
+
+### Focus, Intensity, Urgency
+
+- Deep Dark Minimal
+- Tin Man: Dripping Acid
+- Anthony Naples: Fog FM
+- Maurizio: M-Series
+- TM404: TM404
+- EOD: Questionmarks
+- The Field: Sound of Light - Nordic Hotel
+- Jonas Kopp: Desire EP
+- Etapp Kyle: Klockworks 10
+- Luke Hess: Facette
+- Basic Channel - Sampler
+- Trickfinger - Sampler
+
+### Calmness, Contemplation, Perfection
+
+- Microlith: Dance With Me
+- Martin Schulte: Slow Beauty
+- Steve Reich: Music for 18 Musicians
+- Terry Riley: In C
+- EOD: Utrecht
+- Automatic Tasty: Fieldwork EP
+- Khotin: Baikal Acid
+
+### Creative, Energetic, Mischevious
+
+- Modern Acid
+- Beatwife: Cornbrail Acid 2
+- DMX Krew: Broken SD140 Part II
+- Ceephax - Sampler
+
+### Wistful, Reflection
+
+- Mikron: Severance
+- Boards of Canada: Music Has The Right To Children
+- CN: The Expedition Beyond
+- Four Tet: New Energy
 
 
 ## Playlists
@@ -176,7 +229,7 @@ These are half-albums that nonetheless stand out as excellent music to work to. 
 
 ### EOD: Utrecht
 
-Lush synth landscapes collide with hard-edge acid techno, leaving you in the best of both worlds. EOD is Norwegian producer Stian Gjevik's main shingle. His melodic gift and impeccable arrangements are on full display here.
+Lush synth landscapes collide with hard-edge acid techno, leaving you stranded in the best of both worlds. EOD is Norwegian producer Stian Gjevik's main shingle. His melodic gift and impeccable arrangements are on full display here.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/7IPZCf0sK3jXZoXSRoKIeJ" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -192,7 +245,7 @@ On this EP Gjevik reins in the lushness and really lets the hard-edge techno rip
 
 ### Automatic Tasty: Fieldwork EP
 
-Morning, afternoon, evening, night. What a nice four-part cyclic structure for an EP! Although this is an unmistakeably electronic album, with a sound that throws back to the early 90s, there are real field recordings from different times of day thrown into the mix. The result is charming and feel-good.
+Morning, afternoon, evening, night. What a nice four-part cyclic structure for an EP! Although this is an unmistakeably electronic album, with a sound that throws back to the early 90s, Dillon also weaves in real field recordings from different times of day. The result is charming and feel-good.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/0zgcTeyhSIBGCiJI17mEgp" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
