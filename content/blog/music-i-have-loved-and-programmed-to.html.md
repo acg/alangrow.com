@@ -72,17 +72,17 @@ After a couple decades of programming, including a decade of remote work with ot
 ### Focus, Intensity, Urgency
 
 - [Deep Dark Minimal](#deep-dark-minimal)
-- [Tin Man: Dripping Acid](#tin-man-dripping-acid)
-- [Anthony Naples: Fog FM](#anthony-naples-fog-fm)
+- [Basic Channel - Sampler](#basic-channel-sampler)
 - [Maurizio: M-Series](#maurizio-m-series)
 - [TM404: TM404](#tm404-tm404)
-- [EOD: Questionmarks](#eod-questionmarks)
-- [The Field: Sound of Light - Nordic Hotel](#the-field-sound-of-light-nordic-light-hotel)
 - [Jonas Kopp: Desire EP](#jonas-kopp-desire-ep)
 - [Etapp Kyle: Klockworks 10](#etapp-kyle-klockworks-10)
 - [Luke Hess: Facette](#luke-hess-facette)
-- [Basic Channel - Sampler](#basic-channel-sampler)
+- [The Field: Sound of Light - Nordic Hotel](#the-field-sound-of-light-nordic-light-hotel)
+- [EOD: Questionmarks](#eod-questionmarks)
 - [Trickfinger - Sampler](#trickfinger-sampler)
+- [Tin Man: Dripping Acid](#tin-man-dripping-acid)
+- [Anthony Naples: Fog FM](#anthony-naples-fog-fm)
 
 ### Calmness, Contemplation, Perfection
 
