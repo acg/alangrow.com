@@ -66,12 +66,12 @@ Programming is deep work. Tuning out distractions is key, and music is one of th
 
 But not all music helps you program. Music with lyrics can interfere with your ability to read and write code. Music with too many surprises can add rather than remove distraction. After some experimentation, many programmers arrive at the same conclusion: repetitive electronic music helps them program.
 
-After a couple decades of programming, including a decade of remote work with other musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to Get Shit Done. All music has a spotify embed and a quick description. Know the mood you're after? Here's an index of mental states. As always, YMMV.
+After a couple decades of programming, including a decade of remote work with other musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to Get Shit Done. All music has a spotify embed and a quick description. Know the mood you're after? Here's an index of mental states. YMMV. Enjoy! ✌️
 
 
 ## By Desired Mental State
 
-### Focus, Intensity, Urgency
+### Focus, Intensity, Urgency 🎯
 
 - [Deep Dark Minimal](#deep-dark-minimal)
 - [Basic Channel - Sampler](#basic-channel-sampler)
@@ -86,7 +86,7 @@ After a couple decades of programming, including a decade of remote work with ot
 - [Tin Man: Dripping Acid](#tin-man-dripping-acid)
 - [Anthony Naples: Fog FM](#anthony-naples-fog-fm)
 
-### Calmness, Contemplation, Perfection
+### Calmness, Contemplation, Perfection 🧘
 
 - [Microlith: Dance With Me](#microlith-dance-with-me)
 - [Martin Schulte: Slow Beauty](#martin-schulte-slow-beauty)
@@ -96,14 +96,14 @@ After a couple decades of programming, including a decade of remote work with ot
 - [Automatic Tasty: Fieldwork EP](#automatic-tasty-fieldworks-ep)
 - [Khotin: Baikal Acid](#khotin-baikal-acid)
 
-### Creative, Energetic, Mischevious
+### Creative, Energetic, Mischevious 👿
 
 - [Modern Acid](#modern-acid)
 - [Beatwife: Cornbrail Acid 2](#beatwife-cornbrail-acid-2)
 - [DMX Krew: Broken SD140 Part II](#dmx-krew-broken-sd140-part-ii)
 - [Ceephax - Sampler](#ceephax-sampler)
 
-### Wistful, Reflection
+### Wistful, Reflection 🍂
 
 - [Mikron: Severance](#mikron-severance)
 - [Boards of Canada: Music Has The Right To Children](#boards-of-canada-music-has-the-right-to-children)
