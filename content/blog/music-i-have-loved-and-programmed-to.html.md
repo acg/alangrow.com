@@ -155,7 +155,7 @@ Natural inspiration in this one too, which comes to you from a cabin in upstate 
 
 ### Steve Reich: Music for 18 Musicians
 
-A minimalist classical masterpiece from 1976 that anticipated electronic music as we know it: layering, pulse envelopes, precise rhythms, repetitiveness, gradual rather than sudden harmonic changes...it's all in here. It's incredible that 18 skilled humans can approximate electronic music like this. It's structurally interesting too, as the sections are organized around a cycle of eleven chords. I've listened to this performance hundreds of times.
+A minimalist classical masterpiece from 1976 that anticipated electronic music as we know it: layering, envelopes, precise rhythms, repetitiveness, gradual rather than sudden harmonic changes...it's all in here. It's incredible that 18 skilled humans can approximate electronic music like this. It's structurally interesting too, as the interior sections are organized around a cycle of eleven chords. I've probably listened to this performance a hundred times.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/1w9O7mS9WEp5xlZUpYbDt9" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -184,7 +184,7 @@ Lush synth landscapes collide with hard-edge acid techno, leaving you in the bes
 
 ### EOD: Questionmarks
 
-On this EP Gjevik reins in the lushness and really lets the hard-edge techo rip. The sweet melodies and intricate arrangements are still there, but there's an urgency and raw speed that's almost frightening at times. Don't worry: Gjevik is a professional driver on closed course.
+On this EP Gjevik reins in the lushness and really lets the hard-edge techno rip. The sweet melodies and intricate arrangements are still there, but there's an urgency and raw speed that's almost frightening at times. Don't worry: Gjevik is a professional driver on a closed course.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/0uVF1xoHTzpsWeGIq00ILF" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -200,7 +200,7 @@ Morning, afternoon, evening, night. What a nice four-part cyclic structure for a
 
 ### The Field: Sound of Light - Nordic Light Hotel
 
-Here's another four-part day cycle EP from Sweden. True to The Field's style, these tracks are driving, repetitive, and awash in sound -- the kind of thing that makes you want to hitch up the sled dogs and log a couple hundred miles of frozen tundra. This is music you can really get lost in.
+Here's another four-part day cycle EP from Sweden. True to The Field's style, these tracks are driving, repetitive, and awash in sound -- the kind of thing that makes you hitch up the sled dogs and log a couple hundred miles of frozen tundra. This is music you can really get lost in.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/2asOJ9R5vdPsqKX3hvNCEE" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -224,7 +224,7 @@ Dancy, imaginative acid house from up north. Khotin saves the best for last: sid
 
 ### Jonas Kopp: Desire EP
 
-German minimal techno by way of Argentina. It's dark, but the opener is funkier than your typical Tresor track, and the unusual out-breath-in-breath ascension of the closer brings you full circle.
+German minimal techno by way of Argentina. It's dark, but the opener is funkier than your typical Tresor track, and the unusual out-breath-in-breath ascension of the closer has a way of bringing you full circle.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/4MS9uxTHx0zLQbgdiGABFc" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -269,7 +269,7 @@ Did you know John Frusciante -- yes, that John Frusciante -- has a side gig maki
 
 ### Ceephax - Sampler
 
-No list would be complete without Andy Jenkinson, AKA Ceephax. Personally I like his stuff more than [his brother's](https://en.wikipedia.org/wiki/Squarepusher). It's funny, nostalgic, wild, and full of real musical genius.
+No list would be complete without Andy Jenkinson, AKA Ceephax. Personally I like his stuff more than [his brother's](https://en.wikipedia.org/wiki/Squarepusher). It's funny, nostalgic, wild, and full of bonafide musical genius.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/playlist/4spSHMH3oRUB9bYvFio93p" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
