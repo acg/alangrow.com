@@ -2,7 +2,7 @@
     {
       "#extend": [ "../_include/blog.json" ],
       "page": {
-        "title": "Music I Have Loved and Programmed To",
+        "title": "Music To Program To",
         "date": "2021-02-27T20:36:24-0000",
         "root": ".."
       }
