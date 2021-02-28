@@ -9,6 +9,11 @@
     }
 
 <style type="text/css">
+@media only screen and (max-width: 899px) {
+  body {
+    width: 95%;
+  }
+}
 @media only screen and (min-width: 900px) {
   body {
     max-width: 600px;
