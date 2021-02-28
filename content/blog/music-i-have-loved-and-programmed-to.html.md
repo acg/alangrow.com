@@ -26,12 +26,28 @@ body {
 .post .content p {
   padding: 1em 0;
 }
+.post .content p + p {
+  padding-top: 0;
+}
 .post .content h2 + p {
   padding: 1em 0 2em 0;
 }
 .post ul {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+.post .content h3 + p {
+  padding: 0;
+}
+.post .content h3 + p a {
+  display: block;
+  padding-top: 1em;
+  width: 100%;
+  height: 1px;
+}
+.post .content h3 + p a:target {
+  margin-top: -3em;
+  padding-top: 4em;
 }
 .spotify {
   width: 100%;
@@ -48,49 +64,49 @@ Programming is deep work. Tuning out distractions is key, and music is one of th
 
 But not all music helps you program. Music with lyrics can interfere with your ability to read and write code. Music with too many surprises can add rather than remove distraction. After some experimentation, many programmers arrive at the same conclusion: repetitive electronic music helps them program.
 
-After a couple decades of programming, including a decade of remote work with other musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to get in the zone and Get Shit Done.
+After a couple decades of programming, including a decade of remote work with other musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to Get Shit Done. All music has a spotify embed and a quick description. Know the mood you're after? Here's an index of mental states.
 
 
 ## By Desired Mental State
 
 ### Focus, Intensity, Urgency
 
-- Deep Dark Minimal
-- Tin Man: Dripping Acid
-- Anthony Naples: Fog FM
-- Maurizio: M-Series
-- TM404: TM404
-- EOD: Questionmarks
-- The Field: Sound of Light - Nordic Hotel
-- Jonas Kopp: Desire EP
-- Etapp Kyle: Klockworks 10
-- Luke Hess: Facette
-- Basic Channel - Sampler
-- Trickfinger - Sampler
+- [Deep Dark Minimal](#deep-dark-minimal)
+- [Tin Man: Dripping Acid](#tin-man-dripping-acid)
+- [Anthony Naples: Fog FM](#anthony-naples-fog-fm)
+- [Maurizio: M-Series](#maurizio-m-series)
+- [TM404: TM404](#tm404-tm404)
+- [EOD: Questionmarks](#eod-questionmarks)
+- [The Field: Sound of Light - Nordic Hotel](#the-field-sound-of-light-nordic-light-hotel)
+- [Jonas Kopp: Desire EP](#jonas-kopp-desire-ep)
+- [Etapp Kyle: Klockworks 10](#etapp-kyle-klockworks-10)
+- [Luke Hess: Facette](#luke-hess-facette)
+- [Basic Channel - Sampler](#basic-channel-sampler)
+- [Trickfinger - Sampler](#trickfinger-sampler)
 
 ### Calmness, Contemplation, Perfection
 
-- Microlith: Dance With Me
-- Martin Schulte: Slow Beauty
-- Steve Reich: Music for 18 Musicians
-- Terry Riley: In C
-- EOD: Utrecht
-- Automatic Tasty: Fieldwork EP
-- Khotin: Baikal Acid
+- [Microlith: Dance With Me](#microlith-dance-with-me)
+- [Martin Schulte: Slow Beauty](#martin-schulte-slow-beauty)
+- [Steve Reich: Music for 18 Musicians](#steve-reich-music-for-18-musicians)
+- [Terry Riley: In C](#terry-riley-in-c)
+- [EOD: Utrecht](#eod-utrecht)
+- [Automatic Tasty: Fieldwork EP](#automatic-tasty-fieldworks-ep)
+- [Khotin: Baikal Acid](#khotin-baikal-acid)
 
 ### Creative, Energetic, Mischevious
 
-- Modern Acid
-- Beatwife: Cornbrail Acid 2
-- DMX Krew: Broken SD140 Part II
-- Ceephax - Sampler
+- [Modern Acid](#modern-acid)
+- [Beatwife: Cornbrail Acid 2](#beatwife-cornbrail-acid-2)
+- [DMX Krew: Broken SD140 Part II](#dmx-krew-broken-sd140-part-ii)
+- [Ceephax - Sampler](#ceephax-sampler)
 
 ### Wistful, Reflection
 
-- Mikron: Severance
-- Boards of Canada: Music Has The Right To Children
-- CN: The Expedition Beyond
-- Four Tet: New Energy
+- [Mikron: Severance](#mikron-severance)
+- [Boards of Canada: Music Has The Right To Children](#boards-of-canada-music-has-the-right-to-children)
+- [CN: The Expedition Beyond](#cn-the-expedition-beyond)
+- [Four Tet: New Energy](#four-tet-new-energy)
 
 
 ## Playlists
@@ -99,6 +115,8 @@ If you're not sure where to start, pick one of these 2+ hour playlists and dig i
 
 ### Deep Dark Minimal
 
+<a name="deep-dark-minimal"></a>
+
 Repetitive, trance-inducing electronic music for intense focus and deep work. No vocals or lame chord progressions. Mostly German.
 
 <div class="spotify">
@@ -106,6 +124,8 @@ Repetitive, trance-inducing electronic music for intense focus and deep work. No
 </div>
 
 ### Modern Acid
+
+<a name="modern-acid"></a>
 
 The tasty sounds of the 303/707/808/909 used in new ways. All tracks post 2000. Higher energy, faster tempos, and busier arrangements for active brains.
 
@@ -120,6 +140,8 @@ Some full-length albums that won't disappoint. Each is good for about an hour li
 
 ### Microlith: Dance With Me
 
+<a name="microlith-dance-with-me"></a>
+
 An album of sublime electro from Maltese producer Rhys Celeste. Everything Rhys made until his tragic death at age 24 is worth a listen. Also file under Float House.
 
 <div class="spotify">
@@ -127,6 +149,8 @@ An album of sublime electro from Maltese producer Rhys Celeste. Everything Rhys 
 </div>
 
 ### Beatwife: Cornbrail Acid 2
+
+<a name="beatwife-cornbrail-acid-2"></a>
 
 A Scottish acid madman with an artist name you can't mention in polite company. Fast, frenetic music with a quirky sense of humor. Also file under Braindance.
 
@@ -136,6 +160,8 @@ A Scottish acid madman with an artist name you can't mention in polite company. 
 
 ### Tin Man: Dripping Acid
 
+<a name="tin-man-dripping-acid"></a>
+
 How much acid is too much acid? This monster neo acid album may provide the answer. Haunting, hypnotic tunes with slow builds.
 
 <div class="spotify">
@@ -143,6 +169,8 @@ How much acid is too much acid? This monster neo acid album may provide the answ
 </div>
 
 ### Mikron: Severance
+
+<a name="mikron-severance"></a>
 
 Peaceful, aquatic, ambient techno landscapes from an Irish duo. "Ghost Node" emerges triumphant from the fog.
 
@@ -152,6 +180,8 @@ Peaceful, aquatic, ambient techno landscapes from an Irish duo. "Ghost Node" eme
 
 ### Anthony Naples: Fog FM
 
+<a name="anthony-naples-fog-fm"></a>
+
 Another foggy one with some surprises in store.
 
 <div class="spotify">
@@ -159,6 +189,8 @@ Another foggy one with some surprises in store.
 </div>
 
 ### Boards of Canada: Music Has The Right To Children
+
+<a name="boards-of-canada-music-has-the-right-to-children"></a>
 
 By law I am required to include this album. I'm happy to comply. A landmark in electronic music from the Scottish duo. As good today as it ever was.
 
@@ -168,6 +200,8 @@ By law I am required to include this album. I'm happy to comply. A landmark in e
 
 ### Maurizio: M-Series
 
+<a name="maurizio-m-series"></a>
+
 Minimal dub techno from the master of the genre, Basic Channel co-founder Moritz von Oswald. If you're new to dub techno you may be forgiven for thinking "nothing ever happens." That's kind of the point, but it's also not quite true: there's lots of subtle variation if you start looking for it, but never enough to distract if you aren't.
 
 <div class="spotify">
@@ -175,6 +209,8 @@ Minimal dub techno from the master of the genre, Basic Channel co-founder Moritz
 </div>
 
 ### TM404: TM404
+
+<a name="tm404-tm404"></a>
 
 Even darker minimal dub techno from Swedish producer Berndt Andreas Tilliander.
 
@@ -184,6 +220,8 @@ Even darker minimal dub techno from Swedish producer Berndt Andreas Tilliander.
 
 ### CN: The Expedition Beyond
 
+<a name="cn-the-expedition-beyond"></a>
+
 The year is 3985, and this is the soundtrack to our calm but mysterious outer space explorations. CN is one of several projects from the outrageously talented and prolific Norwegian producer Stian Gjevik.
 
 <div class="spotify">
@@ -191,6 +229,8 @@ The year is 3985, and this is the soundtrack to our calm but mysterious outer sp
 </div>
 
 ### Martin Schulte: Slow Beauty
+
+<a name="martin-schulte-slow-beauty"></a>
 
 Ambient that gets its inspiration from nature. If most music strives to paint a portrait, these tracks are content to paint landscapes. If you like this stuff, Schulte has a whole series of albums exploring different seasons and places.
 
@@ -200,6 +240,8 @@ Ambient that gets its inspiration from nature. If most music strives to paint a 
 
 ### Four Tet: New Energy
 
+<a name="four-tet-new-energy"></a>
+
 Natural inspiration in this one too, which comes to you from a cabin in upstate New York.
 
 <div class="spotify">
@@ -208,6 +250,8 @@ Natural inspiration in this one too, which comes to you from a cabin in upstate 
 
 ### Steve Reich: Music for 18 Musicians
 
+<a name="steve-reich-music-for-18-musicians"></a>
+
 A minimalist classical masterpiece from 1976 that anticipated electronic music as we know it: layering, envelopes, precise rhythms, repetitiveness, gradual rather than sudden harmonic changes...it's all in here. It's incredible that 18 skilled humans can approximate electronic music like this. It's structurally interesting too, as the interior sections are organized around a cycle of eleven chords. I've probably listened to this performance a hundred times.
 
 <div class="spotify">
@@ -215,6 +259,8 @@ A minimalist classical masterpiece from 1976 that anticipated electronic music a
 </div>
 
 ### Terry Riley: In C
+
+<a name="terry-riley-in-c"></a>
 
 The granddaddy of all minimalist classical masterpieces. For about an hour we never leave the key of C. Unlike Spinal Tap, Riley pulls it off. It's a fascinating and elevating listen.
 
@@ -229,6 +275,8 @@ These are half-albums that nonetheless stand out as excellent music to work to. 
 
 ### EOD: Utrecht
 
+<a name="eod-utrecht"></a>
+
 Lush synth landscapes collide with hard-edge acid techno, leaving you stranded in the best of both worlds. EOD is Norwegian producer Stian Gjevik's main shingle. His melodic gift and impeccable arrangements are on full display here.
 
 <div class="spotify ep">
@@ -236,6 +284,8 @@ Lush synth landscapes collide with hard-edge acid techno, leaving you stranded i
 </div>
 
 ### EOD: Questionmarks
+
+<a name="eod-questionmarks"></a>
 
 On this EP Gjevik reins in the lushness and really lets the hard-edge techno rip. The sweet melodies and intricate arrangements are still there, but there's an urgency and raw speed that's almost frightening at times. Don't worry: Gjevik is a professional driver on a closed course.
 
@@ -245,6 +295,8 @@ On this EP Gjevik reins in the lushness and really lets the hard-edge techno rip
 
 ### Automatic Tasty: Fieldwork EP
 
+<a name="automatic-tasty-fieldworks-ep"></a>
+
 Morning, afternoon, evening, night. What a nice four-part cyclic structure for an EP! Although this is an unmistakeably electronic album, with a sound that throws back to the early 90s, Dillon also weaves in real field recordings from different times of day. The result is charming and feel-good.
 
 <div class="spotify ep">
@@ -252,6 +304,8 @@ Morning, afternoon, evening, night. What a nice four-part cyclic structure for a
 </div>
 
 ### The Field: Sound of Light - Nordic Light Hotel
+
+<a name="the-field-sound-of-light-nordic-light-hotel"></a>
 
 Here's another four-part day cycle EP from Sweden. True to The Field's style, these tracks are driving, repetitive, and awash in sound -- the kind of thing that makes you hitch up the sled dogs and log a couple hundred miles of frozen tundra. This is music you can really get lost in.
 
@@ -261,6 +315,8 @@ Here's another four-part day cycle EP from Sweden. True to The Field's style, th
 
 ### DMX Krew: Broken SD140 Part II
 
+<a name="dmx-krew-broken-sd140-part-ii"></a>
+
 What is an SD140, and are we sure it's safe to use a broken one? I have no idea, but it sounds great. Harsh electro rhythm sounds topped with sweet melodies. "Apple Grid" is a standout.
 
 <div class="spotify ep">
@@ -268,6 +324,8 @@ What is an SD140, and are we sure it's safe to use a broken one? I have no idea,
 </div>
 
 ### Khotin: Baikal Acid
+
+<a name="khotin-baikal-acid"></a>
 
 Dancy, imaginative acid house from up north. Khotin saves the best for last: side B has not one but two lovely, warm tunes.
 
@@ -277,6 +335,8 @@ Dancy, imaginative acid house from up north. Khotin saves the best for last: sid
 
 ### Jonas Kopp: Desire EP
 
+<a name="jonas-kopp-desire-ep"></a>
+
 German minimal techno by way of Argentina. It's dark, but the opener is funkier than your typical Tresor track, and the unusual out-breath-in-breath ascension of the closer has a way of bringing you full circle.
 
 <div class="spotify ep">
@@ -285,6 +345,8 @@ German minimal techno by way of Argentina. It's dark, but the opener is funkier 
 
 ### Etapp Kyle: Klockworks 10
 
+<a name="etapp-kyle-klockworks-10"></a>
+
 Dark, driving, haunting minimal techno of the German variety. All of the albums on Ben Klok's Klockworks series are worth a listen, but Klockworks 10 and 16 from this Ukranian producer are a standout.
 
 <div class="spotify ep">
@@ -292,6 +354,8 @@ Dark, driving, haunting minimal techno of the German variety. All of the albums 
 </div>
 
 ### Luke Hess: Facette
+
+<a name="luke-hess-facette"></a>
 
 Modern Detroit techno. A propulsion system made from deep, dark textures and thumping beats.
 
@@ -306,6 +370,8 @@ Some artists don't fit well into the album box. And some artists make albums of 
 
 ### Basic Channel - Sampler
 
+<a name="basic-channel-sampler"></a>
+
 Basic Channel is legend. They more or less invented minimal dub techno. Except for BCD and BCD-2, their output consists of a series of cryptically labeled singles. Here's a curated selection.
 
 <div class="spotify">
@@ -314,6 +380,8 @@ Basic Channel is legend. They more or less invented minimal dub techno. Except f
 
 ### Trickfinger - Sampler
 
+<a name="trickfinger-sampler"></a>
+
 Did you know John Frusciante -- yes, that John Frusciante -- has a side gig making acid techno? Insane. I guess that explains the name. There are a couple tracks here where it really does sound like he plucked out techno melodies on the guitar.
 
 <div class="spotify">
@@ -321,6 +389,8 @@ Did you know John Frusciante -- yes, that John Frusciante -- has a side gig maki
 </div>
 
 ### Ceephax - Sampler
+
+<a name="ceephax-sampler"></a>
 
 No list would be complete without Andy Jenkinson, AKA Ceephax. Personally I like his stuff more than [his brother's](https://en.wikipedia.org/wiki/Squarepusher). It's funny, nostalgic, wild, and full of bonafide musical genius.
 
