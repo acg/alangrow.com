@@ -9,8 +9,10 @@
     }
 
 <style type="text/css">
-body {
-  max-width: 600px;
+@media only screen and (min-width: 900px) {
+  body {
+    max-width: 600px;
+  }
 }
 .post .content h2,
 .post .content h3 {

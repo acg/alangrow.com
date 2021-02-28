@@ -218,12 +218,18 @@ h5 {
   text-align: center;
 }
 
-@media screen and (max-width: 1020px) {
-  html {
-    font-size: 200px;  /* 1rem = 200px */
-  }
+@media screen and (max-width: 899px) {
   #header h1 {
     font-size: 175%;
+  }
+  h2 {
+    font-size: 125%;
+  }
+  h3 {
+    font-size: 115%;
+  }
+  h4 {
+    font-size: 108%;
   }
 }
 
