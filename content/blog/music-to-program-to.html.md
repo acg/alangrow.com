@@ -48,8 +48,8 @@
   height: 1px;
 }
 .post .content h3 + p a:target {
-  margin-top: -3em;
-  padding-top: 4em;
+  margin-top: -5em;
+  padding-top: 6em;
 }
 .spotify {
   width: 100%;
