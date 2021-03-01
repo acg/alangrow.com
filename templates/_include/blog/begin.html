@@ -6,7 +6,11 @@
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   <meta property="og:title" content="{{ page.title }}" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ page.title }}" />
+  <meta name="twitter:card" content="summary_large_image" />
   {% if page.image %}
+  <meta name="twitter:image" content="{{ site.url }}/{{ page.image }}" />
   <meta name="image_src" content="{{ site.url }}/{{ page.image }}" />
   <meta property="og:image" content="{{ site.url }}/{{ page.image }}"/>
   {% endif %}
