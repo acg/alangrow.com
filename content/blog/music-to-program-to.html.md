@@ -230,7 +230,7 @@ Even darker minimal dub techno from Swedish producer [Andreas Tilliander](https:
 
 <a name="cn-the-expedition-beyond"></a>
 
-The year is 3984, and this is the soundtrack to our gradual and mysterious explorations of outer space. CN is one of several projects from the outrageously talented and prolific Norwegian producer [Stian Gjevik](https://eodtracks.bandcamp.com/). There's [a second album](https://open.spotify.com/album/0YPxzyy8doEk5wh5XT0AkW?si=gUmFatscRnKPufh5M1SfpA) that pushes the idea even farther.
+The year is 3984, and this is the soundtrack to our mysterious space explorations. CN is one of several projects from the outrageously talented and prolific Norwegian producer [Stian Gjevik](https://eodtracks.bandcamp.com/). There's [a second album](https://open.spotify.com/album/0YPxzyy8doEk5wh5XT0AkW?si=gUmFatscRnKPufh5M1SfpA) that picks up where this one left off.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/65zlbg1882ABbikYSMkmZ9" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -240,7 +240,7 @@ The year is 3984, and this is the soundtrack to our gradual and mysterious explo
 
 <a name="martin-schulte-slow-beauty"></a>
 
-Ambient that gets its inspiration from nature. While most music is busy striving to paint a portrait, these tracks are content to paint landscapes. If you like this stuff, Schulte has a whole series of albums exploring different seasons and places.
+Ambient that gets its inspiration from nature. While most music is busy painting portraits, these tracks are content to paint landscapes. If you like this stuff, Schulte has a whole series of albums exploring different seasons and places.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/42jWm6Kiir3tsV5EFGe3M2" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -260,7 +260,7 @@ Natural inspiration in this one too, which comes to you from a cabin in upstate 
 
 <a name="steve-reich-music-for-18-musicians"></a>
 
-A minimalist classical masterpiece from 1976 that anticipated electronic music as we know it: layering, envelopes, precise rhythms, repetitiveness, gradual rather than sudden harmonic changes...it's all in there. I find it incredible that 18 skilled humans can approximate dense electronic music this well. Structurally, 18 Musicans is interesting too, as the interior sections are organized around a cycle of eleven chords. Lots to uncover in repeat listens.
+A minimalist classical masterpiece from 1976 that anticipated electronic music as we know it: layering, envelopes, precise rhythms, repetitiveness, gradual rather than sudden harmonic changes...it's all in there. I find it incredible that 18 skilled humans can approximate dense electronic like this. Structurally, 18 Musicans is interesting too, as the interior sections are organized around a cycle of eleven chords. Lots to uncover in repeat listens.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/1w9O7mS9WEp5xlZUpYbDt9" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -295,7 +295,7 @@ Lush synth landscapes collide with hard-edge acid techno, leaving you stranded i
 
 <a name="eod-questionmarks"></a>
 
-On this EP Gjevik strips down the lushness and really lets the hard-edge techno rip. The sweet melodies and intricate arrangements are still there, but there's an urgency and raw speed that verges on frightening. Don't worry: Gjevik is a professional driver on a closed course.
+On this EP Gjevik strips away the lushness and really lets the hard-edge techno rip. The sweet melodies and intricate arrangements are still there, but there's an urgency and raw speed that verges on frightening. Don't worry: Gjevik is a professional driver on a closed course.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/0uVF1xoHTzpsWeGIq00ILF" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -315,7 +315,7 @@ Morning, afternoon, evening, night. What a nice four-part cyclic structure for a
 
 <a name="the-field-sound-of-light-nordic-light-hotel"></a>
 
-Here's another four-part day cycle EP from Sweden. True to Axel Willner's style, these tracks are driving, repetitive, and awash in sound -- the kind of thing that makes you hitch up the sled dogs and log a couple hundred miles of frozen tundra. This is music you can really get lost in.
+Another four-part day cycle EP from Sweden. True to form, these tracks are driving, repetitive, and awash in sound -- the kind of thing that makes you hitch up the sled dogs and log a couple hundred miles of frozen tundra. This is music you can really get lost in.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/2asOJ9R5vdPsqKX3hvNCEE" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -335,7 +335,7 @@ What is an SD140, and are we sure it's safe to use a broken one? I have no idea,
 
 <a name="khotin-baikal-acid"></a>
 
-Dancy, imaginative acid house from up north. Khotin saves the best for last: side B has not one but two lovely, warm tunes.
+Dancy, imaginative acid house from up north. Khotin saves the best for last: side B has not one, but two lovely, warm tunes.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/6c9E0fOhQBFImF2tqS0Ocl" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -345,7 +345,7 @@ Dancy, imaginative acid house from up north. Khotin saves the best for last: sid
 
 <a name="jonas-kopp-desire-ep"></a>
 
-German minimal techno by way of Argentina. It's dark, but the opener is funkier than your typical Tresor track, and the deep-breathing closer feels like some kind of...weird ascension?
+German minimal techno by way of Argentina. It's dark, but the opener is funkier than your typical Tresor track, and the deep-breathing closer feels like some kind of...weird ascension ritual?
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/4MS9uxTHx0zLQbgdiGABFc" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -365,7 +365,7 @@ Dark, driving, haunted minimal techno of the German variety. All of the albums o
 
 <a name="luke-hess-facette"></a>
 
-Modern Detroit minimal techno. A propulsion system made out of deep, dark textures and thumping beats.
+Modern Detroit minimal techno. A propulsion system made from deep, dark textures and thumping beats.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/6U1eW8QyHMjxnAZpzPUy90" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
