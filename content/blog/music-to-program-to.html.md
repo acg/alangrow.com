@@ -72,7 +72,7 @@ Programming is deep work. Tuning out distractions is key, and music is one of th
 
 But not all music helps you program. Music with lyrics can interfere with your ability to read and write code. Music with too many surprises can add rather than remove distraction. After some experimentation, many programmers arrive at the same conclusion: repetitive electronic music helps them program.
 
-After a couple decades of programming, including a decade of remote work with other musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to Get Shit Done. All music has a Spotify embed and a quick review. Know the mood you're after? Start with this index of mental states. YMMV. Enjoy! ✌️
+After a couple decades of programming, including a decade of remote work with the awesome musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to Get Shit Done. All music has a Spotify embed and a quick review. Know the mood you're after? Start with this index of mental states. YMMV. Enjoy! ✌️
 
 
 ## By Desired Mental State
