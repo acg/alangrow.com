@@ -15,6 +15,13 @@ html {
   font-weight: 700;
   src: url('../../fonts/Roboto-Bold.ttf');
 }
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/RobotoMono-Regular.ttf');
+}
+
 
 body {
   font-family: Roboto, sans-serif;
@@ -149,9 +156,14 @@ h5 {
   white-space: pre-wrap;
 }
 
+.post .highlight,
+.post code {
+  font-family: 'Roboto Mono', courier;
+  font-weight: 400;
+}
+
 .post code {
   background: #efefef;
-  font-family: courier;
 }
 
 .post p code {
