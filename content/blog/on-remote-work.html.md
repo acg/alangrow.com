@@ -12,7 +12,7 @@ This interview originally appeared on [remote.community in March 2020](https://r
 
 ### Hello! who are you and where do you work?
 
-Hello! I'm Alan Grow, co-founder at [Endcrawl](https://endcrawl.com). We're a SaaS that makes credits for film & TV. We've been used on thousands of productions including Oscar Winners "Moonlight" and "Green Book."
+Hello! I'm Alan Grow, co-founder at [Endcrawl](https://endcrawl.com). We're a SaaS that makes credits for film & TV. We've been used on thousands of productions including Oscar Winners "Moonlight" and "Nomadland."
 
 ### How did you get started working remotely?
 
