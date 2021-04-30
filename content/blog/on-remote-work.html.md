@@ -28,7 +28,7 @@ I begin and end my work days at my home office, but in the middle I almost alway
 
 Coffee shops and coworking spaces are less predictable in a couple ways that affect work. Sometimes there are network issues, and sometimes there's ~~an annoying conversation~~ noise. Both make it harder to have meetings. So I adapt by taking meetings at home and using these spaces instead for deep work.
 
-That brings some challenges of its own. How do you focus deeply in a noisy public space, where people you know or strangers may interrupt you? For me: repetitive electronic music! A decent pair of headphones with focus-inducing music works wonders, both for your own mental state, and to signal to others that you're uninterruptible.
+That brings some challenges of its own. How do you focus deeply in a noisy public space, where people you know or strangers may interrupt you? For me: [repetitive electronic music](./music-to-program-to)! A decent pair of headphones with focus-inducing music works wonders, both for your own mental state, and to signal to others that you're uninterruptible.
 
 Just like a change of venue in the afternoon seems to keep me focused throughout the day, changing activities during nights and weekends helps me reset and avoid burnout. Whether it's playing music, lifting weights, or exploring the wilderness here in Utah, getting into [a very different mental state](https://media3.giphy.com/media/oWWfwpLj5l0XK/source.gif) keeps my "work mind" fresh.
 
