@@ -98,6 +98,7 @@ After a couple decades of programming, including a decade of remote work with th
 - [Martin Schulte: Slow Beauty](#martin-schulte-slow-beauty)
 - [Steve Reich: Music for 18 Musicians](#steve-reich-music-for-18-musicians)
 - [Terry Riley: In C](#terry-riley-in-c)
+- [Substance: Session Elements](#substance-session-elements)
 - [EOD: Utrecht](#eod-utrecht)
 - [Automatic Tasty: Fieldwork EP](#automatic-tasty-fieldworks-ep)
 - [Khotin: Baikal Acid](#khotin-baikal-acid)
@@ -225,6 +226,17 @@ Even darker minimal dub techno from Swedish producer [Andreas Tilliander](https:
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/playlist/6LyGRF6OjJ9KNANSYjtPRk" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
+
+### Substance: Session Elements
+
+<a name="substance-session-elements"></a>
+
+Lush but restrained minimal German techno variations.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/0gZqMjLTDZrSAGIfsDrvvF" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
 
 ### CN: The Expedition Beyond
 
