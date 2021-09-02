@@ -91,6 +91,7 @@ After a couple decades of programming, including a decade of remote work with th
 - [Trickfinger - Sampler](#trickfinger-sampler)
 - [Tin Man: Dripping Acid](#tin-man-dripping-acid)
 - [Anthony Naples: Fog FM](#anthony-naples-fog-fm)
+- [John Tejada: Parabolas](#john-tejada-parabolas)
 
 ### Calmness, Contemplation, Perfection 🧘
 
@@ -237,6 +238,15 @@ Lush but restrained minimal German techno variations.
   <iframe src="https://open.spotify.com/embed/album/0gZqMjLTDZrSAGIfsDrvvF" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
+### John Tejada: Parabolas
+
+<a name="john-tejada-parabolas"></a>
+
+Dark, intelligent tech house from an Austrian-Californian producer.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/1ysY4ZKWker8yinW7hg5Jx" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
 
 ### CN: The Expedition Beyond
 
