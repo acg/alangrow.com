@@ -244,5 +244,8 @@ h5 {
   h4 {
     font-size: 108%;
   }
+  .post {
+    padding: 0;
+  }
 }
 
