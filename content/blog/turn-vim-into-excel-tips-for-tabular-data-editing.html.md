@@ -10,23 +10,17 @@
 
 <div class="center image">
   <a href="../images/blog/vim-as-spreadsheet.png"><img src="../images/blog/vim-as-spreadsheet-thumbnail.png" /></a><br/>
-  <small>Vim editing <a href="http://www.census.gov/econ/cbp/download/">US census data on 2010 county business patterns</a></small>
+  <small>Vim editing <a href="http://www.census.gov/econ/cbp/download/">some 2010 US census data</a></small>
 </div>
 
-I tried to edit data in spreadsheet programs, I really did.
+[Vim](https://www.vim.org/) can edit just about anything, including tabular data. This post has a few tips for making stock Vim more spreadsheet-like.
 
-But it's a fact: Vim ruins you for life. Power corrupts.
-
-Of course, Vim can edit tabular data too, although there are a few things that will make it more pleasant. For this discussion I'm assuming you're editing files in tab-separated value format (TSV).
-
-*"But what about CSV files?"* [Just](http://en.wikipedia.org/wiki/Comma-separated_values#Lack_of_a_standard). [Don't](http://www.catb.org/esr/writings/taoup/html/ch05s02.html).
-
-**Do**: convert your CSV to TSV and back for editing.
+We'll assume you're editing files in tab-separated value format (TSV). CSV is a [notoriously thorny](http://en.wikipedia.org/wiki/Comma-separated_values#Lack_of_a_standard) file format with plenty of edge cases and surprises, so if you have CSV files, it's simpler to sidestep all that and roundtrip CSV to TSV for editing.
 
 
 ## A Note on the TSV Format ##
 
-To really do TSV right, you should escape newline and tab characters in data. Here are two scripts, [csv2tsv](https://gist.github.com/acg/5312217) and [tsv2csv](https://gist.github.com/acg/5312238), that will handle escaping during CSV <-> TSV conversions.
+To do TSV right, you should escape newline and tab characters in data. Here are two scripts, [csv2tsv](https://gist.github.com/acg/5312217) and [tsv2csv](https://gist.github.com/acg/5312238), that will handle escaping during CSV <-> TSV conversions.
 
 Converting CSV to TSV, with C-style escaping:
 
@@ -94,13 +88,13 @@ Fortunately Vim has a solution: you can "bind" horizontal scrolling of the two w
 
 ## But What About Formulas and Calculations?! ##
 
-It's true, Excel does far more than just edit tabular data. Vim is just ("just") an editor.
+It's true, Excel does way more than just edit tabular data. Vim is "just" an editor.
 
-However, if you're using Vim, chances are you're a competent programmer. Chances are you can write programs to manipulate tabular data. So how about this arrangement:
+If you're up for some programming, this approach might work for you:
 
-1. A tsv that contains formulas, calculations, and other potentially interpreted data.
-2. A program that will process that tsv and "render" a tsv with calculated data.
-3. The ability to quickly switch between these tsvs.
+1. Start with your data tsv.
+2. Mirror it with a second "formula tsv" that contains interpreted cells.
+3. Write a program that will apply (2) to (1), "rendering" a tsv with calculated data.
+4. View (3) in a read-only buffer. Separately edit the data and formula tsvs.
 
-I haven't put this to the test, just throwing out ideas.
-
+If you're not up for that, I [hear good things](https://twitter.com/hillelogram/status/1455949281165250561) about [VisiData](https://www.visidata.org).
