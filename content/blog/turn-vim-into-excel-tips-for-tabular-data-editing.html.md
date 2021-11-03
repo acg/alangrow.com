@@ -4,7 +4,8 @@
       "page": {
         "title": "Turn Vim Into Excel: Tips for Editing Tabular Data",
         "date": "2013-03-29T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "image": "../images/blog/vim-as-spreadsheet.png"
       }
     }
 
