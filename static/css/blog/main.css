@@ -198,6 +198,7 @@ h5 {
 
 .post .image a img {
   border: 0.02rem solid blue;
+  max-width: 100%;
 }
 
 .post .image a:visited img {
