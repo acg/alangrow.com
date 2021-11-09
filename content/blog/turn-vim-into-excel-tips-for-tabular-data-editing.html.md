@@ -86,6 +86,10 @@ Fortunately Vim has a solution: you can "bind" horizontal scrolling of the two w
     :set scrollbind
     CTRL-W j
 
+Wide spreadsheets also make it harder to eyeball other cells in the current row. You can enable a row highlight with:
+
+    :set cursorline
+
 
 ## But What About Formulas and Calculations?! ##
 
