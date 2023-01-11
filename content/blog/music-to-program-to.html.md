@@ -282,7 +282,7 @@ Natural inspiration in this one too, which comes to you from a cabin in upstate 
 
 <a name="steve-reich-music-for-18-musicians"></a>
 
-A minimalist classical masterpiece from 1976 that anticipated electronic music as we know it: layering, envelopes, precise rhythms, repetitiveness, gradual rather than sudden harmonic changes...it's all in there. I find it incredible that 18 skilled humans can approximate dense electronic like this. Structurally, 18 Musicans is interesting too, as the interior sections are organized around a cycle of eleven chords. Lots to uncover in repeat listens.
+A minimalist classical masterpiece from 1976 that anticipated electronic music as we know it: layering, envelopes, precise rhythms, repetitiveness, gradual rather than sudden harmonic changes...it's all in there. I find it incredible that 18 skilled humans can approximate dense electronic music like this. Structurally, 18 Musicans is interesting too, as the interior sections are organized around a cycle of eleven chords. Lots to uncover in repeat listens.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/1w9O7mS9WEp5xlZUpYbDt9" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
