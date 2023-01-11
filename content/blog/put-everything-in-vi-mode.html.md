@@ -22,6 +22,6 @@ In short, this means things like:
 * `b` and `e` for skipping words
 * `u` for undo
 
-The full list is in the [readline man page](https://man7.org/linux/man-pages/man3/readline.3.html).
+See this [readline vi mode cheatsheet](https://readline.kablamo.org/vi.html) for a longer list.
 
 I've been using this for years with bash, where one can do `set -o vi`. Apparently vi mode has been present since GNU readline 2.0, released in 1994, so I really have no excuse for this one!
