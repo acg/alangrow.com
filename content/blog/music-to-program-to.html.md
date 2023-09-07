@@ -85,7 +85,6 @@ All music has a Spotify embed and a quick review. Know the mood you're after? St
 - [Deep Dark Minimal](#deep-dark-minimal)
 - [Basic Channel - Sampler](#basic-channel-sampler)
 - [Maurizio: M-Series](#maurizio-m-series)
-- [TM404: TM404](#tm404-tm404)
 - [Jonas Kopp: Desire EP](#jonas-kopp-desire-ep)
 - [Etapp Kyle: Klockworks 10](#etapp-kyle-klockworks-10)
 - [Luke Hess: Facette](#luke-hess-facette)
@@ -221,16 +220,6 @@ Minimal dub techno from the master of the genre, [Basic Channel](#basic-channel-
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/3dQcknWb1G439u0whEtJCQ" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-</div>
-
-### TM404: TM404 (2013)
-
-<a name="tm404-tm404"></a>
-
-Even darker minimal dub techno from Swedish producer [Andreas Tilliander](https://en.wikipedia.org/wiki/Andreas_Tilliander).
-
-<div class="spotify">
-  <iframe src="https://open.spotify.com/embed/playlist/6LyGRF6OjJ9KNANSYjtPRk" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### Substance: Session Elements (1998)
