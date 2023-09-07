@@ -117,6 +117,7 @@ All music has a Spotify embed and a quick review. Know the mood you're after? St
 
 - [Mikron: Severance](#mikron-severance)
 - [Boards of Canada: Music Has The Right To Children](#boards-of-canada-music-has-the-right-to-children)
+- [RX-101: Dopamine](#rx-101-dopamine)
 - [CN: The Expedition Beyond](#cn-the-expedition-beyond)
 - [Four Tet: New Energy](#four-tet-new-energy)
 
@@ -238,6 +239,16 @@ Lush but restrained minimal German techno variations.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/0gZqMjLTDZrSAGIfsDrvvF" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### RX-101: Dopamine
+
+<a name="rx-101-dopamine"></a>
+
+Bask in the warm analog glow cast by these 13 tracks from Dutch producer Erik Jong.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/32dttKpIJvL2ndTAUSyQui" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### John Tejada: Parabolas
