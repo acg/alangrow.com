@@ -64,6 +64,7 @@
 }
 .spotify.ep {
   height: 240px;
+  margin-bottom: 0;
 }
 </style>
 
