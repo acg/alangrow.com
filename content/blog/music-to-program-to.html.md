@@ -152,7 +152,7 @@ The tasty sounds of the [303](https://en.wikipedia.org/wiki/Roland_TB-303) / [80
 
 Some full-length albums that won't disappoint. Each is good for about an hour of listening.
 
-### Microlith: Dance With Me
+### Microlith: Dance With Me (2016)
 
 <a name="microlith-dance-with-me"></a>
 
@@ -162,7 +162,7 @@ An album of sublime electro from Maltese producer Rhys Celeste. Everything Rhys 
   <iframe src="https://open.spotify.com/embed/album/6yzYSkVba6an7sxMfWcFOg" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Beatwife: Cornbrail Acid 2
+### Beatwife: Cornbrail Acid 2 (2014)
 
 <a name="beatwife-cornbrail-acid-2"></a>
 
@@ -172,7 +172,7 @@ A Scottish acid madman with an artist name you can't mention in polite company. 
   <iframe src="https://open.spotify.com/embed/album/3qku0YYzoZPtU7G5zpY9lL" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Tin Man: Dripping Acid
+### Tin Man: Dripping Acid (2017)
 
 <a name="tin-man-dripping-acid"></a>
 
@@ -182,7 +182,7 @@ How much acid is too much acid? This monster neo acid album may provide the answ
   <iframe src="https://open.spotify.com/embed/album/1rVsIxC6nSp6I3VC0QQVyy" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Mikron: Severance
+### Mikron: Severance (2019)
 
 <a name="mikron-severance"></a>
 
@@ -192,7 +192,7 @@ Peaceful, aquatic, ambient techno landscapes from an Irish duo. Track 4, "Ghost 
   <iframe src="https://open.spotify.com/embed/album/7d33r7YgvCP120orCDLVJT" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Anthony Naples: Fog FM
+### Anthony Naples: Fog FM (2019)
 
 <a name="anthony-naples-fog-fm"></a>
 
@@ -202,7 +202,7 @@ Another case of driving beats shrouded in fog, this time from an NYC-based produ
   <iframe src="https://open.spotify.com/embed/album/0XBtXweoCbA6MkNZ5F2NUW" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Boards of Canada: Music Has The Right To Children
+### Boards of Canada: Music Has The Right To Children (1998)
 
 <a name="boards-of-canada-music-has-the-right-to-children"></a>
 
@@ -212,7 +212,7 @@ By law I am required to include this album, and I'm happy to comply. A landmark 
   <iframe src="https://open.spotify.com/embed/album/1vWnB0hYmluskQuzxwo25a" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Maurizio: M-Series
+### Maurizio: M-Series (1997)
 
 <a name="maurizio-m-series"></a>
 
@@ -222,7 +222,7 @@ Minimal dub techno from the master of the genre, [Basic Channel](#basic-channel-
   <iframe src="https://open.spotify.com/embed/album/3dQcknWb1G439u0whEtJCQ" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### TM404: TM404
+### TM404: TM404 (2013)
 
 <a name="tm404-tm404"></a>
 
@@ -232,7 +232,7 @@ Even darker minimal dub techno from Swedish producer [Andreas Tilliander](https:
   <iframe src="https://open.spotify.com/embed/playlist/6LyGRF6OjJ9KNANSYjtPRk" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Substance: Session Elements
+### Substance: Session Elements (1998)
 
 <a name="substance-session-elements"></a>
 
@@ -242,7 +242,7 @@ Lush but restrained minimal German techno variations.
   <iframe src="https://open.spotify.com/embed/album/0gZqMjLTDZrSAGIfsDrvvF" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### RX-101: Dopamine
+### RX-101: Dopamine (2019)
 
 <a name="rx-101-dopamine"></a>
 
@@ -252,7 +252,7 @@ Bask in the warm analog glow cast by these 13 tracks from Dutch producer Erik Jo
   <iframe src="https://open.spotify.com/embed/album/32dttKpIJvL2ndTAUSyQui" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### John Tejada: Parabolas
+### John Tejada: Parabolas (2011)
 
 <a name="john-tejada-parabolas"></a>
 
@@ -262,7 +262,7 @@ Dark, intelligent tech house from an Austrian-Californian producer. Tejada teach
   <iframe src="https://open.spotify.com/embed/album/1ysY4ZKWker8yinW7hg5Jx" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### CN: The Expedition Beyond
+### CN: The Expedition Beyond (2011)
 
 <a name="cn-the-expedition-beyond"></a>
 
@@ -272,7 +272,7 @@ The year is 3984, and this is the soundtrack to our mysterious space exploration
   <iframe src="https://open.spotify.com/embed/album/65zlbg1882ABbikYSMkmZ9" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Martin Schulte: Slow Beauty
+### Martin Schulte: Slow Beauty (2012)
 
 <a name="martin-schulte-slow-beauty"></a>
 
@@ -282,7 +282,7 @@ Ambient that gets its inspiration from nature. While most music is busy painting
   <iframe src="https://open.spotify.com/embed/album/42jWm6Kiir3tsV5EFGe3M2" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Four Tet: New Energy
+### Four Tet: New Energy (2017)
 
 <a name="four-tet-new-energy"></a>
 
@@ -292,7 +292,7 @@ Natural inspiration in this one too, which comes to you from a cabin in upstate 
   <iframe src="https://open.spotify.com/embed/album/74r6JJ97ipO0CREXP9PMqZ" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Steve Reich: Music for 18 Musicians
+### Steve Reich: Music for 18 Musicians (1976)
 
 <a name="steve-reich-music-for-18-musicians"></a>
 
@@ -302,7 +302,7 @@ A minimalist classical masterpiece from 1976 that anticipated electronic music a
   <iframe src="https://open.spotify.com/embed/album/1w9O7mS9WEp5xlZUpYbDt9" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Terry Riley: In C
+### Terry Riley: In C (1964)
 
 <a name="terry-riley-in-c"></a>
 
@@ -317,7 +317,7 @@ The granddaddy of all minimalist classical masterpieces. For about an hour we ne
 
 These are half-albums that nonetheless stand out as excellent music to work to. They vary in length, but are ½ an hour on average.
 
-### EOD: Utrecht
+### EOD: Utrecht (2010)
 
 <a name="eod-utrecht"></a>
 
@@ -327,7 +327,7 @@ Lush synth landscapes collide with hard-edge acid techno, leaving you stranded i
   <iframe src="https://open.spotify.com/embed/album/7IPZCf0sK3jXZoXSRoKIeJ" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### EOD: Questionmarks
+### EOD: Questionmarks (2012)
 
 <a name="eod-questionmarks"></a>
 
@@ -337,7 +337,7 @@ On this EP Gjevik strips away the lushness and lets the hard-edge techno rip. Sw
   <iframe src="https://open.spotify.com/embed/album/0uVF1xoHTzpsWeGIq00ILF" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Automatic Tasty: Fieldwork EP
+### Automatic Tasty: Fieldwork EP (2012)
 
 <a name="automatic-tasty-fieldworks-ep"></a>
 
@@ -347,7 +347,7 @@ Morning, afternoon, evening, night: you must admit this is a nice four-part cycl
   <iframe src="https://open.spotify.com/embed/album/0zgcTeyhSIBGCiJI17mEgp" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### The Field: Sound of Light - Nordic Light Hotel
+### The Field: Sound of Light - Nordic Light Hotel (2007)
 
 <a name="the-field-sound-of-light-nordic-light-hotel"></a>
 
@@ -357,7 +357,7 @@ Another four-part day cycle EP from Sweden. True to form, these tracks are drivi
   <iframe src="https://open.spotify.com/embed/album/2asOJ9R5vdPsqKX3hvNCEE" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Seb Wildblood: The One with the Emoticon
+### Seb Wildblood: The One with the Emoticon (2017)
 
 <a name="seb-wildblood-emoticon"></a>
 
@@ -367,7 +367,7 @@ Before emoji conquered the world, we typed things like `:~^`, which is the actua
   <iframe src="https://open.spotify.com/embed/album/0xNHXAqiVHPSSRO9ZxiewT" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### DMX Krew: Broken SD140 Part II
+### DMX Krew: Broken SD140 Part II (2013)
 
 <a name="dmx-krew-broken-sd140-part-ii"></a>
 
@@ -377,7 +377,7 @@ What is an SD140, and are we sure it's safe to use a broken one? Harsh electro r
   <iframe src="https://open.spotify.com/embed/album/1eDpqYQe0AgJKLEVd0TsMz" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Khotin: Baikal Acid
+### Khotin: Baikal Acid (2016)
 
 <a name="khotin-baikal-acid"></a>
 
@@ -387,17 +387,17 @@ Dancy, imaginative acid house from up north. Khotin saves the best for last: sid
   <iframe src="https://open.spotify.com/embed/album/6c9E0fOhQBFImF2tqS0Ocl" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Jonas Kopp: Desire EP
+### Jonas Kopp: Desire EP (2013)
 
 <a name="jonas-kopp-desire-ep"></a>
 
-German minimal techno by way of Argentina. It's dark, but the opener is funkier than your typical Tresor track, and the closer feels like some kind of ascension.
+German minimal techno by way of Argentina. It's dark, but the opener is funkier than your typical Tresor track, and the closer feels like some kind of ceremonial ascension.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/4MS9uxTHx0zLQbgdiGABFc" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Etapp Kyle: Klockworks 10
+### Etapp Kyle: Klockworks 10 (2015)
 
 <a name="etapp-kyle-klockworks-10"></a>
 
@@ -407,7 +407,7 @@ Dark, driving, haunted minimal techno of the German variety. All of the albums o
   <iframe src="https://open.spotify.com/embed/album/0KpFLppuoYEtWSsmLq42lz" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Luke Hess: Facette
+### Luke Hess: Facette (2017)
 
 <a name="luke-hess-facette"></a>
 
