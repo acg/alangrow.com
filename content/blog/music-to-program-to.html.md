@@ -72,7 +72,9 @@ Programming is deep work. Tuning out distractions is key, and music is one of th
 
 But not all music helps you program. Music with lyrics can interfere with your ability to read and write code. Music with too many surprises can add rather than remove distraction. After some experimentation, many programmers arrive at the same conclusion: repetitive electronic music helps them program.
 
-After a couple decades of programming, including a decade of remote work with the awesome musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to Get Shit Done. All music has a Spotify embed and a quick review. Know the mood you're after? Start with this index of mental states. YMMV. Enjoy! ✌️
+After a couple decades of programming, including a decade of remote work with the talented musician-programmers at [blend.io](https://blend.io) and [ROLI](https://roli.com), here's some of the music I turn to when I need to Get Shit Done.
+
+All music has a Spotify embed and a quick review. Know the mood you're after? Start with this index of mental states. YMMV. Enjoy! ✌️
 
 
 ## By Desired Mental State
@@ -137,7 +139,7 @@ Repetitive, trance-inducing electronic music for intense focus and deep work. No
 
 <a name="modern-acid"></a>
 
-The tasty sounds of the 303 / 707 / 808 / 909 used in new ways. All tracks post 2000. Higher energy, faster tempos, and busier arrangements for active brains. 🧠
+The tasty sounds of the [303](https://en.wikipedia.org/wiki/Roland_TB-303) / [808](https://en.wikipedia.org/wiki/Roland_TR-808) / 909 used in new ways. All tracks post 2000. Higher energy, faster tempos, and busier arrangements. 🧠
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/playlist/42Opdl26Go26eWo7oiEhmK" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -152,7 +154,7 @@ Some full-length albums that won't disappoint. Each is good for about an hour of
 
 <a name="microlith-dance-with-me"></a>
 
-An album of sublime electro from Maltese producer Rhys Celeste. Everything Rhys made until his [tragic death at age 24](https://ra.co/news/38277) is worth a listen. See also [Float House](https://open.spotify.com/playlist/4CvNSwKn7f9ngVLlP2Jr0O).
+An album of sublime electro from Maltese producer Rhys Celeste. Everything Rhys made until his [tragic death at age 24](https://ra.co/news/38277) is worth a listen. See also the [Float House microgenre](https://open.spotify.com/playlist/4CvNSwKn7f9ngVLlP2Jr0O).
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/6yzYSkVba6an7sxMfWcFOg" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -162,7 +164,7 @@ An album of sublime electro from Maltese producer Rhys Celeste. Everything Rhys 
 
 <a name="beatwife-cornbrail-acid-2"></a>
 
-A Scottish acid madman with an artist name you can't mention in polite company. Fast, frenetic music with a quirky sense of humor. See also [Braindance](https://daily.bandcamp.com/lists/braindance-feature).
+A Scottish acid madman with an artist name you can't mention in polite company. Fast, frenetic music with a quirky sense of humor. See also the [Braindance microgenre](https://daily.bandcamp.com/lists/braindance-feature).
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/3qku0YYzoZPtU7G5zpY9lL" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -182,7 +184,7 @@ How much acid is too much acid? This monster neo acid album may provide the answ
 
 <a name="mikron-severance"></a>
 
-Peaceful, aquatic, ambient techno landscapes from an Irish duo. "Ghost Node" emerges triumphant from the fog.
+Peaceful, aquatic, ambient techno landscapes from an Irish duo. Track 4, "Ghost Node", highsteps out of a thick fog.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/7d33r7YgvCP120orCDLVJT" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -192,7 +194,7 @@ Peaceful, aquatic, ambient techno landscapes from an Irish duo. "Ghost Node" eme
 
 <a name="anthony-naples-fog-fm"></a>
 
-Another foggy one with some breakout surprises.
+Another case of driving beats shrouded in fog, this time from an NYC-based producer.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/0XBtXweoCbA6MkNZ5F2NUW" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -202,7 +204,7 @@ Another foggy one with some breakout surprises.
 
 <a name="boards-of-canada-music-has-the-right-to-children"></a>
 
-By law I am required to include this album. I'm happy to comply. A landmark in electronic music from the Scottish duo. As good today as it ever was.
+By law I am required to include this album, and I'm happy to comply. A landmark in electronic music from the Scottish duo. This album hasn't aged a day.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/1vWnB0hYmluskQuzxwo25a" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -212,7 +214,7 @@ By law I am required to include this album. I'm happy to comply. A landmark in e
 
 <a name="maurizio-m-series"></a>
 
-Minimal dub techno from the master of the genre, [Basic Channel](#basic-channel-sampler) co-founder Moritz von Oswald. If you're new to dub techno you may be forgiven for thinking "nothing ever happens." That's kind of the point, but it's also not _quite_ true: there's lots of subtle variation if you start looking for it, but never enough to distract if you aren't.
+Minimal dub techno from the master of the genre, [Basic Channel](#basic-channel-sampler) co-founder Moritz von Oswald. If you're new to dub techno you may be forgiven for thinking "nothing ever happens." That's kind of the point, but it's also not _quite_ true: there's lots of subtle variation if you start looking for it, yet never enough to distract if you aren't.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/3dQcknWb1G439u0whEtJCQ" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -242,7 +244,7 @@ Lush but restrained minimal German techno variations.
 
 <a name="john-tejada-parabolas"></a>
 
-Dark, intelligent tech house from an Austrian-Californian producer.
+Dark, intelligent tech house from an Austrian-Californian producer. Tejada teaches at CalArts and consistently puts out great tech house albums, among them [Signs Under Test (2015)](https://open.spotify.com/album/5Rr2NMSWTD6F7rsKAbhTXb?si=OeaOL5eaTmqrwshsFqgMjQ), [Live Rytm Trax (2018)](https://open.spotify.com/album/4tuihdFNCR2nz6WeIiQsLC?si=fZNo8_yER0aGd6MpT87LQg), and [Year Of The Living Dead (2021)](https://open.spotify.com/album/0jwjHNhMdj3V6fOvx36ozD?si=IT0PBz_EQQOBoSzNsWHs8A).
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/1ysY4ZKWker8yinW7hg5Jx" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -282,7 +284,7 @@ Natural inspiration in this one too, which comes to you from a cabin in upstate 
 
 <a name="steve-reich-music-for-18-musicians"></a>
 
-A minimalist classical masterpiece from 1976 that anticipated electronic music as we know it: layering, envelopes, precise rhythms, repetitiveness, gradual rather than sudden harmonic changes...it's all in there. I find it incredible that 18 skilled humans can approximate dense electronic music like this. Structurally, 18 Musicans is interesting too, as the interior sections are organized around a cycle of eleven chords. Lots to uncover in repeat listens.
+A minimalist classical masterpiece from 1976 that anticipated electronic music as we know it: layering, envelopes, precise rhythms, repetitiveness, gradual rather than sudden harmonic changes...it's all in there. I find it incredible that 18 skilled humans can approximate dense electronic music like this. "18 Musicians" is structurally interesting too, as the interior sections are organized around a cycle of eleven chords articulated in the opening and closing "Pulses" movements.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/1w9O7mS9WEp5xlZUpYbDt9" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -292,7 +294,7 @@ A minimalist classical masterpiece from 1976 that anticipated electronic music a
 
 <a name="terry-riley-in-c"></a>
 
-The granddaddy of all minimalist classical masterpieces. For about an hour we never leave the key of C. Unlike Spinal Tap, Riley pulls it off. It's a fascinating and elevating listen.
+The granddaddy of all minimalist classical masterpieces. For about an hour we never leave the key of C. Unlike Spinal Tap, Riley pulls it off. A fascinating and elevating listen.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/3dz5dt5vdJEKhTvTI0ZR9J" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -307,7 +309,7 @@ These are half-albums that nonetheless stand out as excellent music to work to. 
 
 <a name="eod-utrecht"></a>
 
-Lush synth landscapes collide with hard-edge acid techno, leaving you stranded in the best of both worlds. [EOD](https://eodtracks.bandcamp.com/) is Norwegian producer Stian Gjevik's main shingle. His melodic gift and impeccable arrangements are on full display here.
+Lush synth landscapes collide with hard-edge acid techno, leaving you stranded in the best of both worlds. [EOD](https://eodtracks.bandcamp.com/) is Norwegian producer Stian Gjevik's main shingle. His melodic gift and arranging skills are on full display here.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/7IPZCf0sK3jXZoXSRoKIeJ" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -317,7 +319,7 @@ Lush synth landscapes collide with hard-edge acid techno, leaving you stranded i
 
 <a name="eod-questionmarks"></a>
 
-On this EP Gjevik strips away the lushness and really lets the hard-edge techno rip. The sweet melodies and intricate arrangements are still there, but there's an urgency and raw speed that verges on frightening. Don't worry: Gjevik is a professional driver on a closed course.
+On this EP Gjevik strips away the lushness and lets the hard-edge techno rip. Sweet, intricately arranged melodies take a back seat to an urgency and raw speed that's borderline frightening. Fear not: Gjevik is a professional driver on a closed course.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/0uVF1xoHTzpsWeGIq00ILF" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -327,7 +329,7 @@ On this EP Gjevik strips away the lushness and really lets the hard-edge techno 
 
 <a name="automatic-tasty-fieldworks-ep"></a>
 
-Morning, afternoon, evening, night. What a nice four-part cyclic structure for an EP! Although the instrumentation borrows from the somewhat-dated sounds of early techno, Dillon also weaves in real field recordings from different times of day. The result is charming and feel-good.
+Morning, afternoon, evening, night: you must admit this is a nice four-part cyclic structure for an EP. Although the instrumentation uses the innocent but dated sounds of early techno, Dillon also weaves in real field recordings from different times of day. The result is charming and feel-good.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/0zgcTeyhSIBGCiJI17mEgp" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -337,7 +339,7 @@ Morning, afternoon, evening, night. What a nice four-part cyclic structure for a
 
 <a name="the-field-sound-of-light-nordic-light-hotel"></a>
 
-Another four-part day cycle EP from Sweden. True to form, these tracks are driving, repetitive, and awash in sound -- the kind of thing that makes you hitch up the sled dogs and log a couple hundred miles of frozen tundra. This is music you can really get lost in.
+Another four-part day cycle EP from Sweden. True to form, these tracks are driving, repetitive, and awash in sound -- the kind of thing that makes you hitch up the sled dogs and log a couple hundred miles of frozen tundra.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/2asOJ9R5vdPsqKX3hvNCEE" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -347,7 +349,7 @@ Another four-part day cycle EP from Sweden. True to form, these tracks are drivi
 
 <a name="dmx-krew-broken-sd140-part-ii"></a>
 
-What is an SD140, and are we sure it's safe to use a broken one? I have no idea, but it sounds great. Harsh electro rhythm sounds topped with sweet melodies. "Apple Grid" is a standout.
+What is an SD140, and are we sure it's safe to use a broken one? Harsh electro rhythm sounds topped with sweet melodies. "Apple Grid" is a standout track.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/1eDpqYQe0AgJKLEVd0TsMz" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -367,7 +369,7 @@ Dancy, imaginative acid house from up north. Khotin saves the best for last: sid
 
 <a name="jonas-kopp-desire-ep"></a>
 
-German minimal techno by way of Argentina. It's dark, but the opener is funkier than your typical Tresor track, and the deep-breathing closer feels like some kind of...weird ascension ritual?
+German minimal techno by way of Argentina. It's dark, but the opener is funkier than your typical Tresor track, and the closer feels like some kind of ascension.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/4MS9uxTHx0zLQbgdiGABFc" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -402,7 +404,7 @@ Some artists don't fit well into the album box. And some artists make albums of 
 
 <a name="basic-channel-sampler"></a>
 
-[Basic Channel](https://en.wikipedia.org/wiki/Basic_Channel) is legend. They more or less invented minimal dub techno. Except for BCD and BCD-2, their output consists of a series of cryptically labeled singles. Here's a curated selection.
+As [Basic Channel](https://en.wikipedia.org/wiki/Basic_Channel), the duo of Moritz von Oswald and Mark Ernestus pioneered minimal dub techno in the early 90s. Except for BCD and BCD-2, their output consists of a series of cryptically labeled singles. Here's a curated selection.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/playlist/6jLp6IXv49MaE4MYHn077N" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -412,7 +414,7 @@ Some artists don't fit well into the album box. And some artists make albums of 
 
 <a name="trickfinger-sampler"></a>
 
-Did you know John Frusciante -- yes, [that John Frusciante](https://en.wikipedia.org/wiki/John_Frusciante) -- has a side gig making acid techno? Insane. I guess that explains the name. There are a couple tracks here where it really does sound like he plucked out techno melodies on the guitar.
+Did you know John Frusciante -- yes, [that John Frusciante](https://en.wikipedia.org/wiki/John_Frusciante) -- has a side gig making acid techno? Insane. There are a couple tracks here where it's hard to believe he didn't pick the melody out first on a guitar.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/playlist/4wApGodUxCIQ0a5My3wsuM" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -422,7 +424,7 @@ Did you know John Frusciante -- yes, [that John Frusciante](https://en.wikipedia
 
 <a name="ceephax-sampler"></a>
 
-No list would be complete without Andy Jenkinson, AKA Ceephax. Personally I like his stuff more than [his brother's](https://en.wikipedia.org/wiki/Squarepusher). It's funny, nostalgic, a bit unhinged, and full of bonafide musical genius.
+No list would be complete without Andy Jenkinson, AKA Ceephax. Personally I like his stuff more than [his brother's](https://en.wikipedia.org/wiki/Squarepusher). It's funny, nostalgic, slightly unhinged, and brimming with bonafide musical genius.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/playlist/4spSHMH3oRUB9bYvFio93p" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
