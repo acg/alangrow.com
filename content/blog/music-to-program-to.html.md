@@ -103,6 +103,7 @@ All music has a Spotify embed and a quick review. Know the mood you're after? St
 - [Terry Riley: In C](#terry-riley-in-c)
 - [Substance: Session Elements](#substance-session-elements)
 - [EOD: Utrecht](#eod-utrecht)
+- [Seb Wildblood: The One with the Emoticon](#seb-wildblood-emoticon)
 - [Automatic Tasty: Fieldwork EP](#automatic-tasty-fieldworks-ep)
 - [Khotin: Baikal Acid](#khotin-baikal-acid)
 
@@ -354,6 +355,16 @@ Another four-part day cycle EP from Sweden. True to form, these tracks are drivi
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/2asOJ9R5vdPsqKX3hvNCEE" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Seb Wildblood: The One with the Emoticon
+
+<a name="seb-wildblood-emoticon"></a>
+
+Before emoji conquered the world, we typed things like `:~^`, which is the actual name of this album, and possibly a self-portrait? Lush, organic deep house from the UK.
+
+<div class="spotify ep">
+  <iframe src="https://open.spotify.com/embed/album/0xNHXAqiVHPSSRO9ZxiewT" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### DMX Krew: Broken SD140 Part II
