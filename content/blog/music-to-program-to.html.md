@@ -112,6 +112,7 @@ All music has a Spotify embed and a quick review. Know the mood you're after? St
 - [Beatwife: Cornbrail Acid 2](#beatwife-cornbrail-acid-2)
 - [DMX Krew: Broken SD140 Part II](#dmx-krew-broken-sd140-part-ii)
 - [Ceephax - Sampler](#ceephax-sampler)
+- [Superski: Mondo Moderno](#superski-mondo-moderno)
 
 ### Wistful, Reflection 🍂
 
@@ -250,6 +251,16 @@ Dark, intelligent tech house from an Austrian-Californian producer. Tejada teach
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/1ysY4ZKWker8yinW7hg5Jx" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Superski: Mondo Moderno (2023)
+
+<a name="superski-mondo-moderno"></a>
+
+I'll be honest: trance is not my jam. Yet somehow these trancey, cinematic, Italo-disco-influenced techno tracks from Litrowski & Voiski won me over. Look, you can wear your sunglasses at night. They can be fine Italian sunglasses. You can even be the protagonist in a Fellini film. But if you raise them and wink like Ferris Bueller, we're not going to take you entirely seriously -- and I think that's the idea.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/5NCPvM8NsBT12SwVXmUWdB" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### CN: The Expedition Beyond (2011)
