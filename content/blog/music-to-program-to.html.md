@@ -103,7 +103,6 @@ All music has a Spotify embed and a quick review. Know the mood you're after? St
 - [Terry Riley: In C](#terry-riley-in-c)
 - [Substance: Session Elements](#substance-session-elements)
 - [EOD: Utrecht](#eod-utrecht)
-- [Seb Wildblood: The One with the Emoticon](#seb-wildblood-emoticon)
 - [Automatic Tasty: Fieldwork EP](#automatic-tasty-fieldworks-ep)
 - [Khotin: Baikal Acid](#khotin-baikal-acid)
 
@@ -118,6 +117,7 @@ All music has a Spotify embed and a quick review. Know the mood you're after? St
 
 - [Mikron: Severance](#mikron-severance)
 - [Boards of Canada: Music Has The Right To Children](#boards-of-canada-music-has-the-right-to-children)
+- [Seb Wildblood: The One with the Emoticon](#seb-wildblood-emoticon)
 - [RX-101: Dopamine](#rx-101-dopamine)
 - [CN: The Expedition Beyond](#cn-the-expedition-beyond)
 - [Four Tet: New Energy](#four-tet-new-energy)
