@@ -8,6 +8,15 @@
       }
     }
 
+<style type="text/css">
+@media screen and (max-width: 899px) {
+  pre {
+    font-size: 2vw;
+    white-space: nowrap;
+  }
+}
+</style>
+
 True story. Back in September 2008, I decided that this year, I would **not** wait until the last minute to book my Thanksgiving flight home.
 
 What's the rule for Thanksgiving again? Oh right, fourth Thursday in November. So I busted out [cal(1)](http://www.freebsd.org/cgi/man.cgi?query=cal&apropos=0&sektion=0&manpath=FreeBSD+8.2-RELEASE&format=html):
