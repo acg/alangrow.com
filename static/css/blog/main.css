@@ -166,7 +166,9 @@ h5 {
   background: #efefef;
 }
 
-.post p code {
+.post p code,
+.post ul code,
+.post ol code {
   padding: 0 0.04rem;
   white-space: nowrap;
 }
