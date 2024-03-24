@@ -32,14 +32,7 @@ h3 {
 @media screen and (max-width: 899px) {
   table.tiles {
     margin-left: 0;
-    font-size: 40%;
-  }
-  .highlight {
-    width: calc(100/85 * 100%);
-    margin-left: calc(-1 * ((100/85 - 1)/2) * 100%);
-  }
-  .highlight pre {
-    font-size: 50%;
+    font-size: 45%;
   }
 }
 </style>

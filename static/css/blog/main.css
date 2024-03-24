@@ -27,7 +27,8 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 0.18rem;
-  width: 85%;
+  --gutter: 1.5em;
+  width: calc(100% - var(--gutter) * 2);
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -35,6 +36,7 @@ body {
 
 * {
   line-height: 1.4;
+  box-sizing: border-box;
 }
 
 #footer {
@@ -135,6 +137,12 @@ h5 {
 .post p {
   padding: 0.16rem 0 0 0;
 }
+.post h2 + p,
+.post h3 + p,
+.post h4 + p,
+.post h5 + p {
+  padding-top: 0.08rem;
+}
 
 .post li p {
   padding: 0; 
@@ -234,6 +242,10 @@ h5 {
 }
 
 @media screen and (max-width: 899px) {
+  body {
+    font-size: 0.14rem;
+    --gutter: 1em;
+  }
   #header h1 {
     font-size: 175%;
   }
@@ -248,6 +260,20 @@ h5 {
   }
   .post {
     padding: 0;
+  }
+  .post .highlight,
+  .post .content > pre {
+    width: calc(100% + var(--gutter) * 2);
+    margin-left: calc(-1 * var(--gutter));
+  }
+  .post .content > .pre {
+    margin: 0;
+  }
+  .post .highlight pre,
+  .post .content > pre > code {
+    font-size: 75%;
+    border-left: none;
+    border-right: none;
   }
 }
 
