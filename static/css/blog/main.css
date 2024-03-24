@@ -140,6 +140,11 @@ h5 {
   padding: 0; 
 }
 
+.post .highlight,
+.post .content > pre {
+  padding-top: 0.10rem;
+}
+
 .post em {
   font-style: italic;
 }
