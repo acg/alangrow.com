@@ -8,8 +8,6 @@
       }
     }
 
----
-
 <style type="text/css">
 table.tiles {
   margin: 2em 0 1em 1em;
