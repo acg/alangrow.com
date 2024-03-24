@@ -10,20 +10,6 @@
 
 ---
 
-While building [a word game](https://dfeldman.github.io/ambigame/game.html), Daniel Feldman ran into a problem that nerdsniped me instantly: what choice of twenty letter-pair tiles generates the most words?
-
-A number of approaches were proposed in [the ensuing thread](https://twitter.com/d_feldman/status/1761611250776117504), with some folks even wondering if the problem might be NP-complete. In this post I'll present a greedy algorithm that's linear in the dictionary size. I believe this finds an optimal solution, but haven't proven that formally.
-
-Let's first define the problem.
-
-### The Problem Definition
-
-There are 26 alphabet letters, and each tile has two letters on it, so that works out to a total of 26 * 26 = 676 possible tiles. We only get to choose a meager 20 of these 676 to form our tileset. Like in Scrabble, you can then rearrange subsets of the tileset to form dictionary words. The problem: find the tileset of size 20 that lets you form the most dictionary words.
-
-### A Much Smaller Example Tileset
-
-Here's all possible tiles, with a specific size-3 tileset <code class="chosen">ed,pi,ti</code> highlighted:
-
 <style type="text/css">
 table.tiles {
   margin: 2em 0 1em 1em;
@@ -40,7 +26,38 @@ table.tiles td.chosen,
 code.chosen {
   background-color: rgba(0, 0, 255, 0.15);
 }
+h3 {
+  padding-top: 0.75em;
+}
+@media screen and (max-width: 899px) {
+  table.tiles {
+    margin-left: 0;
+    font-size: 40%;
+  }
+  .highlight {
+    width: calc(100/85 * 100%);
+    margin-left: calc(-1 * ((100/85 - 1)/2) * 100%);
+  }
+  .highlight pre {
+    font-size: 50%;
+  }
+}
 </style>
+
+While building [a word game](https://dfeldman.github.io/ambigame/game.html), Daniel Feldman ran into a problem that nerdsniped me instantly: what choice of twenty letter-pair tiles generates the most words?
+
+A number of approaches were proposed in [the ensuing thread](https://twitter.com/d_feldman/status/1761611250776117504), with some folks even wondering if the problem might be NP-complete. In this post I'll present a greedy algorithm that's linear in the dictionary size. I believe this finds an optimal solution, but haven't proven that formally.
+
+Let's first define the problem.
+
+### The Problem Definition
+
+There are 26 alphabet letters, and each tile has two letters on it, so that works out to a total of 26 * 26 = 676 possible tiles. We only get to choose a meager 20 of these 676 to form our tileset. Like in Scrabble, you can then rearrange subsets of the tileset to form dictionary words. The problem: find the tileset of size 20 that lets you form the most dictionary words.
+
+### A Much Smaller Example Tileset
+
+Here's all possible tiles, with a specific size-3 tileset <code class="chosen">ed,pi,ti</code> highlighted:
+
 <table class="tiles">
 <tr> <td>aa</td> <td>ab</td> <td>ac</td> <td>ad</td> <td>ae</td> <td>af</td> <td>ag</td> <td>ah</td> <td>ai</td> <td>aj</td> <td>ak</td> <td>al</td> <td>am</td> <td>an</td> <td>ao</td> <td>ap</td> <td>aq</td> <td>ar</td> <td>as</td> <td>at</td> <td>au</td> <td>av</td> <td>aw</td> <td>ax</td> <td>ay</td> <td>az</td> </tr>
 <tr> <td>ba</td> <td>bb</td> <td>bc</td> <td>bd</td> <td>be</td> <td>bf</td> <td>bg</td> <td>bh</td> <td>bi</td> <td>bj</td> <td>bk</td> <td>bl</td> <td>bm</td> <td>bn</td> <td>bo</td> <td>bp</td> <td>bq</td> <td>br</td> <td>bs</td> <td>bt</td> <td>bu</td> <td>bv</td> <td>bw</td> <td>bx</td> <td>by</td> <td>bz</td> </tr>
@@ -79,7 +96,7 @@ The <code class="chosen">ed,pi,ti</code> tileset generates these 6 words:
 0. <code class="chosen">tied</code>
 0. <code class="chosen">tipi</code>
 
-Note that throughout this post I'll be using `/usr/share/dict/american-english` as the dictionary.
+Note that throughout this post I'll be using `american-english` under `/usr/share/dict/` as the dictionary.
 
 ### Initial Approach: Maximum Letter Pair Frequency
 
@@ -114,7 +131,7 @@ words = []
 for word in open(args.pop(0)) if args else sys.stdin:
   word = word.rstrip('\n')
 
-  # discard words with odd letter counts, capitals, apostrophes, etc.
+  # discard words with odd letter counts, capitals, apostrophes,
   if not RE_VALID_WORD.match(word):
     continue
 
@@ -177,7 +194,7 @@ words = defaultdict(set)
 for word in open(args.pop(0)) if args else sys.stdin:
   word = word.rstrip('\n')
 
-  # discard words with odd letter counts, capitals, apostrophes, etc.
+  # discard words with odd letter counts, capitals, apostrophes.
   if not RE_VALID_WORD.match(word):
     continue
 
@@ -211,7 +228,7 @@ As you can see, the setup is substantially the same. This time, instead of count
 
 This gives us a direct and `O(1)` way of measuring the damage incurred by removing a letter pair: it is simply the size of its set.
 
-After the dictionary has been scanned, we start with all letter pairs in play, and we can begin greedy removal. At each step we pick the letter that inflicts the least amount of damage in terms of formable words. Note that any word longer than 2 letters will appear in multiple sets, and we have to remember to remove these extra copies of every "lost" word. Python's [`set` data type](https://docs.python.org/3.8/library/stdtypes.html#set) is doing a lot of the heavy lifting this time.
+After the dictionary has been scanned, all letter pairs are in play, and we can start greedy removal. At each step we pick the letter that inflicts the least amount of damage in terms of formable words. Note that any word longer than 2 letters will appear in multiple sets, and we have to remember to remove these extra copies of every "lost" word. Python's [`set` data type](https://docs.python.org/3.8/library/stdtypes.html#set) is doing a lot of the heavy lifting this time.
 
 ### Results
 
@@ -232,11 +249,11 @@ subtractive/results2: ar,ca,co,de,di,ed,er,es,in,li,ng,nt,ra,re,ri,si,st,te,ti,v
 
 For completeness, I wrote Python scripts that handle the 1-letter tile case (`lettergen1`). There are only 26 tiles to pick the 20 from, and you can see that both approaches arrive at the same result of 12,302 formable words.
 
-The 2-letter tile case (`lettergen2`) is another story. Maximum Letter Pair Frequency comes up with a tileset that generates 172 words, but Subtractive Minimum Damage does substantially better by finding a 292-word-generating tileset (1.7x better). You'll find the full lists of formable words at `{maxfreq,subtractive}/results2`.
+The 2-letter tile case (`lettergen2`) is another story. Maximum Letter Pair Frequency comes up with a tileset that generates 172 words, but Subtractive Minimum Damage does substantially better by finding a 292-word-generating tileset (1.7x better). You'll find the full lists of formable words at `*/results2`.
 
 So according to Subtractive Minimum Damage, the optimal tileset is the following:
 
-<code class="chosen">ar,ca,co,de,di,ed,er,es,in,li,ng,nt,ra,re,ri,si,st,te,ti,ve</code>
+<code class="chosen" style="white-space: normal; overflow-wrap: break-word; padding: 0">ar,ca,co,de,di,ed,er,es,in,li,​ng,nt,ra,re,ri,si,st,te,ti,ve</code>
 
 It's also interesting to experiment with different tileset sizes. For instance, try `make -B NTILES=100`. You'll notice as `NTILES` gets larger, the `maxfreq` approach converges on the `subtractive` approach. This makes sense: they should agree for `NTILES=676` because there are no letter pair decisions to make. And in fact they should agree even earlier than that, since English [doesn't use all possible letter pairs](./how-many-consonant-pairs).
 
