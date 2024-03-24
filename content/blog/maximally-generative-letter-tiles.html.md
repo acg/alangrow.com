@@ -158,13 +158,23 @@ ed,er,es
 es
 ```
 
-It's no surprise that <code class="chosen">ed,er,es</code> occur most frequently, since they're common English word endings. However, word endings by themselves don't play nice together. They need word beginnings and middles in order to form complete words. And we already know from the small example above that <code class="chosen">ed,pi,ti</code> generates 6 words. Generating 1 word, <code class="chosen">es</code>, is suboptimal.
+It's no surprise that <code class="chosen">ed,er,es</code> occur most frequently, since they're common English word endings. However, word endings by themselves don't play nice together. They depend on word beginnings and middles in order to form complete words. And we already know from the small example above that <code class="chosen">ed,pi,ti</code> generates 6 words. Generating 1 word, <code class="chosen">es</code>, is suboptimal.
 
 This maximum letter pair frequency approach was a greedy algorithm, and its failure makes one despair of finding any optimal greedy (read: simple) algorithm. To construct the optimal tileset from scratch, perhaps you need to perform search on a graph of successively longer words, so you're passing from word beginnings to word middles to word endings? [I pursued this approach myself](https://twitter.com/alangrow/status/1761638946939994133) before giving up. Ruminate long enough, and your thoughts may even turn to dark subjects like the [set cover problem](https://en.wikipedia.org/wiki/Set_cover_problem), which is NP-Complete.
 
-That level of despair didn't feel right to me though. Our problem isn't the same as the set cover problem, which seeks a set-of-sets that **union** together to form a bigger set. If we accept a set-theoretic framing and decide we're working with 676 sets, one for each letter pair, and each one containing all the words that particular letter pair occurs in, then what we seek is a set-of-sets with maximal **intersection**.
+That level of despair didn't feel right to me though. Our problem isn't the same as the set cover problem, which seeks a set-of-sets that union together to form a bigger set. Let's accept a set-theoretic framing for a moment to see why.
 
-And that's when it occurred to me to try a new greedy approach, but this time working backwards. Instead of constructing the tileset from scratch by greedily picking the next best tile to add, what if we started with the full size 676 tileset, and greedily picked the least-bad tile to remove, until only 20 tiles remained?
+### Thinking in Terms of Sets
+
+Let's decide we're working with 676 sets, one for each letter pair, and each one containing all the words that particular letter pair occurs in. Then the tileset we seek isn't a set-of-sets we get to union together as in the set cover problem. For example, just because our tileset contains `ed` doesn't mean we can form the word `need` – our tileset must also contain `ne` for that. This `ne AND ed` logic feels more like set intersection than set union.
+
+But set intersection isn't the right operation either. For example, just because our tileset contains `ne` and `ed`, and both corresponding word sets contain `needle`, doesn't mean we can actually form the word `needle`. We also need `le` for that.
+
+You may have noticed there is a basic set operation in play here: if our tileset doesn't contain `ne` and doesn't contain `ed`, we have no hope of forming `need`, `needle`, or any of the words in their corresponding word sets. When we omit `ne` and `ed` from the tileset, we lose all the words in `ne OR ed`.
+
+Another name for "the set of all tiles omitted from our tileset" is the [complement of our tileset](https://en.wikipedia.org/wiki/Complement_(set_theory)). The unformable words are the union of those omitted word sets. So what we're really seeking is _a tileset whose complement has minimal union size_.
+
+At this point it occurred to me to try a new greedy approach, but working backwards this time. Instead of constructing the tileset from scratch by greedily picking the next best tile to add, what if we started with the full size 676 tileset, and greedily picked the least-bad tile to remove, until only 20 tiles remained?
 
 ### Final Approach: Subtractive Minimum Damage
 
