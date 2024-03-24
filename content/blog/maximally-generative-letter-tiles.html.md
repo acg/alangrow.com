@@ -37,7 +37,7 @@ h3 {
 
 While building [a word game](https://dfeldman.github.io/ambigame/game.html), Daniel Feldman ran into a problem that nerdsniped me instantly: what choice of twenty letter-pair tiles generates the most words?
 
-A number of approaches were proposed in [the ensuing thread](https://twitter.com/d_feldman/status/1761611250776117504), with some folks even wondering if the problem might be NP-complete. In this post I'll present a greedy algorithm that's linear in the dictionary size. I believe this finds an optimal solution, but haven't proven that formally.
+A number of approaches were proposed in [the ensuing thread](https://twitter.com/d_feldman/status/1761611250776117504), with some folks even wondering if the problem might be NP-complete. In this post I'll present a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) that's linear in the dictionary size and quadratic in the alphabet size. I believe this finds an optimal solution, but haven't proven that formally.
 
 Let's first define the problem.
 
