@@ -266,6 +266,8 @@ It's also interesting to experiment with different tileset sizes. For instance, 
 
 **Yes, but is Subtractive Minimum Damage optimal?** The answer is I don't know! I vaguely remember proving greedy optimality once in undergrad computer science, but that was two decades ago. Pointers welcome.
 
+**What if there's a tie for least damaging letter pair?** If there's no path dependence here, you should be able to pick either one at random, and the greedy subtractive approach should still arrive at an optimal solution. To explore this idea, I decided to pick from the top 2 least damaging tiles at random. Then I ran the script thousands of times. To my surprise, it did find a couple tilesets that produced 293 and 294 words – slightly better than the thought-to-be-optimal tileset! A revolting development. But this gap (1-2 tiles) is suspiciously small, and I'm just gonna go to press with what I've got.
+
 **What happens if the tileset can have repeats?** I haven't thought about this too deeply, but it seems like it would spell trouble for a greedy approach, which can no longer make stepwise progress towards [optimal subproblems](https://en.wikipedia.org/wiki/Greedy_algorithm#Specifics).
 
 **What about words of odd length?** Yeah it's awkward we have to exclude those, and it makes even less sense when you look at what motivated this problem ([Daniel's Ambigame](https://dfeldman.github.io/ambigame/game.html)). One approach would be to pad all odd-lettered dictionary words with a trailing period, and then add `a.`, `b.`, `c.`, and so on to the possible letter tiles. A similar trick with leading padding might let you split words after the 1st, 3rd, 5th etc character instead of always splitting at even indexes.
