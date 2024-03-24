@@ -153,6 +153,12 @@ h5 {
   font-weight: 700;
 }
 
+.post sub {
+  font-size: 75%;
+  position: relative;
+  top: 0.25em;
+}
+
 .post pre {
   padding: 0.10rem 0.10rem;
   margin: 0.10rem 0.00rem;
