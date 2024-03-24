@@ -166,11 +166,15 @@ That level of despair didn't sit right with me though. Our problem isn't the sam
 
 ### Thinking in Terms of Sets
 
-Let's decide we're working with 676 sets, one for each letter pair, and each one containing all the words that particular letter pair occurs in. Then the tileset we seek isn't a set-of-sets we get to union together as in the set cover problem. For example, just because our tileset contains `ed` doesn't mean we can form the word `need` – our tileset must also contain `ne` for that. This `ne AND ed` logic feels more like set intersection than set union.
+Let's decide we're working with 676 sets, one for each letter pair, and each one containing all the words that a particular letter pair occurs in. I'll denote these word sets W<sub>aa</sub>, W<sub>ab</sub>, … W<sub>zz</sub>.
 
-But set intersection isn't the right operation either. For example, just because our tileset contains `ne` and `ed`, and both corresponding word sets contain `needle`, doesn't mean we can actually form the word `needle`. We also need `le` for that.
+The tileset we seek is a subset of these possible word sets. But it isn't a set-of-sets we get to union together like in the set cover problem. Consider: just because our tileset includes W<sub>ed</sub> doesn't mean we can form the word `need` – our tileset must also contain W<sub>ne</sub> for that. The "and" logic here feels more like set intersection – W<sub>ne</sub>&nbsp;∩&nbsp;W<sub>ed</sub> – than set union.
 
-You may have noticed there is a basic set operation in play here: if our tileset doesn't contain `ne` and doesn't contain `ed`, we have no hope of forming `need`, `needle`, or any of the words in their corresponding word sets. When we omit `ne` and `ed` from the tileset, we lose all the words in `ne OR ed`.
+But set intersection isn't the right operation either. For example, just because our tileset contains W<sub>ne</sub> and W<sub>ed</sub>, and both contain the word `needle`, doesn't mean we can actually form the word `needle`. We'd also need W<sub>le</sub> for that.
+
+So it seems that constructing the list of formable words isn't a basic set operation over the tileset.
+
+However, hidden in the negative space, there is a basic set operation at work here. We've shown that if our tileset doesn't include W<sub>ne</sub> and doesn't contain W<sub>ed</sub>, we have no hope of forming `need`, `needle`, or any of the words in either of these word sets. When we omit W<sub>ne</sub> and W<sub>ed</sub> from the tileset, we lose all the words in the union W<sub>ne</sub>&nbsp;∪&nbsp;W<sub>ed</sub>. 
 
 Another name for "the set of all tiles omitted from our tileset" is the tileset's [complement](https://en.wikipedia.org/wiki/Complement_(set_theory)). The unformable words are the union of those omitted word sets. So what we're really seeking is _a tileset whose complement has minimal union size_.
 
@@ -225,11 +229,11 @@ for word in sorted(set().union(*words.values())):
   print(word)
 ```
 
-As you can see, the setup is substantially the same. This time, instead of counting appearances of each letter pair, we're establishing a separate set of words for each of the 676 letter pairs. If a word uses a letter pair, it appears in that pair's set.
+As you can see, the setup is substantially the same. This time, instead of counting appearances of each letter pair, we're populating the W<sub>aa</sub> … W<sub>zz</sub> word sets for the 676 letter pairs. If a word uses a letter pair, it appears in that pair's word set.
 
-This gives us a direct and `O(1)` way of measuring the damage incurred by removing a letter pair: it is simply the size of its set.
+This gives us a direct and `O(1)` way of measuring the damage incurred by removing a letter pair: it is simply the size of its word set.
 
-After the dictionary has been scanned, all letter pairs are in play, and we can start greedy removal. At each step we pick the letter that inflicts the least amount of damage in terms of formable words. Note that any word longer than 2 letters will appear in multiple sets, and we have to remember to remove these extra copies of every "lost" word. Python's [`set` data type](https://docs.python.org/3.8/library/stdtypes.html#set) is doing a lot of the heavy lifting this time.
+After the dictionary has been scanned, all letter pairs are in play, and we can start greedy removal. At each step we pick the letter that inflicts the least amount of damage in terms of formable words. Note that any word longer than 2 letters will appear in multiple word sets, and we have to remember to remove these extra copies of every "lost" word. Python's [`set` data type](https://docs.python.org/3.8/library/stdtypes.html#set) is doing a fair bit of work here.
 
 ### Results
 
