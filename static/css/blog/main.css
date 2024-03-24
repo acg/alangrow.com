@@ -70,22 +70,18 @@ h1 {
   font-size: 200%;
   font-weight: 700;
 }
-
 h2 {
   font-size: 175%;
   font-weight: 700;
 }
-
 h3 {
   font-size: 125%;
   font-weight: 700;
 }
-
 h4 {
   font-size: 115%;
   font-weight: 700;
 }
-
 h5 {
   font-size: 100%;
   font-weight: 700;
@@ -102,16 +98,12 @@ h5 {
   padding: 0.10rem 0.00rem 0.40rem 0.00rem;
 }
 
-.post h2 {
-  margin: 0.20rem 0.00rem 0.10rem 0.00rem;
-}
-
-.post h3 {
-  margin: 0.20rem 0.00rem 0.10rem 0.00rem;
-}
-
-.post h4, .post h5 {
-  margin: 0.20rem 0.00rem 0.10rem 0.00rem;
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5 {
+  margin: 0.75em 0 0.25em 0;
 }
 
 .post .top-date {
@@ -246,8 +238,8 @@ h5 {
     font-size: 0.14rem;
     --gutter: 1em;
   }
-  #header h1 {
-    font-size: 175%;
+  h1 {
+    font-size: 150%;
   }
   h2 {
     font-size: 125%;
