@@ -172,11 +172,11 @@ The tileset we seek is a subset of these 676 word sets. But it isn't a set-of-se
 
 But set intersection isn't the right operation either. For example, just because our tileset contains W<sub>ne</sub> and W<sub>ed</sub>, and both contain the word `needle`, doesn't mean we can actually form the word `needle`. We'd also need W<sub>le</sub> for that.
 
-So it seems that constructing the list of formable words isn't a basic set operation over the tileset.
+So it looks like constructing the list of formable words isn't a basic set operation over the tileset.
 
-However, hidden in the negative space, there is a basic set operation at work here. We've shown that if our tileset doesn't include W<sub>ne</sub> and doesn't contain W<sub>ed</sub>, we have no hope of forming `need`, `needle`, or any of the words in either of these word sets. When we omit W<sub>ne</sub> and W<sub>ed</sub> from the tileset, we lose all the words in the union W<sub>ne</sub>&nbsp;∪&nbsp;W<sub>ed</sub>. 
+However, hidden in the negative space here, there is a basic set operation at work. We've seen that if our tileset doesn't include W<sub>ne</sub> and doesn't contain W<sub>ed</sub>, we have no hope of forming `need`, `needle`, `nerd`, `edit` or any of the words in either word set. When we omit W<sub>ne</sub> and W<sub>ed</sub> from the tileset, we lose all the words in the union W<sub>ne</sub>&nbsp;∪&nbsp;W<sub>ed</sub>.
 
-Another name for "the set of all tiles omitted from our tileset" is the tileset's [complement](https://en.wikipedia.org/wiki/Complement_(set_theory)). The unformable words are the union of those omitted word sets. So what we're really seeking is _a tileset whose complement has minimal union size_.
+Another name for "the set of all word sets omitted from our tileset" is the tileset's [complement](https://en.wikipedia.org/wiki/Complement_(set_theory)). The unformable words are the union of those omitted word sets. So what we're really seeking is _a tileset whose complement has minimal union size_. Now we're dealing with basic set operations!
 
 At this point it occurred to me to try a new greedy approach, but working backwards this time. Instead of constructing the tileset from scratch by greedily picking the next best tile to add, what if we started with the full size 676 tileset, and greedily picked the least-bad tile to remove, until only 20 tiles remained?
 
