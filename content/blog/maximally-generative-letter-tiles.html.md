@@ -4,7 +4,8 @@
       "page": {
         "title": "Maximally Generative Letter Tiles",
         "date": "2024-03-23T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "image": "../images/blog/letter-pair-tileset.png"
       }
     }
 
