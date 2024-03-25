@@ -24,9 +24,6 @@ table.tiles td.chosen,
 code.chosen {
   background-color: rgba(0, 0, 255, 0.15);
 }
-h3 {
-  padding-top: 0.75em;
-}
 @media screen and (max-width: 899px) {
   table.tiles {
     margin-left: 0;
