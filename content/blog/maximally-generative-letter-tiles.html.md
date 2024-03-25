@@ -166,9 +166,9 @@ That level of despair didn't sit right with me though. Our problem isn't the sam
 
 ### Thinking in Terms of Sets
 
-Let's decide we're working with 676 sets, one for each letter pair, and each one containing all the words that a particular letter pair occurs in. I'll denote these word sets W<sub>aa</sub>, W<sub>ab</sub>, … W<sub>zz</sub>.
+Suppose we're working with 676 sets, one for each letter pair. Each set contains all the words a particular letter pair occurs in. I'll denote these word sets W<sub>aa</sub>, W<sub>ab</sub>, … W<sub>zz</sub>.
 
-The tileset we seek is a subset of these possible word sets. But it isn't a set-of-sets we get to union together like in the set cover problem. Consider: just because our tileset includes W<sub>ed</sub> doesn't mean we can form the word `need` – our tileset must also contain W<sub>ne</sub> for that. The "and" logic here feels more like set intersection – W<sub>ne</sub>&nbsp;∩&nbsp;W<sub>ed</sub> – than set union.
+The tileset we seek is a subset of these 676 word sets. But it isn't a set-of-sets we get to union together like in the set cover problem. Consider: just because our tileset includes W<sub>ed</sub> doesn't mean we can form the word `need` – our tileset must also contain W<sub>ne</sub> for that. The "and" logic here feels more like set intersection – W<sub>ne</sub>&nbsp;∩&nbsp;W<sub>ed</sub> – than set union.
 
 But set intersection isn't the right operation either. For example, just because our tileset contains W<sub>ne</sub> and W<sub>ed</sub>, and both contain the word `needle`, doesn't mean we can actually form the word `needle`. We'd also need W<sub>le</sub> for that.
 
