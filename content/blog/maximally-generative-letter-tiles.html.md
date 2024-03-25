@@ -114,7 +114,11 @@ import re
 args = sys.argv[1:]
 NTILES = int(args.pop(0))
 RE_VALID_WORD = re.compile(r'^([a-z][a-z]){1,%s}$' % NTILES)
-RE_REPEATED_PAIR = re.compile(r'^(..)*(?P<letter1>.)(?P<letter2>.)(?P=letter1)(?P=letter2)')
+RE_REPEATED_PAIR = re.compile(r'''
+  ^(..)*
+  (?P<letter1>.)(?P<letter2>.)
+  (?P=letter1)(?P=letter2)
+''', re.X)
 
 freqs = defaultdict(lambda: 0)
 words = []
@@ -122,7 +126,7 @@ words = []
 for word in open(args.pop(0)) if args else sys.stdin:
   word = word.rstrip('\n')
 
-  # discard words with odd letter counts, capitals, apostrophes,
+  # discard words with odd length, capitals, apostrophes.
   if not RE_VALID_WORD.match(word):
     continue
 
@@ -139,12 +143,13 @@ for word in open(args.pop(0)) if args else sys.stdin:
     freqs[pair] += 1
 
 # our tileset is the top N most frequently occurring pairs.
-tileset = set(sorted(freqs.keys(), key=lambda pair: freqs[pair])[-NTILES:])
+metric = lambda pair: freqs[pair]
+tileset = set(sorted(freqs.keys(), key=metric)[-NTILES:])
 
 # report the tileset.
 print(','.join(sorted(tileset)))
 
-# report all generatable dictionary words.
+# report all formable dictionary words.
 for word in words:
   if not set(re.findall(r'.{2}', word)).difference(tileset):
     print(word)
@@ -192,14 +197,18 @@ import re
 args = sys.argv[1:]
 NTILES = int(args.pop(0))
 RE_VALID_WORD = re.compile(r'^([a-z][a-z]){1,%s}$' % NTILES)
-RE_REPEATED_PAIR = re.compile(r'^(..)*(?P<letter1>.)(?P<letter2>.)(?P=letter1)(?P=letter2)')
+RE_REPEATED_PAIR = re.compile(r'''
+  ^(..)*
+  (?P<letter1>.)(?P<letter2>.)
+  (?P=letter1)(?P=letter2)
+''', re.X)
 
 words = defaultdict(set)
 
 for word in open(args.pop(0)) if args else sys.stdin:
   word = word.rstrip('\n')
 
-  # discard words with odd letter counts, capitals, apostrophes.
+  # discard words with odd length, capitals, apostrophes.
   if not RE_VALID_WORD.match(word):
     continue
 
@@ -210,21 +219,23 @@ for word in open(args.pop(0)) if args else sys.stdin:
   if RE_REPEATED_PAIR.match(''.join(sorted(pairs))):
     continue
 
-  # add the word to a separate set for each of its letter pairs.
+  # add the word to the wordsets for its letter pairs.
   for pair in pairs:
     words[pair].add(word)
 
 # work backwards from 676 to NTILES.
-# remove the letter pair that causes the least damage at every step.
+# remove the least-damaging letter pair at each step.
+damage = lambda pair: len(words[pair])
 while len(words) > NTILES:
-  least_damaging_pair = min(words.keys(), key=lambda pair: len(words[pair]))
+  least_damaging_pair = min(words.keys(), key=damage)
   lost_words = words.pop(least_damaging_pair)
-  words = dict((pair, words.difference(lost_words)) for pair, words in words.items())
+  for wordset in words.values():
+    wordset.difference_update(lost_words)
 
 # report the tileset.
 print(','.join(sorted(words.keys())))
 
-# report all generatable dictionary words.
+# report all formable dictionary words.
 for word in sorted(set().union(*words.values())):
   print(word)
 ```
