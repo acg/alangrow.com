@@ -2,7 +2,7 @@
     {
       "#extend": [ "../_include/blog.json" ],
       "page": {
-        "title": "Maximally Generative Letter Tiles",
+        "title": "What Letter-Pair Tileset Forms the Most Words?",
         "date": "2024-03-23T00:00:00-0000",
         "root": "..",
         "image": "../images/blog/letter-pair-tileset.png"
