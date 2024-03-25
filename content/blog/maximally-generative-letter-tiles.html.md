@@ -241,15 +241,22 @@ You can use [acg/lettergen](https://github.com/acg/lettergen) to compare the res
 
 ```sh
 make
-maxfreq/lettergen1 20 /usr/share/dict/words > maxfreq/results1
-maxfreq/lettergen2 20 /usr/share/dict/words > maxfreq/results2
-subtractive/lettergen1 20 /usr/share/dict/words > subtractive/results1
-subtractive/lettergen2 20 /usr/share/dict/words > subtractive/results2
+running maxfreq/results1 ...
+running maxfreq/results2 ...
+running subtractive/results1 ...
+running subtractive/results2 ...
 
-maxfreq/results1: a,b,c,d,e,f,g,h,i,k,l,m,n,o,p,r,s,t,u,y (12392 words)
-maxfreq/results2: al,at,co,de,ed,en,er,es,in,le,li,ly,ng,on,re,ri,rs,st,te,ti (172 words)
-subtractive/results1: a,b,c,d,e,f,g,h,i,k,l,m,n,o,p,r,s,t,u,y (12392 words)
-subtractive/results2: ar,ca,co,de,di,ed,er,es,in,li,ng,nt,ra,re,ri,si,st,te,ti,ve (292 words)
+maxfreq/results1: 12392 words
+a,b,c,d,e,f,g,h,i,k,l,m,n,o,p,r,s,t,u,y
+
+maxfreq/results2: 172 words
+al,at,co,de,ed,en,er,es,in,le,​li,ly,ng,on,re,ri,rs,st,te,ti
+
+subtractive/results1: 12392 words
+a,b,c,d,e,f,g,h,i,k,l,m,n,o,p,r,s,t,u,y
+
+subtractive/results2: 292 words
+ar,ca,co,de,di,ed,er,es,in,li,​ng,nt,ra,re,ri,si,st,te,ti,ve
 ```
 
 For completeness, I wrote Python scripts that handle the 1-letter tile case (`lettergen1`). There are only 26 tiles to pick the 20 from, and you can see that both approaches arrive at the same result of 12,302 formable words.
