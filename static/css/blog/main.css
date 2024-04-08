@@ -27,10 +27,18 @@ html {
     url('../../fonts/RobotoMono-Regular.woff') format(woff),
     url('../../fonts/RobotoMono-Regular.ttf') format(truetype);
 }
+@font-face {
+  font-family: 'Noto Sans Math';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../../fonts/NotoSansMath-Regular.woff') format(woff),
+    url('../../fonts/NotoSansMath-Regular.ttf') format(truetype);
+}
 
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, 'Noto Sans Math', sans-serif;
   font-weight: 400;
   font-size: 0.18rem;
   --gutter: 1.5em;
@@ -175,7 +183,7 @@ h5 {
 
 .post .highlight,
 .post code {
-  font-family: 'Roboto Mono', courier;
+  font-family: 'Roboto Mono', 'Noto Sans Math', courier;
   font-weight: 400;
 }
 
