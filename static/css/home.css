@@ -7,17 +7,22 @@ body.home {
   margin: 0.10rem 10% 0.10rem 10%;
 }
 
+
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Roboto-Regular.ttf');
+  src:
+    url('../fonts/Roboto-Regular.woff') format(woff),
+    url('../fonts/Roboto-Regular.ttf') format(truetype);
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/Roboto-Bold.ttf');
+  src:
+    url('../fonts/Roboto-Bold.woff') format(woff),
+    url('../fonts/Roboto-Bold.ttf') format(truetype);
 }
 
 #main {
