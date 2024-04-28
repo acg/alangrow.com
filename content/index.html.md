@@ -17,8 +17,6 @@
 - pgp: [4096R/9B1B5556](./alangrow.asc)
 - [@alangrow](https://twitter.com/alangrow)
 - [github.com/acg](https://github.com/acg)
-- [sigil on HN](https://news.ycombinator.com/user?id=sigil)
-- [acg on lobste.rs](https://lobste.rs/u/acg)
 
 ### currently
 
