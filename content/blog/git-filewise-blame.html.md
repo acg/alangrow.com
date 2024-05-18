@@ -29,16 +29,16 @@ uniq -f2
 The report looks roughly like this:
 
     ~/src/coreutils $ git-filewise-blame src | head
-    2024-01-01T13:22:42       P@d........y.com        src/basename.c
-    2024-03-19T15:55:18       P@d........y.com        src/basenc.c
-    2023-10-27T15:56:39       e....t@cs.ucla.edu      src/blake2/b2sum.c
-    2021-11-01T05:30:38       e....t@cs.ucla.edu      src/blake2/b2sum.h
-    2021-12-18T17:34:31       e....t@cs.ucla.edu      src/blake2/blake2b-ref.c
-    2021-12-18T17:34:31       e....t@cs.ucla.edu      src/blake2/blake2.h
-    2022-09-15T05:30:31       e....t@cs.ucla.edu      src/blake2/blake2-impl.h
-    2016-10-31T13:29:34       P@d........y.com        src/blake2/.gitignore
-    2024-04-06T22:13:23       e....t@cs.ucla.edu      src/cat.c
-    2024-01-01T13:22:42       P@d........y.com        src/chcon.c
+    2024-01-01T13:22:42    a@b.com    src/basename.c
+    2024-03-19T15:55:18    a@b.com    src/basenc.c
+    2023-10-27T15:56:39    x@y.com    src/blake2/b2sum.c
+    2021-11-01T05:30:38    x@y.com    src/blake2/b2sum.h
+    2021-12-18T17:34:31    x@y.com    src/blake2/blake2b-ref.c
+    2021-12-18T17:34:31    x@y.com    src/blake2/blake2.h
+    2022-09-15T05:30:31    x@y.com    src/blake2/blake2-impl.h
+    2016-10-31T13:29:34    a@b.com    src/blake2/.gitignore
+    2024-04-06T22:13:23    x@y.com    src/cat.c
+    2024-01-01T13:22:42    a@b.com    src/chcon.c
     ...
 
 The keyword here is **fast**. All other approaches I've found execute `git log` for every file in your checkout. Here's [one example](https://stackoverflow.com/a/5183273) of the slow approach:
