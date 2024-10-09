@@ -5,7 +5,7 @@
         "title": "Music To Program To",
         "date": "2021-02-27T20:36:24-0000",
         "root": "..",
-        "image": "../images/blog/modern-acid-playlist-4x4.jpg"
+        "image": "../images/blog/programmer-advisory-lyrics-sticker.png"
       }
     }
 
