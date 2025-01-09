@@ -15,7 +15,7 @@ After a long hiatus, I am once again running a mailserver.
 
 A lot of us nerds got lazy and switched to hosted gmail about a decade ago. This consolidation has gradually corrupted some of our email ecosystem norms, and I think it's important to push back on that.
 
-But it's also important to have an email that's fully under your control, even if you only use it as the recovery email for your primary gmail account. Watching a friend lose access to his primary gmail recently – with no working recovery email, and no recourse – scared me into action.
+But it's also important to have an email that's fully under your control, even if you only use it as the recovery email for your primary gmail account. Watching [a friend](https://www.jacobcammack.com/) lose access to his primary gmail recently – with no working recovery email, and no recourse – scared me into action.
 
 Finally, I also wanted to generate a [new gpg key](/alangrow.asc) now that [ed25519](https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html) is widely supported. A gpg key with a gmail identity feels silly and unserious. My new key's identity is `i@` this domain. That's cool factor! In the apocalypse, you can send me email at this new address, and sleep well knowing that it's both encrypted-in-transit and encrypted-at-rest.
 
