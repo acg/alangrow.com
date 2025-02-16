@@ -10,40 +10,12 @@
       }
     }
 
-### hello
+## Hello World
 
-- Alan Grow
-- [alan grow at gmail](mailto:alangrow+nospam@gmail.com)
-- pgp: [ed25519/FFE909A8](./alangrow.asc)
-- [@alangrow](https://twitter.com/alangrow)
-- [github.com/acg](https://github.com/acg)
+I'm Alan Grow, a software developer and startup founder. With my co-founder Pliny, I run [Endcrawl](https://endcrawl.com/), the end credits design software used by [many](https://x.com/alangrow/status/1870344485089222998/photo/1) [films & TV shows](https://pro.imdb.com/company/co0446605/filmography/?ref_=co_ov_all_credits).
 
-### currently
+In a past life I co-founded [iLuminate](https://www.iluminate.com/), a finalist on [America's Got Talent Season 6](https://en.wikipedia.org/wiki/America%27s_Got_Talent_season_6#Grand-final_(September_13)). I've also written code for [ROLI](https://roli.com/), [Bloomberg](https://www.bloomberg.com/professional/products/bloomberg-terminal/), [Microsoft](https://www.microsoft.com/en-us/windows?r=1), [Siemens](https://www.siemens.com/global/en.html), [Betaworks](https://www.microsoft.com/en-us/windows?r=1) startup Blend.io, and a bunch of startups you've never heard of, which is fine, because we had fun.
 
-- [Endcrawl](https://endcrawl.com) - Technical Co-founder.
+This is my technical blog. It started on Movable Type in 2002 and has been ported through a few static site generators over the years. Currently it runs on a Python SSG I threw together called [tinysite](https://github.com/acg/tinysite). This site is [opensource](https://github.com/acg/alangrow.com).
 
-### past
-
-- [ROLI](https://roli.com) - Lead Platform Engineer.
-- [Blend.io (Betaworks)](https://blend.io) - Software Engineer.
-- [iLuminate](https://www.iluminate.com) - Technical Co-founder.
-- Bloomberg, Microsoft, Siemens, misc. startups
-
-### some code
-
-- [shellac](https://github.com/acg/shellac) - Extend Chrome with unix shell commands.
-- [python-cdb](https://github.com/acg/python-cdb) - A Python interface to djb's cdb library.
-- [deployer](https://github.com/endcrawl/deployer) - Automated zero downtime deployments.
-- [lwpb](https://github.com/acg/lwpb) - Lightweight Protocol Buffers for C and Python.
-- [fsq-run](https://github.com/endcrawl/fsq-run) - A filesystem queue processor.
-- [daemontools-encore](https://github.com/acg/daemontools-encore/tree/ubuntu-package-1.13) - A daemontools-encore fork with better multiprocess service support.
-- [tinysite](https://github.com/acg/tinysite) - The static site generator used by this site.
-- [spectool-web](https://github.com/acg/spectool-web) - A web viewer for 802.11 spectrum data.
-- ...more: [github.com/acg](https://github.com/acg)
-
-### some interaction
-
-- [mandelbrot canvas](./projects/mandelbrot-canvas/) - A zoomable fractal explorer.
-- [flagboy](./projects/flagboy/) - A Salt Lake City puzzle game.
-- [beatdown](./projects/beatdown/) - Random beat pattern generator.
-
+You can [email me here](mailto:alangrow+nospam@gmail.com) (and here's my [pgp pubkey](./alangrow.asc)). I'm also active at [github.com/acg](https://github.com/acg) and [@alangrow](https://x.com/alangrow).
