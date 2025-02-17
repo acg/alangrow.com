@@ -19,3 +19,5 @@ In a past life I co-founded [iLuminate](https://www.iluminate.com/), a finalist 
 This is my technical blog. It started on Movable Type in 2002 and has been ported through a few static site generators over the years. Currently it runs on a Python SSG I threw together called [tinysite](https://github.com/acg/tinysite). This site is [opensource](https://github.com/acg/alangrow.com).
 
 You can [email me here](mailto:alangrow+nospam@gmail.com) (and here's my [pgp pubkey](./alangrow.asc)). I'm also active at [github.com/acg](https://github.com/acg) and [@alangrow](https://x.com/alangrow).
+
+![A film double-exposure portrait of Alan Grow. Credit @slcpunk.](./images/alan-lights-1024.jpg)

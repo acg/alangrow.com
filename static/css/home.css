@@ -43,6 +43,10 @@ h3 { font-size: 115%; }
 p {
   margin-bottom: 1em;
 }
+img {
+  margin: 1em 0;
+  width: 100%;
+}
 
 
 #main .info,
