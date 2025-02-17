@@ -67,11 +67,15 @@ img {
   font-style: normal;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   html {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
   #main {
     columns: 1;
+    padding: 1em;
+  }
+  #main .posts li {
+    line-height: 1.5;
   }
 }
