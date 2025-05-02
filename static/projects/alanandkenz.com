@@ -1,0 +1,1 @@
+../../../alanandkenz.com/static
