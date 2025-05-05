@@ -49,4 +49,6 @@ git ls-files | while read file; do
 done
 ```
 
-If your repository has many files and deep history, an exec-for-every-file approach will be horrifically slow – on the order of minutes or even hours. By contrast, the [`git-filewise-blame`](https://gist.github.com/acg/41e147c15e36c6db87db5bd286c03ba3) approach consumes the output of a single `git log` command. On my laptop, it takes 1 minute to filewise blame the entire `webkit` git repository, which has 405k files and 275k commits (!).
+If your repository has many files and deep history, the standard exec-for-every-file approach will be horrifically slow – on the order of minutes or even hours.
+
+By contrast, the [`git-filewise-blame`](https://gist.github.com/acg/41e147c15e36c6db87db5bd286c03ba3) approach consumes the output of a single `git log` command. On my laptop, it takes 1 minute to filewise blame the entire `webkit` git repository, which has 405k files and 275k commits (!).
