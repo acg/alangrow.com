@@ -144,6 +144,11 @@ h5 {
 .post h5 + p {
   padding-top: 0.08rem;
 }
+.post .content > p {
+  text-align: justify;
+  text-wrap: pretty;
+  hyphens: auto;
+}
 
 .post li p {
   padding: 0; 
