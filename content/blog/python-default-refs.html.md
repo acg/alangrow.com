@@ -4,7 +4,8 @@
       "page": {
         "title": "A Python Gotcha: References as Default Parameters",
         "date": "2011-02-05T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "buried": true
       }
     }
 

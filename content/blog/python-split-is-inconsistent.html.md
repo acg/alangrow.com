@@ -4,7 +4,8 @@
       "page": {
         "title": "Inconsistent split Behavior in Python",
         "date": "2011-11-05T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "buried": true
       }
     }
 
