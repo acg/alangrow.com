@@ -1,27 +1,30 @@
+/* Text typeface. */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/PTSerif-Regular.woff') format(woff),
+    url('../fonts/PTSerif-Regular.ttf') format(truetype);
+}
+/* Display typeface for headings. */
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/CreteRound-Regular.woff') format(woff),
+    url('../fonts/CreteRound-Regular.ttf') format(truetype);
+}
+
+
 html {
   font-size: 1.4vw;
   -webkit-text-size-adjust: none;
 }
 
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src:
-    url('../fonts/Roboto-Regular.woff') format(woff),
-    url('../fonts/Roboto-Regular.ttf') format(truetype);
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src:
-    url('../fonts/Roboto-Bold.woff') format(woff),
-    url('../fonts/Roboto-Bold.ttf') format(truetype);
-}
-
 #main {
-  font-family: Roboto, sans-serif;
+  font-family: 'PT Serif', serif;
   font-weight: 400;
   columns: 2;
   padding: 2em;
@@ -32,14 +35,14 @@ html {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4 {
-  font-weight: 700;
-  line-height: 2;
+h2 {
+  font-family: 'Crete Round';
+  font-size: 250%;
+  font-weight: 400;
+  line-height: 1.1;
   margin-bottom: 0.5em;
+  letter-spacing: -0.035em;
 }
-h1 { font-size: 150%; }
-h2 { font-size: 125%; }
-h3 { font-size: 115%; }
 p {
   margin-bottom: 1em;
 }
@@ -74,6 +77,9 @@ img {
   #main {
     columns: 1;
     padding: 1em;
+  }
+  #main .info {
+    font-size: calc(3.5 / 3 * 100%);
   }
   #main .posts li {
     line-height: 1.5;
