@@ -99,8 +99,8 @@ While our problem is different in a couple ways – unlike Scrabble, duplicate t
 
 We'll iterate through the dictionary, split each word into letter-pairs, and count pair occurrences. But note:
 
-- Words of odd length get thrown out, because they can't be formed by a sequence of pairs.
-- Words that use the same letter pair twice also get thrown out, since, per the problem definition, our tileset doesn't contain repeats.
+- Words of odd length get tossed, because they can't be formed by a sequence of pairs.
+- Words that use the same letter pair twice also get tossed, since, per the problem definition, our tileset doesn't contain repeats.
 
 Among the words that remain, we'll pick the most frequently occurring pairs as our tileset.
 
