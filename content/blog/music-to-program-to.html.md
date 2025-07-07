@@ -15,11 +15,6 @@
     width: 95%;
   }
 }
-@media only screen and (min-width: 900px) {
-  body {
-    max-width: 600px;
-  }
-}
 .post .content h2,
 .post .content h3 {
   margin-top: 0;
