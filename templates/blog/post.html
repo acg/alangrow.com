@@ -23,24 +23,24 @@
 </head>
 <body class="">
 
-  <div class="post">
+  <main class="post">
     <h1>{{ page.title }}</h1>
-    <div class="top-date">{{ page.date | strftime("%A, %B %d, %Y") }}.</div>
-    <div class="content">
-    <hr/>
-    {% filter markdown %}
-    {{ content | safe }}
-    {% endfilter %}
-    </div>
+    <time class="top-date" datetime="{{ page.date | strftime("%Y-%m-%d") }}">{{ page.date | strftime("%A, %B %d, %Y") }}.</time>
+    <article class="content">
+      <hr/>
+      {% filter markdown %}
+      {{ content | safe }}
+      {% endfilter %}
+    </article>
     <em>Posted by <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a> on {{ page.date | strftime("%A, %B %d, %Y") }}.</em>
-  </div>
+  </main>
 
-  <ul id="footer">
-    <li><a href="../">Home</a></li>
-    <li><a href="./atom.xml">Atom</a></li>
-    <li><a href="./rss.xml">RSS</a></li>
-    <li><a href="https://github.com/{{ site.github }}">Fork</a></li>
-  </ul>
+  <footer id="footer">
+    <a href="../">Home</a>
+    <a href="./atom.xml">Atom</a>
+    <a href="./rss.xml">RSS</a>
+    <a href="https://github.com/{{ site.github }}">Fork</a>
+  </footer>
 
 </body>
 </html>
