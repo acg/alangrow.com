@@ -1,32 +1,79 @@
-html {
-  font-size: 1.20vw;
-  -webkit-text-size-adjust: none;
-}
-
+/* Text typeface. */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
   src:
-    url('../../fonts/Roboto-Regular.woff') format(woff),
-    url('../../fonts/Roboto-Regular.ttf') format(truetype);
+    url('../../fonts/PTSerif-Regular.woff') format(woff),
+    url('../../fonts/PTSerif-Regular.ttf') format(truetype);
 }
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url('../../fonts/PTSerif-Italic.woff') format(woff),
+    url('../../fonts/PTSerif-Italic.ttf') format(truetype);
+}
+@font-face {
+  font-family: 'PT Serif';
   font-style: normal;
   font-weight: 700;
   src:
-    url('../../fonts/Roboto-Bold.woff') format(woff),
-    url('../../fonts/Roboto-Bold.ttf') format(truetype);
+    url('../../fonts/PTSerif-Bold.woff') format(woff),
+    url('../../fonts/PTSerif-Bold.ttf') format(truetype);
 }
 @font-face {
-  font-family: 'Roboto Mono';
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    url('../../fonts/PTSerif-BoldItalic.woff') format(woff),
+    url('../../fonts/PTSerif-BoldItalic.ttf') format(truetype);
+}
+/* Display typeface for headings. */
+@font-face {
+  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   src:
-    url('../../fonts/RobotoMono-Regular.woff') format(woff),
-    url('../../fonts/RobotoMono-Regular.ttf') format(truetype);
+    url('../../fonts/CreteRound-Regular.woff') format(woff),
+    url('../../fonts/CreteRound-Regular.ttf') format(truetype);
 }
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url('../../fonts/CreteRound-Italic.woff') format(woff),
+    url('../../fonts/CreteRound-Italic.ttf') format(truetype);
+}
+/* Monospace typeface for code. */
+@font-face {
+  font-family: 'Monaspace Neon';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../../fonts/MonaspaceNeon-Regular.woff') format(woff),
+    url('../../fonts/MonaspaceNeon-Regular.ttf') format(truetype);
+}
+@font-face {
+  font-family: 'Monaspace Neon';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url('../../fonts/MonaspaceNeon-Italic.woff') format(woff),
+    url('../../fonts/MonaspaceNeon-Italic.ttf') format(truetype);
+}
+@font-face {
+  font-family: 'Monaspace Neon';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('../../fonts/MonaspaceNeon-Bold.woff') format(woff),
+    url('../../fonts/MonaspaceNeon-Bold.ttf') format(truetype);
+}
+/* Math typeface. */
 @font-face {
   font-family: 'Noto Sans Math';
   font-style: normal;
@@ -37,8 +84,13 @@ html {
 }
 
 
+html {
+  font-size: 1.20vw;
+  -webkit-text-size-adjust: none;
+}
+
 body {
-  font-family: Roboto, 'Noto Sans Math', sans-serif;
+  font-family: 'PT Serif', 'Noto Sans Math', serif;
   font-weight: 400;
   --gutter: 1.5em;
   width: calc(100% - var(--gutter) * 2);
@@ -73,26 +125,25 @@ blockquote {
   color: #333;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Crete Round';
+  font-weight: 400;
+  font-style: normal;
+  text-wrap: pretty;
+  letter-spacing: -0.025em;
+}
 h1 {
-  font-size: 175%;
-  font-weight: 700;
+  line-height: 1.1;
 }
-h2 {
-  font-size: 150%;
-  font-weight: 700;
+h2, h3, h4, h5 {
+  letter-spacing: -0.035em;
+  font-style: italic;
 }
-h3 {
-  font-size: 125%;
-  font-weight: 700;
-}
-h4 {
-  font-size: 115%;
-  font-weight: 700;
-}
-h5 {
-  font-size: 100%;
-  font-weight: 700;
-}
+h1 { font-size: 300%; }
+h2 { font-size: 200%; }
+h3 { font-size: 150%; }
+h4 { font-size: 125%; }
+h5 { font-size: 115%; }
 
 /* Posts */
 
@@ -102,7 +153,7 @@ h5 {
 }
 
 .post .content {
-  padding: 0.50em 0 2.00em 0;
+  padding-bottom: 2em;
 }
 
 .post h1,
@@ -110,7 +161,7 @@ h5 {
 .post h3,
 .post h4,
 .post h5 {
-  margin: 1em 0 0.25em 0;
+  margin: 0.75em 0 0.25em 0;
 }
 
 .post .top-date {
@@ -180,8 +231,9 @@ h5 {
 
 .post .highlight,
 .post code {
-  font-family: 'Roboto Mono', 'Noto Sans Math', courier;
+  font-family: 'Monaspace Neon', 'Noto Sans Math', courier;
   font-weight: 400;
+  font-size: 85%;
 }
 
 .post code {
@@ -263,18 +315,11 @@ h5 {
   body {
     max-width: 65ch;
   }
-  h1 {
-    font-size: 150%;
-  }
-  h2 {
-    font-size: 125%;
-  }
-  h3 {
-    font-size: 115%;
-  }
-  h4 {
-    font-size: 108%;
-  }
+  h1 { font-size: 200%; }
+  h2 { font-size: 170%; }
+  h3 { font-size: 140%; }
+  h4 { font-size: 120%; }
+  h5 { font-size: 110%; }
   .post {
     padding: 0 0 1.00em 0;
   }
