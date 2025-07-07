@@ -44,6 +44,7 @@ h2 {
   letter-spacing: -0.035em;
 }
 p {
+  text-align: justify;
   margin-bottom: 1em;
 }
 img {
