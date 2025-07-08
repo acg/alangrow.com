@@ -92,7 +92,7 @@ html {
 body {
   font-family: 'PT Serif', 'Noto Sans Math', serif;
   font-weight: 400;
-  --gutter: 1.5em;
+  --gutter: 1.5rem;
   width: calc(100% - var(--gutter) * 2);
   max-width: 80ch;
   margin-left: auto;
@@ -107,11 +107,18 @@ body {
 #footer {
   display: block;
   width: 100%;
+  padding: 0 var(--gutter);
 }
-#footer * {
+#footer > * {
   display: inline;
-  padding: 0 0.5em;
   line-height: 4em;
+  padding: 0 0.5em;
+}
+#footer > *:first-child {
+  padding-left: 0;
+}
+#footer > *:last-child {
+  padding-right: 0;
 }
 
 blockquote {
@@ -148,7 +155,7 @@ h5 { font-size: 115%; }
 /* Posts */
 
 .post {
-  padding: 0.50em 0.75em 1.00em 0.50em;
+  padding: 0.50em var(--gutter) 1.00em var(--gutter);
   border-bottom: 0.05em solid #ccc;
 }
 
@@ -320,7 +327,7 @@ h5 { font-size: 115%; }
   }
   body {
     max-width: 65ch;
-    --gutter: 2rem;
+    --gutter: 1.25rem;
   }
   h1 { font-size: 200%; }
   h2 { font-size: 170%; }
@@ -350,8 +357,11 @@ h5 { font-size: 115%; }
   }
   .post .content > .highlight > pre,
   .post .content > pre {
-    padding-left: calc(var(--gutter) / 2);
-    padding-right: calc(var(--gutter) / 2);
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+  }
+  #footer {
+    padding: 0;
   }
 }
 
