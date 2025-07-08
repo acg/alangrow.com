@@ -67,4 +67,4 @@ Finally, remote work has made me much more results-oriented. Physical offices in
 
 ### Would you like to add anything else?
 
-If you're bootstrapping a remote-first company, consider applying to [Earnest Capital](https://earnestcapital.com/). They're an incredible resource to companies like ours, and their community of founders and mentors is very much aligned with the future of work — which is remote!
+If you're bootstrapping a remote-first company, consider applying to [Calm Fund](https://calmfund.com/). They're an incredible resource to companies like ours, and their community of founders and mentors is very much aligned with the future of work — which is remote!
