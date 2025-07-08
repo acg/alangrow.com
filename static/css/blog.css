@@ -4,32 +4,32 @@
   font-style: normal;
   font-weight: 400;
   src:
-    url('../../fonts/PTSerif-Regular.woff') format(woff),
-    url('../../fonts/PTSerif-Regular.ttf') format(truetype);
+    url('../fonts/PTSerif-Regular.woff') format(woff),
+    url('../fonts/PTSerif-Regular.ttf') format(truetype);
 }
 @font-face {
   font-family: 'PT Serif';
   font-style: italic;
   font-weight: 400;
   src:
-    url('../../fonts/PTSerif-Italic.woff') format(woff),
-    url('../../fonts/PTSerif-Italic.ttf') format(truetype);
+    url('../fonts/PTSerif-Italic.woff') format(woff),
+    url('../fonts/PTSerif-Italic.ttf') format(truetype);
 }
 @font-face {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 700;
   src:
-    url('../../fonts/PTSerif-Bold.woff') format(woff),
-    url('../../fonts/PTSerif-Bold.ttf') format(truetype);
+    url('../fonts/PTSerif-Bold.woff') format(woff),
+    url('../fonts/PTSerif-Bold.ttf') format(truetype);
 }
 @font-face {
   font-family: 'PT Serif';
   font-style: italic;
   font-weight: 700;
   src:
-    url('../../fonts/PTSerif-BoldItalic.woff') format(woff),
-    url('../../fonts/PTSerif-BoldItalic.ttf') format(truetype);
+    url('../fonts/PTSerif-BoldItalic.woff') format(woff),
+    url('../fonts/PTSerif-BoldItalic.ttf') format(truetype);
 }
 /* Display typeface for headings. */
 @font-face {
@@ -37,16 +37,16 @@
   font-style: normal;
   font-weight: 400;
   src:
-    url('../../fonts/CreteRound-Regular.woff') format(woff),
-    url('../../fonts/CreteRound-Regular.ttf') format(truetype);
+    url('../fonts/CreteRound-Regular.woff') format(woff),
+    url('../fonts/CreteRound-Regular.ttf') format(truetype);
 }
 @font-face {
   font-family: 'Crete Round';
   font-style: italic;
   font-weight: 400;
   src:
-    url('../../fonts/CreteRound-Italic.woff') format(woff),
-    url('../../fonts/CreteRound-Italic.ttf') format(truetype);
+    url('../fonts/CreteRound-Italic.woff') format(woff),
+    url('../fonts/CreteRound-Italic.ttf') format(truetype);
 }
 /* Monospace typeface for code. */
 @font-face {
@@ -54,24 +54,24 @@
   font-style: normal;
   font-weight: 400;
   src:
-    url('../../fonts/MonaspaceNeon-Regular.woff') format(woff),
-    url('../../fonts/MonaspaceNeon-Regular.ttf') format(truetype);
+    url('../fonts/MonaspaceNeon-Regular.woff') format(woff),
+    url('../fonts/MonaspaceNeon-Regular.ttf') format(truetype);
 }
 @font-face {
   font-family: 'Monaspace Neon';
   font-style: italic;
   font-weight: 400;
   src:
-    url('../../fonts/MonaspaceNeon-Italic.woff') format(woff),
-    url('../../fonts/MonaspaceNeon-Italic.ttf') format(truetype);
+    url('../fonts/MonaspaceNeon-Italic.woff') format(woff),
+    url('../fonts/MonaspaceNeon-Italic.ttf') format(truetype);
 }
 @font-face {
   font-family: 'Monaspace Neon';
   font-style: normal;
   font-weight: 700;
   src:
-    url('../../fonts/MonaspaceNeon-Bold.woff') format(woff),
-    url('../../fonts/MonaspaceNeon-Bold.ttf') format(truetype);
+    url('../fonts/MonaspaceNeon-Bold.woff') format(woff),
+    url('../fonts/MonaspaceNeon-Bold.ttf') format(truetype);
 }
 /* Math typeface. */
 @font-face {
@@ -79,8 +79,8 @@
   font-style: normal;
   font-weight: 400;
   src:
-    url('../../fonts/NotoSansMath-Regular.woff') format(woff),
-    url('../../fonts/NotoSansMath-Regular.ttf') format(truetype);
+    url('../fonts/NotoSansMath-Regular.woff') format(woff),
+    url('../fonts/NotoSansMath-Regular.ttf') format(truetype);
 }
 
 
