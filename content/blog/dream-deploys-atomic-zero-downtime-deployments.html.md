@@ -16,11 +16,7 @@ Let's conquer our fear. Let's deploy whenever we damn well feel like it.
 <img src="../images/blog/donnie-darko-not-afraid-anymore.jpg" width="100%"/>
 </div>
 
-### You Don't Need Much
-
-This is a tiny demo to convince you that Dream Deploys are not only possible, they're easy.
-
-To live the dream, you don't need much:
+This is a tiny demo to convince you that Dream Deploys are not only possible, they're easy. To live the dream, you don't need much:
 
 - You don't need a fancy load balancer.
 - You don't need magic "clustering" infrastructure.
