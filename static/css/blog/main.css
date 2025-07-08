@@ -275,7 +275,9 @@ h5:target .toclink::before {
 
 .post .content > .highlight,
 .post .content > pre,
-.post p code {
+.post p code,
+.post ul code,
+.post ol code {
   font-family: 'Monaspace Neon', 'Noto Sans Math', courier;
   font-weight: 400;
   font-size: 85%;
