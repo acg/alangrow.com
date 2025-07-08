@@ -10,7 +10,7 @@
 
 From Bernstein's <a href="http://cr.yp.to/libtai/tai64.html#tai64">tai64 page</a>:
 
-> "Integers 2^63 and larger are reserved for future extensions. Under many cosmological theories, the integers under 2^63 are adequate to cover the entire expected lifetime of the universe; in this case no extensions will be necessary."
+> Integers 2^63 and larger are reserved for future extensions. Under many cosmological theories, the integers under 2^63 are adequate to cover the entire expected lifetime of the universe; in this case no extensions will be necessary.
 
 Phew!
 

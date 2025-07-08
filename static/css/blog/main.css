@@ -249,15 +249,21 @@ h5 { font-size: 115%; }
 }
 
 .post blockquote {
-  margin: 0.50em 0.50em;
-  border-left: 0.50em solid #efefef;
-  padding-left: 0.50em;
+  position: relative;
+  margin: 1.75em 0 0.25em 0;
+  padding: 0 2.5em;
 }
-
+.post blockquote::before {
+  position: absolute;
+  top: -0.25em;
+  left: 0;
+  content: '“';
+  font-size: 400%;
+  opacity: 0.2;
+}
 .post blockquote p:first-child {
   padding: 0; 
 }
-
 .post blockquote strong {
   font-style: inherit;
 }
