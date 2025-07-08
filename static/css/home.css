@@ -43,6 +43,13 @@ h2 {
   margin-bottom: 0.5em;
   letter-spacing: -0.035em;
 }
+h2 .toclink {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  pointer-events: none;
+}
+
 p {
   text-align: justify;
   margin-bottom: 1em;

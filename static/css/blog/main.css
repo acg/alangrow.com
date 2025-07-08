@@ -152,6 +152,43 @@ h3 { font-size: 150%; }
 h4 { font-size: 125%; }
 h5 { font-size: 115%; }
 
+h2 .toclink,
+h3 .toclink,
+h4 .toclink,
+h5 .toclink {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+h2 .toclink::before,
+h3 .toclink::before,
+h4 .toclink::before,
+h5 .toclink::before {
+  content: '¶';
+  position: absolute;
+  top: 0;
+  left: -1.5em;
+  width: 2em;
+  padding: 0 0.5em 0.5em 0.5em;
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
+h2 .toclink:hover::before,
+h3 .toclink:hover::before,
+h4 .toclink:hover::before,
+h5 .toclink:hover::before {
+  opacity: 0.3;
+}
+h2:target .toclink::before,
+h3:target .toclink::before,
+h4:target .toclink::before,
+h5:target .toclink::before {
+  opacity: 1.0;
+}
+
+
+
+
 /* Posts */
 
 .post {
@@ -334,6 +371,15 @@ h5 { font-size: 115%; }
   h3 { font-size: 140%; }
   h4 { font-size: 120%; }
   h5 { font-size: 110%; }
+  h2 .toclink::before,
+  h3 .toclink::before,
+  h4 .toclink::before,
+  h5 .toclink::before {
+    left: calc(-1 * var(--gutter));
+    width: var(--gutter);
+    padding: 0;
+    text-align: center;
+  }
   .post {
     padding: 0 0 1em 0;
   }
