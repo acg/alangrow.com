@@ -152,6 +152,12 @@ h3 { font-size: 150%; }
 h4 { font-size: 125%; }
 h5 { font-size: 115%; }
 
+h2:target,
+h3:target,
+h4:target,
+h5:target {
+  scroll-padding-top: 2em;
+}
 h2 .toclink,
 h3 .toclink,
 h4 .toclink,
