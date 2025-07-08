@@ -1,35 +1,27 @@
 /* Text typeface. */
 @font-face {
-  font-family: 'PT Serif';
+  font-family: 'Merriweather';
   font-style: normal;
-  font-weight: 400;
-  src:
-    url('../fonts/PTSerif-Regular.woff') format(woff),
-    url('../fonts/PTSerif-Regular.ttf') format(truetype);
+  font-weight: 350;
+  src: url('../fonts/Merriweather-Book.woff') format(woff);
 }
 @font-face {
-  font-family: 'PT Serif';
+  font-family: 'Merriweather';
   font-style: italic;
-  font-weight: 400;
-  src:
-    url('../fonts/PTSerif-Italic.woff') format(woff),
-    url('../fonts/PTSerif-Italic.ttf') format(truetype);
+  font-weight: 350;
+  src: url('../fonts/Merriweather-BookItalic.woff') format(woff);
 }
 @font-face {
-  font-family: 'PT Serif';
+  font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
-  src:
-    url('../fonts/PTSerif-Bold.woff') format(woff),
-    url('../fonts/PTSerif-Bold.ttf') format(truetype);
+  src: url('../fonts/Merriweather-Bold.woff') format(woff);
 }
 @font-face {
-  font-family: 'PT Serif';
+  font-family: 'Merriweather';
   font-style: italic;
   font-weight: 700;
-  src:
-    url('../fonts/PTSerif-BoldItalic.woff') format(woff),
-    url('../fonts/PTSerif-BoldItalic.ttf') format(truetype);
+  src: url('../fonts/Merriweather-BoldItalic.woff') format(woff);
 }
 /* Display typeface for headings. */
 @font-face {
@@ -90,11 +82,11 @@ html {
 }
 
 body {
-  font-family: 'PT Serif', 'Noto Sans Math', serif;
-  font-weight: 400;
+  font-family: 'Merriweather', 'Noto Sans Math', serif;
+  font-weight: 350;
   --gutter: 1.5rem;
   width: calc(100% - var(--gutter) * 2);
-  max-width: 80ch;
+  max-width: 70ch;
   margin-left: auto;
   margin-right: auto;
 }

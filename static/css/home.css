@@ -1,11 +1,9 @@
 /* Text typeface. */
 @font-face {
-  font-family: 'PT Serif';
+  font-family: 'Merriweather';
   font-style: normal;
-  font-weight: 400;
-  src:
-    url('../fonts/PTSerif-Regular.woff') format(woff),
-    url('../fonts/PTSerif-Regular.ttf') format(truetype);
+  font-weight: 350;
+  src: url('../fonts/Merriweather-Book.woff') format(woff);
 }
 /* Display typeface for headings. */
 @font-face {
@@ -22,16 +20,19 @@ html {
   font-size: 1.4vw;
   -webkit-text-size-adjust: none;
 }
+body {
+  font-family: 'Merriweather', serif;
+  font-weight: 350;
+  padding: 2em 3em 3em 3em;
+  line-height: 1.35;
+}
 
 #main {
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
   columns: 2;
-  padding: 2em;
+  column-gap: 3em;
 }
 
 * {
-  line-height: 1.35;
   box-sizing: border-box;
 }
 
@@ -62,8 +63,7 @@ img {
 
 #main .info,
 #main .posts {
-  max-width: calc(70ch - 2em);
-  padding: 0 1em 1em 1em;
+  max-width: 70ch;
 }
 #main .footer {
   display: none;
@@ -76,20 +76,23 @@ img {
   display: inline-block;
   width: 4.5em;
   font-style: normal;
+  font-variant-numeric: tabular-nums;
 }
 
 @media screen and (max-width: 1280px) {
   html {
-    font-size: 3vw;
+    font-size: 3.5vw;
+  }
+  body {
+    padding: 1em;
   }
   #main {
     columns: 1;
-    padding: 1em;
-  }
-  #main .info {
-    font-size: calc(3.5 / 3 * 100%);
   }
   #main .posts li {
-    line-height: 1.5;
+    line-height: 1.75;
+  }
+  #main .posts i {
+    display: none;
   }
 }
