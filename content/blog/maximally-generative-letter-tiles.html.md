@@ -270,7 +270,7 @@ subtractive/results2: 292 words
 ar,ca,co,de,di,ed,er,es,in,li,​ng,nt,ra,re,ri,si,st,te,ti,ve
 ```
 
-For completeness, I wrote Python scripts that handle the 1-letter tile case (`lettergen1`). There are only 26 tiles to pick the 20 from, and you can see that both approaches arrive at the same result of 12,302 formable words.
+For completeness, I wrote Python scripts that handle the 1-letter tile case (`lettergen1`). There are only 26 tiles to pick the 20 from, and you can see that both approaches arrive at the same result of 12,392 formable words.
 
 The 2-letter tile case (`lettergen2`) is another story. Maximum Letter Pair Frequency comes up with a tileset that generates 172 words, but Subtractive Minimum Damage does substantially better by finding a 292-word-generating tileset – a 1.7x improvement. You'll find the full lists of formable words at `*/results2`.
 
