@@ -360,16 +360,16 @@ h5:target .toclink::before {
 
 @media screen and (max-width: 899px) {
   html {
-    font-size: 3.5vw;
+    font-size: 3.75vw;
   }
   body {
     max-width: 65ch;
     --gutter: 1.25rem;
   }
-  h1 { font-size: 200%; }
-  h2 { font-size: 170%; }
+  h1 { font-size: 190%; }
+  h2 { font-size: 160%; }
   h3 { font-size: 140%; }
-  h4 { font-size: 120%; }
+  h4 { font-size: 125%; }
   h5 { font-size: 110%; }
   h2 .toclink::before,
   h3 .toclink::before,
@@ -397,9 +397,8 @@ h5:target .toclink::before {
     border-right: none;
   }
   .post .content > .highlight,
-  .post .content > pre,
-  .post p code {
-    font-size: 75%;
+  .post .content > pre {
+    font-size: 60%;
   }
   .post .content > .highlight > pre,
   .post .content > pre {
