@@ -1,25 +1,8 @@
-/* Text typeface. */
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 350;
-  src: url('../fonts/Merriweather-Book.woff') format(woff);
-}
-/* Display typeface for headings. */
-@font-face {
-  font-family: 'Crete Round';
-  font-style: normal;
-  font-weight: 400;
-  src:
-    url('../fonts/CreteRound-Regular.woff') format(woff),
-    url('../fonts/CreteRound-Regular.ttf') format(truetype);
-}
-
-
 html {
   font-size: 1.4vw;
   -webkit-text-size-adjust: none;
 }
+
 body {
   font-family: 'Merriweather', serif;
   font-weight: 350;
