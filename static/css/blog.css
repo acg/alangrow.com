@@ -254,6 +254,27 @@ h5:target .toclink::before {
 }
 
 
+@media (prefers-color-scheme:dark) {
+  :root {
+    --fg: 208, 208, 208;
+    --bg: 36, 36, 36;
+  }
+  h1, h2, h3, h4, h5, a {
+    color: rgba(var(--fg), 1);
+  }
+  h1, h2, h3, h4, h5 {
+    --fg: 255, 255, 255;
+  }
+  a {
+    --fg: 180, 180, 230;
+  }
+  a:hover,
+  a:visited {
+    --fg: 230, 180, 230;
+  }
+}
+
+
 @media screen and (max-width: 899px) {
   html {
     font-size: 3.75vw;

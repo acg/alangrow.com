@@ -21,11 +21,21 @@ table.tiles td {
   text-align: center;
   vertical-align: middle;
 }
-code.chosen {
-  background-color: rgba(0, 0, 255, 0.075);
+:root {
+  --chosen-bg: 0, 0, 255;
+  --chosen-bg-alpha: 0.1;
+}
+.post p code.chosen {
+  background-color: rgba(var(--chosen-bg), calc(var(--chosen-bg-alpha) * 0.75));
 }
 table.tiles td.chosen {
-  background-color: rgba(0, 0, 255, 0.100);
+  background-color: rgba(var(--chosen-bg), var(--chosen-bg-alpha));
+}
+@media (prefers-color-scheme:dark) {
+  :root {
+    --chosen-bg: 144, 144, 255;
+    --chosen-bg-alpha: 0.35;
+  }
 }
 @media screen and (max-width: 899px) {
   table.tiles {

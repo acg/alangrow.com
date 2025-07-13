@@ -69,6 +69,28 @@ img {
   font-variant-numeric: tabular-nums;
 }
 
+
+@media (prefers-color-scheme:dark) {
+  :root {
+    --fg: 208, 208, 208;
+    --bg: 36, 36, 36;
+  }
+  h2, a {
+    color: rgba(var(--fg), 1);
+  }
+  h2 {
+    --fg: 255, 255, 255;
+  }
+  a {
+    --fg: 180, 180, 230;
+  }
+  a:hover,
+  a:visited {
+    --fg: 230, 180, 230;
+  }
+}
+
+
 @media screen and (max-width: 1280px) {
   html {
     font-size: 3.75vw;
