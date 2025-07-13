@@ -47,7 +47,11 @@ To do one-time generation of DH conversation keys:
 /var/lib/qmail/bin/update_tmprsadh
 ```
 
-Our patched `qmail` expects a combined public cert + chain + private key at `/var/lib/qmail/control/servercert.pem`. Since Let's Encrypt rotates your cert every 60-90 days, we can't just cat some files into place and forget about it. We need to regenerate `qmail-smtpd`'s cert and bounce the service whenever rotation happens.
+Our patched `qmail` expects a combined public cert + chain + private key at:
+
+    /var/lib/qmail/control/servercert.pem
+
+Since Let's Encrypt rotates your cert every 60-90 days, we can't just cat some files into place and forget about it. We need to regenerate `qmail-smtpd`'s cert and bounce the service whenever rotation happens.
 
 Fortunately Let's Encrypt has renewal hooks. Put the following in a `+x` file at the location on line 2:
 

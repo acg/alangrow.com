@@ -306,6 +306,9 @@ footer > *:last-child {
     padding-left: var(--gutter);
     padding-right: var(--gutter);
   }
+  article p code {
+    white-space: normal;
+  }
   footer {
     padding: 0 0 1em 0;
   }

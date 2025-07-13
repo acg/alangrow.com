@@ -12,7 +12,7 @@ Of all possible pairs of consonants you could start a word with, how many are ac
 
 The question came up at a party during a disappointing Ouija board session where the spirits conjured gibberish like "QHPEV." Someone wondered aloud how difficult it was to pick a valid pairs of consonants at random. Instinctively, we felt that most of them were invalid.
 
-This is a nice little problem for the unix text processing toolset. I used the [2006 Scrabble Tournament Word List](http://www.isc.ro/lists/twl06.zip) because /usr/share/dict/words contains many proper names and non-words. To get the count:
+This is a nice little problem for the unix text processing toolset. I used the [2006 Scrabble Tournament Word List](http://www.isc.ro/lists/twl06.zip) because `/usr/share/dict/words` contains many proper names and non-words. To get the count:
 
 ```bash
 tr '[A-Z]' '[a-z]' < TWL06.txt |
