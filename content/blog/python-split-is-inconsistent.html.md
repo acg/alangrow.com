@@ -17,6 +17,30 @@ However, consistency *within* a language...a reasonable expectation, no?
 
 The inconsistency lies in how the string.split and re.split handle the edge cases of "do an unlimited number of splits" and "don't do any splits." The two agree that "unlimited splits" is the default. They don't agree on how to interpret the value of an explicit maxsplit parameter.
 
+<style type="text/css">
+.post .matrix {
+  margin-top: 0.50em;
+  margin-bottom: 0.50em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post .matrix td {
+  border: 0.01em solid gray;
+  padding: 0.25em 0.50em;
+}
+
+.post .matrix .col-header,
+.post .matrix .row-header {
+  background: #ddd;
+}
+
+.post .matrix .col-header.row-header {
+  border: none;
+  background: inherit;
+}
+</style>
+
 <table class="matrix">
   <thead>
     <td class="col-header row-header"></td>
