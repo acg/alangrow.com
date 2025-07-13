@@ -1,3 +1,8 @@
+:root {
+  --fg: 0, 0, 0;
+  --bg: 255, 255, 255;
+}
+
 html {
   font-size: 1.20vw;
   -webkit-text-size-adjust: none;
@@ -12,6 +17,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   line-height: 1.35;
+  color: rgba(var(--fg), 1);
+  background-color: rgba(var(--bg), 1);
 }
 
 * {
@@ -125,7 +132,7 @@ h5:target .toclink::before {
 .post .top-date {
   font-style: italic;
   font-size: 75%;
-  color: #666;
+  color: rgba(var(--fg), 0.8);
   padding-top: 0.25em;
 }
 
@@ -183,10 +190,8 @@ h5:target .toclink::before {
 .post pre {
   padding: 1em 1em;
   border: 0.05em solid #666;
-  background: #efefef;
   white-space: pre-wrap;
 }
-
 .post .content > .highlight,
 .post .content > pre,
 .post p code,
@@ -195,12 +200,8 @@ h5:target .toclink::before {
   font-family: 'Monaspace Neon', 'Noto Sans Math', courier;
   font-weight: 400;
   font-size: 85%;
+  background-color: rgba(var(--fg), 0.05);
 }
-
-.post code {
-  background: #efefef;
-}
-
 .post p code,
 .post ul code,
 .post ol code {
@@ -231,7 +232,7 @@ h5:target .toclink::before {
 .post small {
   font-style: italic;
   font-size: 75%;
-  color: #666;
+  color: rgba(var(--fg), 0.5);
 }
 
 .post .image {
