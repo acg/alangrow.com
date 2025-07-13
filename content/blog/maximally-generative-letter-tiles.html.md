@@ -25,7 +25,7 @@ table.tiles td {
   --chosen-bg: 0, 0, 255;
   --chosen-bg-alpha: 0.1;
 }
-.post p code.chosen {
+article p code.chosen {
   background-color: rgba(var(--chosen-bg), calc(var(--chosen-bg-alpha) * 0.75));
 }
 table.tiles td.chosen {

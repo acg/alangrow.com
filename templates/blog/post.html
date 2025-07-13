@@ -17,25 +17,26 @@
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }} (Atom 1.0)" href="{{ site.url }}/atom.xml">
   <link rel="stylesheet" href="{{ page.root }}/css/reset.css" type="text/css">
   <link rel="stylesheet" href="{{ page.root }}/css/fonts.css?_=1752425853" type="text/css">
-  <link rel="stylesheet" href="{{ page.root }}/css/blog.css?_=1752425853" type="text/css">
+  <link rel="stylesheet" href="{{ page.root }}/css/blog.css?_=1752448286" type="text/css">
   <link rel="stylesheet" href="{{ page.root }}/css/syntax.css?_=1752425853" type="text/css">
   <title>{{ page.title }}</title>
 </head>
-<body class="">
+<body>
 
-  <main class="post">
+  <main>
     <h1>{{ page.title }}</h1>
-    <time class="top-date" datetime="{{ page.date | strftime("%Y-%m-%d") }}">{{ page.date | strftime("%A, %B %d, %Y") }}.</time>
-    <article class="content">
+    <time datetime="{{ page.date | strftime("%Y-%m-%d") }}">{{ page.date | strftime("%A, %B %d, %Y") }}.</time>
+    <article>
       <hr/>
       {% filter markdown %}
       {{ content | safe }}
       {% endfilter %}
+      <hr/>
     </article>
-    <em>Posted by <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a> on {{ page.date | strftime("%A, %B %d, %Y") }}.</em>
+    <address>Posted by <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a> on {{ page.date | strftime("%A, %B %d, %Y") }}.</address>
   </main>
 
-  <footer id="footer">
+  <footer>
     <a href="../">Home</a>
     <a href="./atom.xml">Atom</a>
     <a href="./rss.xml">RSS</a>

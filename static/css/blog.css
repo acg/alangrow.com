@@ -25,27 +25,8 @@ body {
   box-sizing: border-box;
 }
 
-#footer {
-  display: block;
-  width: 100%;
-  padding: 0 var(--gutter);
-}
-#footer > * {
-  display: inline;
-  line-height: 4em;
-  padding: 0 0.5em;
-}
-#footer > *:first-child {
-  padding-left: 0;
-}
-#footer > *:last-child {
-  padding-right: 0;
-}
 
-blockquote {
-  font-style: italic;
-  padding: 0.5em;
-}
+/* Headings */
 
 h1, h2, h3, h4, h5 {
   font-family: 'Crete Round';
@@ -53,6 +34,7 @@ h1, h2, h3, h4, h5 {
   font-style: normal;
   text-wrap: pretty;
   letter-spacing: -0.025em;
+  margin: 0.75em 0 0.25em 0;
 }
 h1 {
   line-height: 1.1;
@@ -108,113 +90,93 @@ h5:target .toclink::before {
 }
 
 
+/* Post content. */
 
-
-/* Posts */
-
-.post {
-  padding: 0.50em var(--gutter) 1.00em var(--gutter);
-  border-bottom: 0.05em solid #ccc;
+main {
+  padding: 0.50em var(--gutter) 0 var(--gutter);
 }
-
-.post .content {
-  padding-bottom: 2em;
+article {
+  margin-bottom: 0.75em;
 }
-
-.post h1,
-.post h2,
-.post h3,
-.post h4,
-.post h5 {
-  margin: 0.75em 0 0.25em 0;
-}
-
-.post .top-date {
+main > time,
+main > address {
   font-style: italic;
   font-size: 75%;
   color: rgba(var(--fg), 0.8);
-  padding-top: 0.25em;
 }
-
-.post ul, .post ol {
+article ul, article ol {
   margin: 1em 2em 0 2em;
 }
-
-.post li {
+article li {
   list-style: disc;
   padding: 0.25em;
 }
-
-.post ol li {
+article ol li {
   list-style: decimal;
 }
-
-.post p {
+article p {
   padding: 1em 0 0 0;
 }
-.post h2 + p,
-.post h3 + p,
-.post h4 + p,
-.post h5 + p {
+article h2 + p,
+article h3 + p,
+article h4 + p,
+article h5 + p {
   padding-top: 0.5em;
 }
-.post .content > p {
+article > p {
   text-align: justify;
   text-wrap: pretty;
   hyphens: auto;
 }
-
-.post li p {
+article li p {
   padding: 0; 
 }
-
-.post .content > .highlight,
-.post .content > pre {
+article > .highlight,
+article > pre {
   margin-top: 1em;
 }
-
-.post em {
+main em {
   font-style: italic;
 }
-
-.post strong {
+article strong {
   font-weight: 700;
 }
-
-.post sub {
+article sub {
   font-size: 75%;
   position: relative;
   top: 0.25em;
 }
-
-.post pre {
+article pre {
   padding: 1em 1em;
   border: 0.05em solid #666;
   white-space: pre-wrap;
 }
-.post .content > .highlight,
-.post .content > pre,
-.post p code,
-.post ul code,
-.post ol code {
+article > .highlight,
+article > pre,
+article p code,
+article ul code,
+article ol code {
   font-family: 'Monaspace Neon', 'Noto Sans Math', courier;
   font-weight: 400;
   font-size: 85%;
   background-color: rgba(var(--fg), 0.05);
 }
-.post p code,
-.post ul code,
-.post ol code {
+article p code,
+article ul code,
+article ol code {
   padding: 0 0.25em;
   white-space: nowrap;
 }
-
-.post blockquote {
+blockquote {
+  font-style: italic;
+  padding: 0.5em;
+}
+article blockquote {
   position: relative;
   margin: 1.75em 0 0.25em 0;
   padding: 0 2.5em;
 }
-.post blockquote::before {
+article blockquote::before {
   position: absolute;
   top: -0.25em;
   left: 0;
@@ -222,37 +184,57 @@ h5:target .toclink::before {
   font-size: 400%;
   opacity: 0.2;
 }
-.post blockquote p:first-child {
+article blockquote p:first-child {
   padding: 0; 
 }
-.post blockquote strong {
+article blockquote strong {
   font-style: inherit;
 }
-
-.post small {
+article small {
   font-style: italic;
   font-size: 75%;
   color: rgba(var(--fg), 0.5);
 }
-
-.post .image {
+article .image {
   margin: 1em 0;
   text-align: center;
 }
-
-.post .image a img {
+article .image a img {
   border: 0.1em solid blue;
   max-width: 100%;
 }
-
-.post .image a:visited img {
+article .image a:visited img {
   border: 0.1em solid purple;
 }
-
-.post .center {
+article .center {
   text-align: center;
 }
+article > hr:last-child {
+  margin-top: 1.5em;
+}
 
+
+/* Footer */
+
+footer {
+  display: block;
+  width: 100%;
+  padding: 0 var(--gutter) 2em var(--gutter);
+}
+footer > * {
+  display: inline;
+  line-height: 4em;
+  padding: 0 0.5em;
+}
+footer > *:first-child {
+  padding-left: 0;
+}
+footer > *:last-child {
+  padding-right: 0;
+}
+
+
+/* Dark mode */
 
 @media (prefers-color-scheme:dark) {
   :root {
@@ -274,6 +256,8 @@ h5:target .toclink::before {
   }
 }
 
+
+/* Mobile */
 
 @media screen and (max-width: 899px) {
   html {
@@ -297,33 +281,33 @@ h5:target .toclink::before {
     padding: 0;
     text-align: center;
   }
-  .post {
-    padding: 0 0 1em 0;
+  main {
+    padding: 0;
   }
-  .post .content > .highlight,
-  .post .content > pre {
+  article > .highlight,
+  article > pre {
     width: calc(100% + var(--gutter) * 2);
     margin-left: calc(-1 * var(--gutter));
   }
-  .post .content > .pre {
+  article > .pre {
     margin: 0;
   }
-  .post .content .highlight,
-  .post .content pre {
+  article .highlight,
+  article pre {
     border-left: none;
     border-right: none;
   }
-  .post .content > .highlight,
-  .post .content > pre {
+  article > .highlight,
+  article > pre {
     font-size: 60%;
   }
-  .post .content > .highlight > pre,
-  .post .content > pre {
+  article > .highlight > pre,
+  article > pre {
     padding-left: var(--gutter);
     padding-right: var(--gutter);
   }
-  #footer {
-    padding: 0;
+  footer {
+    padding: 0 0 1em 0;
   }
 }
 

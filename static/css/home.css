@@ -17,7 +17,7 @@ body {
   background-color: rgba(var(--bg), 1);
 }
 
-#main {
+main {
   columns: 2;
   column-gap: 3em;
 }
@@ -51,18 +51,15 @@ img {
 }
 
 
-#main .info,
-#main .posts {
+article,
+nav {
   max-width: 70ch;
 }
-#main .footer {
-  display: none;
-}
 
-#main .posts {
+nav {
   break-inside: avoid;
 }
-#main .posts i {
+nav i {
   display: inline-block;
   width: 4.5em;
   font-style: normal;
@@ -96,15 +93,15 @@ img {
     font-size: 3.75vw;
   }
   body {
-    padding: 1em;
+    padding: 1em 1em 2em 1em;
   }
-  #main {
+  main {
     columns: 1;
   }
-  #main .posts li {
+  nav li {
     line-height: 1.75;
   }
-  #main .posts i {
+  nav i {
     display: none;
   }
 }

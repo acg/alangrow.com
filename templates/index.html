@@ -4,20 +4,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link rel="stylesheet" href="{{ page.root }}/css/reset.css" type="text/css">
   <link rel="stylesheet" href="{{ page.root }}/css/fonts.css?_=1752425853" type="text/css">
-  <link rel="stylesheet" href="{{ page.root }}/css/home.css?_=1752425853" type="text/css">
+  <link rel="stylesheet" href="{{ page.root }}/css/home.css?_=1752448286" type="text/css">
   <title>{{ page.title }}</title>
 </head>
-<body class="home">
+<body>
 
-<div id="main">
+<main>
 
-  <div class="info">
+  <article>
   {% filter markdown %}
   {{ content | safe }}
   {% endfilter %}
-  </div>
+  </article>
 
-  <div class="posts">
+  <nav>
     <h2>Selected Posts</h2>
     <ul>
     {% for post in posts %}
@@ -29,12 +29,9 @@
       {% endif %}
     {% endfor %}
     </ul>
-  </div>
+  </nav>
 
-  <div class="footer">
-  </div>
-
-</div>
+</main>
 
 </body>
 </html>
