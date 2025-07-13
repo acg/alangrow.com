@@ -40,12 +40,6 @@ blockquote {
   padding: 0.5em;
 }
 
-.caption {
-  font-size: 80%;
-  padding: 0.5em;
-  color: #333;
-}
-
 h1, h2, h3, h4, h5 {
   font-family: 'Crete Round';
   font-weight: 400;
