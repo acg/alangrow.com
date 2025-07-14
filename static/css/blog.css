@@ -236,23 +236,54 @@ footer > *:last-child {
 
 /* Dark mode */
 
+:root {
+  --dark-fg: 208, 208, 208;
+  --dark-bg: 36, 36, 36;
+  --dark-heading-fg: 255, 255, 255;
+  --dark-link-fg: 180, 180, 230;
+  --dark-visited-fg: 230, 180, 230;
+}
+main .theme {
+  display: inline-block;
+  float: right;
+  font-size: 75%;
+}
+html:has(.theme #dark:checked) {
+  --fg: var(--dark-fg);
+  --bg: var(--dark-bg);
+}
+html:has(.theme #dark:checked) h1,
+html:has(.theme #dark:checked) h2,
+html:has(.theme #dark:checked) h3,
+html:has(.theme #dark:checked) h4,
+html:has(.theme #dark:checked) h5 {
+  color: rgba(var(--dark-heading-fg), 1);
+}
+html:has(.theme #dark:checked) a:not(.toclink) {
+  color: rgba(var(--dark-link-fg), 1);
+}
+html:has(.theme #dark:checked) a:not(.toclink):hover,
+html:has(.theme #dark:checked) a:not(.toclink):visited {
+  color: rgba(var(--dark-visited-fg), 1);
+}
 @media (prefers-color-scheme:dark) {
-  :root {
-    --fg: 208, 208, 208;
-    --bg: 36, 36, 36;
+  html:not(:has(.theme #light:checked)) {
+    --fg: var(--dark-fg);
+    --bg: var(--dark-bg);
   }
-  h1, h2, h3, h4, h5, a {
-    color: rgba(var(--fg), 1);
+  html:not(:has(.theme #light:checked)) h1,
+  html:not(:has(.theme #light:checked)) h2,
+  html:not(:has(.theme #light:checked)) h3,
+  html:not(:has(.theme #light:checked)) h4,
+  html:not(:has(.theme #light:checked)) h5 {
+    color: rgba(var(--dark-heading-fg), 1);
   }
-  h1, h2, h3, h4, h5 {
-    --fg: 255, 255, 255;
+  html:not(:has(.theme #light:checked)) a:not(.toclink) {
+    color: rgba(var(--dark-link-fg), 1);
   }
-  a {
-    --fg: 180, 180, 230;
-  }
-  a:hover,
-  a:visited {
-    --fg: 230, 180, 230;
+  html:not(:has(.theme #light:checked)) a:not(.toclink):hover,
+  html:not(:has(.theme #light:checked)) a:not(.toclink):visited {
+    color: rgba(var(--dark-visited-fg), 1);
   }
 }
 

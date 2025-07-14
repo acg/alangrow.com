@@ -26,6 +26,10 @@
   <main>
     <h1>{{ page.title }}</h1>
     <time datetime="{{ page.date | strftime("%Y-%m-%d") }}">{{ page.date | strftime("%A, %B %d, %Y") }}.</time>
+    <form class="theme">
+      <label for="dark"><input name="theme" id="dark" type="radio"></input>Dark</label>
+      <label for="light"><input name="theme" id="light" type="radio"></input>Light</label>
+    </form>
     <article>
       <hr/>
       {% filter markdown %}
