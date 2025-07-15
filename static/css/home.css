@@ -12,7 +12,7 @@ body {
   font-family: 'Merriweather', serif;
   font-weight: 350;
   padding: 2em 3em 3em 3em;
-  line-height: 1.35;
+  line-height: 1.25;
   color: rgba(var(--fg), 1);
   background-color: rgba(var(--bg), 1);
 }
@@ -58,6 +58,9 @@ nav {
 
 nav {
   break-inside: avoid;
+}
+nav li {
+  line-height: 1.5;
 }
 nav i {
   display: inline-block;
