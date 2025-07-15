@@ -256,6 +256,15 @@ main .theme label {
   display: inline-block;
   cursor: pointer;
 }
+main .theme label[for=light] {
+  opacity: 1;
+}
+main .theme label:has(input:checked) {
+  opacity: 1;
+}
+main .theme label:not(:has(input:checked)) {
+  opacity: 0.25;
+}
 main .theme label svg {
   width: 1em;
   height: 1em;
@@ -281,6 +290,9 @@ html:has(.theme #dark:checked) a:not(.toclink):visited {
   color: rgba(var(--dark-visited-fg), 1);
 }
 @media (prefers-color-scheme:dark) {
+  main .theme:not(:has(#light:checked)) label[for=dark] {
+    opacity: 1.0;
+  }
   html:not(:has(.theme #light:checked)) {
     --fg: var(--dark-fg);
     --bg: var(--dark-bg);
