@@ -248,6 +248,20 @@ main .theme {
   float: right;
   font-size: 75%;
 }
+main .theme input[type=radio] {
+  width: 0;
+  height: 0;
+}
+main .theme label {
+  display: inline-block;
+  cursor: pointer;
+}
+main .theme label svg {
+  width: 1em;
+  height: 1em;
+  transform: scale(1.5);
+  transform-origin: center;
+}
 html:has(.theme #dark:checked) {
   --fg: var(--dark-fg);
   --bg: var(--dark-bg);
