@@ -312,6 +312,12 @@ html:has(.theme #dark:checked) a:not(.toclink):visited {
     color: rgba(var(--dark-visited-fg), 1);
   }
 }
+body, time, address, h1, h2, h3, h4, h5, a:not(.toclink), .highlight span {
+  --theme-transition-time: 200ms;
+  transition:
+    color var(--theme-transition-time) ease-in-out,
+    background-color var(--theme-transition-time) ease-in-out;
+}
 
 
 /* Mobile */
