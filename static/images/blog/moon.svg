@@ -1,0 +1,12 @@
+<svg viewBox="-50 -50 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="moon">
+    <circle fill="none" stroke="currentColor" stroke-width="8" cx="0" cy="0" r="35" />
+    <path fill="currentColor"
+          d="M 0 35
+             C -20  35 -35  20 -35   0
+             C -35 -20 -20 -35   0 -35
+             C  -5 -35 -10 -20 -10   0
+             C -10  20  -5  35   0  35
+             Z" />
+  </g>
+</svg>
