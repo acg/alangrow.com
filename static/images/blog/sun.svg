@@ -1,17 +1,18 @@
 <svg viewBox="-50 -50 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <g>
-      <path id="ray"
-            d="M  35   0  l  15   0
-               M   0  35  l   0  15
-               M -35   0  l -15   0
-               M   0 -35  l   0 -15
-               Z" />
+      <path id="ray" d="M35,0 l15,0 Z" />
     </g>
   </defs>
   <g id="sun" fill="none" stroke="currentColor" stroke-width="8">
     <circle cx="0" cy="0" r="25" />
-    <use xlink:href="#ray" />
+    <use xlink:href="#ray" style="transform: rotate(0deg)" />
     <use xlink:href="#ray" style="transform: rotate(45deg)" />
+    <use xlink:href="#ray" style="transform: rotate(90deg)" />
+    <use xlink:href="#ray" style="transform: rotate(135deg)" />
+    <use xlink:href="#ray" style="transform: rotate(180deg)" />
+    <use xlink:href="#ray" style="transform: rotate(225deg)" />
+    <use xlink:href="#ray" style="transform: rotate(270deg)" />
+    <use xlink:href="#ray" style="transform: rotate(315deg)" />
   </g>
 </svg>
