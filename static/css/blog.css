@@ -255,15 +255,23 @@ main #theme {
 #theme label {
   display: inline-block;
   cursor: pointer;
-}
-#theme label[for=light] {
-  opacity: 1;
-}
-#theme label:has(input:checked) {
-  opacity: 1;
-}
-#theme label:not(:has(input:checked)) {
   opacity: 0.25;
+}
+@media (prefers-color-scheme:light) {
+  #theme:not(:has(#dark:checked)) label[for=light] {
+    opacity: 1;
+  }
+}
+@media (prefers-color-scheme:dark) {
+  #theme:not(:has(#light:checked)) label[for=dark] {
+    opacity: 1;
+  }
+}
+#theme:has(#dark:checked) label[for=dark] {
+  opacity: 1;
+}
+#theme:has(#light:checked) label[for=light] {
+  opacity: 1;
 }
 #theme label svg {
   width: 1em;
