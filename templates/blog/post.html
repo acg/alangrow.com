@@ -17,8 +17,8 @@
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }} (Atom 1.0)" href="{{ site.url }}/atom.xml">
   <link rel="stylesheet" href="{{ page.root }}/css/reset.css" type="text/css">
   <link rel="stylesheet" href="{{ page.root }}/css/fonts.css?_=1752425853" type="text/css">
-  <link rel="stylesheet" href="{{ page.root }}/css/blog.css?_=1752559591" type="text/css">
-  <link rel="stylesheet" href="{{ page.root }}/css/syntax.css?_=1752559591" type="text/css">
+  <link rel="stylesheet" href="{{ page.root }}/css/blog.css?_=1752732965" type="text/css">
+  <link rel="stylesheet" href="{{ page.root }}/css/syntax.css?_=1752732965" type="text/css">
   <title>{{ page.title }}</title>
 </head>
 <body>
@@ -26,7 +26,7 @@
   <main>
     <h1>{{ page.title }}</h1>
     <time datetime="{{ page.date | strftime("%Y-%m-%d") }}">{{ page.date | strftime("%A, %B %d, %Y") }}.</time>
-    <form class="theme">
+    <form id="theme">
       <label for="dark" title="Dark mode">
         <input name="theme" id="dark" type="radio" />
         <svg viewBox="-50 -50 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><use xlink:href="#moon" /></svg>

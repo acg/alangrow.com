@@ -243,72 +243,72 @@ footer > *:last-child {
   --dark-link-fg: 180, 180, 230;
   --dark-visited-fg: 230, 180, 230;
 }
-main .theme {
+main #theme {
   display: inline-block;
   float: right;
   font-size: 75%;
 }
-main .theme input[type=radio] {
+#theme input[type=radio] {
   width: 0;
   height: 0;
 }
-main .theme label {
+#theme label {
   display: inline-block;
   cursor: pointer;
 }
-main .theme label[for=light] {
+#theme label[for=light] {
   opacity: 1;
 }
-main .theme label:has(input:checked) {
+#theme label:has(input:checked) {
   opacity: 1;
 }
-main .theme label:not(:has(input:checked)) {
+#theme label:not(:has(input:checked)) {
   opacity: 0.25;
 }
-main .theme label svg {
+#theme label svg {
   width: 1em;
   height: 1em;
   transform: scale(1.5);
   transform-origin: center;
 }
-html:has(.theme #dark:checked) {
+html:has(#dark:checked) {
   --fg: var(--dark-fg);
   --bg: var(--dark-bg);
 }
-html:has(.theme #dark:checked) h1,
-html:has(.theme #dark:checked) h2,
-html:has(.theme #dark:checked) h3,
-html:has(.theme #dark:checked) h4,
-html:has(.theme #dark:checked) h5 {
+html:has(#dark:checked) h1,
+html:has(#dark:checked) h2,
+html:has(#dark:checked) h3,
+html:has(#dark:checked) h4,
+html:has(#dark:checked) h5 {
   color: rgba(var(--dark-heading-fg), 1);
 }
-html:has(.theme #dark:checked) a:not(.toclink) {
+html:has(#dark:checked) a:not(.toclink) {
   color: rgba(var(--dark-link-fg), 1);
 }
-html:has(.theme #dark:checked) a:not(.toclink):hover,
-html:has(.theme #dark:checked) a:not(.toclink):visited {
+html:has(#dark:checked) a:not(.toclink):hover,
+html:has(#dark:checked) a:not(.toclink):visited {
   color: rgba(var(--dark-visited-fg), 1);
 }
 @media (prefers-color-scheme:dark) {
-  main .theme:not(:has(#light:checked)) label[for=dark] {
+  #theme:not(:has(#light:checked)) label[for=dark] {
     opacity: 1.0;
   }
-  html:not(:has(.theme #light:checked)) {
+  html:not(:has(#light:checked)) {
     --fg: var(--dark-fg);
     --bg: var(--dark-bg);
   }
-  html:not(:has(.theme #light:checked)) h1,
-  html:not(:has(.theme #light:checked)) h2,
-  html:not(:has(.theme #light:checked)) h3,
-  html:not(:has(.theme #light:checked)) h4,
-  html:not(:has(.theme #light:checked)) h5 {
+  html:not(:has(#light:checked)) h1,
+  html:not(:has(#light:checked)) h2,
+  html:not(:has(#light:checked)) h3,
+  html:not(:has(#light:checked)) h4,
+  html:not(:has(#light:checked)) h5 {
     color: rgba(var(--dark-heading-fg), 1);
   }
-  html:not(:has(.theme #light:checked)) a:not(.toclink) {
+  html:not(:has(#light:checked)) a:not(.toclink) {
     color: rgba(var(--dark-link-fg), 1);
   }
-  html:not(:has(.theme #light:checked)) a:not(.toclink):hover,
-  html:not(:has(.theme #light:checked)) a:not(.toclink):visited {
+  html:not(:has(#light:checked)) a:not(.toclink):hover,
+  html:not(:has(#light:checked)) a:not(.toclink):visited {
     color: rgba(var(--dark-visited-fg), 1);
   }
 }
