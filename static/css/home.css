@@ -72,8 +72,8 @@ nav i {
 
 @media (prefers-color-scheme:dark) {
   :root {
-    --fg: 208, 208, 208;
-    --bg: 36, 36, 36;
+    --fg: 224, 224, 224;
+    --bg: 24, 24, 24;
   }
   h2, a {
     color: rgba(var(--fg), 1);

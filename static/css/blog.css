@@ -237,8 +237,8 @@ footer > *:last-child {
 /* Dark mode */
 
 :root {
-  --dark-fg: 208, 208, 208;
-  --dark-bg: 36, 36, 36;
+  --dark-fg: 224, 224, 224;
+  --dark-bg: 24, 24, 24;
   --dark-heading-fg: 255, 255, 255;
   --dark-link-fg: 180, 180, 230;
   --dark-visited-fg: 230, 180, 230;
