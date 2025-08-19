@@ -4,7 +4,8 @@
       "page": {
         "title": "Rose Tinted Classes: An SVG Filter Function CSS Trick",
         "date": "2025-08-12T00:00:00-0000",
-        "root": ".."
+        "root": "..",
+        "buried": true
       }
     }
 
