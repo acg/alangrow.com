@@ -119,6 +119,7 @@ What doesn't quite work: the resulting brightness falls off more steeply than it
   filter: grayscale(1) url(#colorize);
 }
 svg#tint {
-  display: none;
+  width: 0;
+  height: 0;
 }
 </style>
