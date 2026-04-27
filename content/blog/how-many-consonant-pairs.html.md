@@ -10,7 +10,7 @@
 
 Of all possible pairs of consonants you could start a word with, how many are actually valid in the English language?
 
-The question came up at a party during a disappointing Ouija board session where the spirits conjured gibberish like "QHPEV." Someone wondered aloud how difficult it was to pick a valid pairs of consonants at random. Instinctively, we felt that most of them were invalid.
+The question came up at a party, during a disappointing Ouija board session where the spirits conjured gibberish like "QHPEV." Someone wondered aloud how difficult it was to pick a valid pair of consonants at random. We suspected most were invalid.
 
 This is a nice little problem for the unix text processing toolset. I used the [2006 Scrabble Tournament Word List](https://norvig.com/ngrams/TWL06.txt) because `/usr/share/dict/words` contains many proper names and non-words. To get the count:
 
@@ -45,7 +45,7 @@ tr '\n' ' '
     sl sm sn sp sq sr st sv sw tc th tm
     tr ts tw tz vr wh wr zl zw zz
 
-To see an example word for each valid pair (remember, this is the Scrabble dictionary, so there's some pretty weird stuff in there):
+To see an example (weird Scrabble) word for each valid pair:
 
 ```bash
 tr '[A-Z]' '[a-z]' < TWL06.txt |
@@ -140,5 +140,4 @@ awk '{ print $2, $1 }'
     zw zwiebacks
     zz zzz
 
-Aside: finding good and freely available (ie opensource or creative commons) word lists is surprisingly annoying.
-
+Aside: finding good opensource word lists is surprisingly annoying.
