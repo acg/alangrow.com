@@ -48,7 +48,7 @@ xargs -n1 sh -c \
   'printf "%s " "$0"; exec grep --color -m1 "$0" TWL06.txt'
 ```
 
-This is inefficient. It re-greps the wordlist file 320 times. But computers are fast, and doing the stupid simple thing is also a core tenet of the unix philosophy. After a moment you'll see results:
+This is inefficient. It re-greps the wordlist file 320 times. But computers are fast, and doing the stupid simple thing is also a core tenet of the unix philosophy (["when in doubt, use brute force"](http://www.catb.org/jargon/html/B/brute-force.html)). After a moment you'll see results:
 
     BB ABBA
     BC ABCOULOMB
