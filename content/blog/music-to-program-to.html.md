@@ -125,7 +125,7 @@ If you're not sure where to start, pick one of these 2+ hour playlists and dig i
 
 ### Deep Dark Minimal
 
-<a name="deep-dark-minimal"></a>
+<a id="deep-dark-minimal"></a>
 
 Repetitive, trance-inducing electronic music for intense focus and deep work. No vocals or lame chord progressions. Mostly German.
 
@@ -135,7 +135,7 @@ Repetitive, trance-inducing electronic music for intense focus and deep work. No
 
 ### Modern Acid
 
-<a name="modern-acid"></a>
+<a id="modern-acid"></a>
 
 The tasty sounds of the [303](https://en.wikipedia.org/wiki/Roland_TB-303) / [808](https://en.wikipedia.org/wiki/Roland_TR-808) / 909 used in new ways. All tracks post 2000. Higher energy, faster tempos, and busier arrangements. 🧠
 
@@ -150,7 +150,7 @@ Some full-length albums that won't disappoint. Each is good for about an hour of
 
 ### Microlith: Dance With Me (2016)
 
-<a name="microlith-dance-with-me"></a>
+<a id="microlith-dance-with-me"></a>
 
 An album of sublime electro from Maltese producer Rhys Celeste. Everything Rhys made until his [tragic death at age 24](https://ra.co/news/38277) is worth a listen. See also the [Float House microgenre](https://open.spotify.com/playlist/4CvNSwKn7f9ngVLlP2Jr0O).
 
@@ -160,7 +160,7 @@ An album of sublime electro from Maltese producer Rhys Celeste. Everything Rhys 
 
 ### Beatwife: Cornbrail Acid 2 (2014)
 
-<a name="beatwife-cornbrail-acid-2"></a>
+<a id="beatwife-cornbrail-acid-2"></a>
 
 A Scottish acid madman with an artist name you can't mention in polite company. Fast, frenetic music with a quirky sense of humor. See also the [Braindance microgenre](https://daily.bandcamp.com/lists/braindance-feature).
 
@@ -170,7 +170,7 @@ A Scottish acid madman with an artist name you can't mention in polite company. 
 
 ### Tin Man: Dripping Acid (2017)
 
-<a name="tin-man-dripping-acid"></a>
+<a id="tin-man-dripping-acid"></a>
 
 How much acid is too much acid? This monster neo acid album may provide the answer. Haunting, hypnotic tunes with slow builds.
 
@@ -180,7 +180,7 @@ How much acid is too much acid? This monster neo acid album may provide the answ
 
 ### Mikron: Severance (2019)
 
-<a name="mikron-severance"></a>
+<a id="mikron-severance"></a>
 
 Peaceful, aquatic, ambient techno landscapes from an Irish duo. Track 4, "Ghost Node", highsteps out of a thick fog.
 
@@ -190,7 +190,7 @@ Peaceful, aquatic, ambient techno landscapes from an Irish duo. Track 4, "Ghost 
 
 ### Anthony Naples: Fog FM (2019)
 
-<a name="anthony-naples-fog-fm"></a>
+<a id="anthony-naples-fog-fm"></a>
 
 Another case of driving beats shrouded in fog, this time from an NYC-based producer.
 
@@ -200,7 +200,7 @@ Another case of driving beats shrouded in fog, this time from an NYC-based produ
 
 ### Boards of Canada: Music Has The Right To Children (1998)
 
-<a name="boards-of-canada-music-has-the-right-to-children"></a>
+<a id="boards-of-canada-music-has-the-right-to-children"></a>
 
 By law I am required to include this album, and I'm happy to comply. A landmark in electronic music from the Scottish duo. This album hasn't aged a day.
 
@@ -210,7 +210,7 @@ By law I am required to include this album, and I'm happy to comply. A landmark 
 
 ### Maurizio: M-Series (1997)
 
-<a name="maurizio-m-series"></a>
+<a id="maurizio-m-series"></a>
 
 Minimal dub techno from the master of the genre, [Basic Channel](#basic-channel-sampler) co-founder Moritz von Oswald. If you're new to dub techno you may be forgiven for thinking "nothing ever happens." That's kind of the point, but it's also not _quite_ true: there's lots of subtle variation if you start looking for it, yet never enough to distract if you aren't.
 
@@ -220,7 +220,7 @@ Minimal dub techno from the master of the genre, [Basic Channel](#basic-channel-
 
 ### Substance: Session Elements (1998)
 
-<a name="substance-session-elements"></a>
+<a id="substance-session-elements"></a>
 
 Lush but restrained minimal German techno variations.
 
@@ -230,7 +230,7 @@ Lush but restrained minimal German techno variations.
 
 ### RX-101: Dopamine (2019)
 
-<a name="rx-101-dopamine"></a>
+<a id="rx-101-dopamine"></a>
 
 Bask in the warm analog glow cast by these 13 tracks from Dutch producer Erik Jong.
 
@@ -240,7 +240,7 @@ Bask in the warm analog glow cast by these 13 tracks from Dutch producer Erik Jo
 
 ### John Tejada: Parabolas (2011)
 
-<a name="john-tejada-parabolas"></a>
+<a id="john-tejada-parabolas"></a>
 
 Dark, intelligent tech house from an Austrian-Californian producer. Tejada teaches at CalArts and consistently puts out great tech house albums, among them [Signs Under Test (2015)](https://open.spotify.com/album/5Rr2NMSWTD6F7rsKAbhTXb?si=OeaOL5eaTmqrwshsFqgMjQ), [Live Rytm Trax (2018)](https://open.spotify.com/album/4tuihdFNCR2nz6WeIiQsLC?si=fZNo8_yER0aGd6MpT87LQg), and [Year Of The Living Dead (2021)](https://open.spotify.com/album/0jwjHNhMdj3V6fOvx36ozD?si=IT0PBz_EQQOBoSzNsWHs8A).
 
@@ -250,7 +250,7 @@ Dark, intelligent tech house from an Austrian-Californian producer. Tejada teach
 
 ### Superski: Mondo Moderno (2023)
 
-<a name="superski-mondo-moderno"></a>
+<a id="superski-mondo-moderno"></a>
 
 I'll be honest: trance is not my jam. Yet somehow these trancey, cinematic, Italo-disco-influenced techno tracks from Litrowski & Voiski won me over. Look, you can wear your sunglasses at night. They can be fine Italian sunglasses. You can even be the protagonist in a Fellini film. But if you raise them and wink like Ferris Bueller, we're not going to take you entirely seriously -- and I think that's the idea.
 
@@ -260,7 +260,7 @@ I'll be honest: trance is not my jam. Yet somehow these trancey, cinematic, Ital
 
 ### CN: The Expedition Beyond (2011)
 
-<a name="cn-the-expedition-beyond"></a>
+<a id="cn-the-expedition-beyond"></a>
 
 The year is 3984, and this is the soundtrack to our mysterious space explorations. CN is one of several projects from the outrageously talented and prolific Norwegian producer [Stian Gjevik](https://eodtracks.bandcamp.com/). There's [a second album](https://open.spotify.com/album/0YPxzyy8doEk5wh5XT0AkW?si=gUmFatscRnKPufh5M1SfpA) that picks up where this one left off.
 
@@ -270,7 +270,7 @@ The year is 3984, and this is the soundtrack to our mysterious space exploration
 
 ### Martin Schulte: Slow Beauty (2012)
 
-<a name="martin-schulte-slow-beauty"></a>
+<a id="martin-schulte-slow-beauty"></a>
 
 Ambient that gets its inspiration from nature. While most music is busy painting portraits, these tracks are content to paint landscapes. If you like this stuff, Schulte has a whole series of albums exploring different seasons and places.
 
@@ -280,7 +280,7 @@ Ambient that gets its inspiration from nature. While most music is busy painting
 
 ### Four Tet: New Energy (2017)
 
-<a name="four-tet-new-energy"></a>
+<a id="four-tet-new-energy"></a>
 
 Natural inspiration in this one too, which comes to you from a cabin in upstate New York.
 
@@ -290,7 +290,7 @@ Natural inspiration in this one too, which comes to you from a cabin in upstate 
 
 ### Steve Reich: Music for 18 Musicians (1976)
 
-<a name="steve-reich-music-for-18-musicians"></a>
+<a id="steve-reich-music-for-18-musicians"></a>
 
 A minimalist classical masterpiece from 1976 that anticipated electronic music as we know it: layering, envelopes, precise rhythms, repetitiveness, gradual rather than sudden harmonic changes...it's all in there. I find it incredible that 18 skilled humans can approximate dense electronic music like this. "18 Musicians" is structurally interesting too, as the interior sections are organized around a cycle of eleven chords articulated in the opening and closing "Pulses" movements.
 
@@ -300,7 +300,7 @@ A minimalist classical masterpiece from 1976 that anticipated electronic music a
 
 ### Terry Riley: In C (1964)
 
-<a name="terry-riley-in-c"></a>
+<a id="terry-riley-in-c"></a>
 
 The granddaddy of all minimalist classical masterpieces. For about an hour we never leave the key of C. Unlike Spinal Tap, Riley pulls it off. A fascinating and elevating listen.
 
@@ -315,7 +315,7 @@ These are half-albums that nonetheless stand out as excellent music to work to. 
 
 ### EOD: Utrecht (2010)
 
-<a name="eod-utrecht"></a>
+<a id="eod-utrecht"></a>
 
 Lush synth landscapes collide with hard-edge acid techno, leaving you stranded in the best of both worlds. [EOD](https://eodtracks.bandcamp.com/) is Norwegian producer Stian Gjevik's main shingle. His melodic gift and arranging skills are on full display here.
 
@@ -325,7 +325,7 @@ Lush synth landscapes collide with hard-edge acid techno, leaving you stranded i
 
 ### EOD: Questionmarks (2012)
 
-<a name="eod-questionmarks"></a>
+<a id="eod-questionmarks"></a>
 
 On this EP Gjevik strips away the lushness and lets the hard-edge techno rip. Sweet, intricately arranged melodies take a back seat to an urgency and raw speed that's borderline frightening. Fear not: Gjevik is a professional driver on a closed course.
 
@@ -335,7 +335,7 @@ On this EP Gjevik strips away the lushness and lets the hard-edge techno rip. Sw
 
 ### Automatic Tasty: Fieldwork EP (2012)
 
-<a name="automatic-tasty-fieldworks-ep"></a>
+<a id="automatic-tasty-fieldworks-ep"></a>
 
 Morning, afternoon, evening, night: you must admit this is a nice four-part cyclic structure for an EP. Although the instrumentation uses the innocent but dated sounds of early techno, Dillon also weaves in real field recordings from different times of day. The result is charming and feel-good.
 
@@ -345,7 +345,7 @@ Morning, afternoon, evening, night: you must admit this is a nice four-part cycl
 
 ### The Field: Sound of Light - Nordic Light Hotel (2007)
 
-<a name="the-field-sound-of-light-nordic-light-hotel"></a>
+<a id="the-field-sound-of-light-nordic-light-hotel"></a>
 
 Another four-part day cycle EP from Sweden. True to form, these tracks are driving, repetitive, and awash in sound -- the kind of thing that makes you hitch up the sled dogs and log a couple hundred miles of frozen tundra.
 
@@ -355,7 +355,7 @@ Another four-part day cycle EP from Sweden. True to form, these tracks are drivi
 
 ### Seb Wildblood: The One with the Emoticon (2017)
 
-<a name="seb-wildblood-emoticon"></a>
+<a id="seb-wildblood-emoticon"></a>
 
 Before emoji conquered the world, we typed things like `:~^`, which is the actual name of this album, and possibly a self-portrait? Lush, organic deep house from the UK.
 
@@ -365,7 +365,7 @@ Before emoji conquered the world, we typed things like `:~^`, which is the actua
 
 ### DMX Krew: Broken SD140 Part II (2013)
 
-<a name="dmx-krew-broken-sd140-part-ii"></a>
+<a id="dmx-krew-broken-sd140-part-ii"></a>
 
 What is an SD140, and are we sure it's safe to use a broken one? Harsh electro rhythm sounds topped with sweet melodies. "Apple Grid" is a standout track.
 
@@ -375,7 +375,7 @@ What is an SD140, and are we sure it's safe to use a broken one? Harsh electro r
 
 ### Khotin: Baikal Acid (2016)
 
-<a name="khotin-baikal-acid"></a>
+<a id="khotin-baikal-acid"></a>
 
 Dancy, imaginative acid house from up north. Khotin saves the best for last: side B has not one, but two lovely, warm tunes.
 
@@ -385,7 +385,7 @@ Dancy, imaginative acid house from up north. Khotin saves the best for last: sid
 
 ### Jonas Kopp: Desire EP (2013)
 
-<a name="jonas-kopp-desire-ep"></a>
+<a id="jonas-kopp-desire-ep"></a>
 
 German minimal techno by way of Argentina. It's dark, but the opener is funkier than your typical Tresor track, and the closer feels like some kind of ceremonial ascension.
 
@@ -395,7 +395,7 @@ German minimal techno by way of Argentina. It's dark, but the opener is funkier 
 
 ### Etapp Kyle: Klockworks 10 (2015)
 
-<a name="etapp-kyle-klockworks-10"></a>
+<a id="etapp-kyle-klockworks-10"></a>
 
 Dark, driving, haunted minimal techno of the German variety. All of the albums on [Ben Klok's](https://ra.co/dj/benklock/biography) Klockworks series are worth a listen, but Klockworks 10 and 16 from this Ukranian producer are standouts.
 
@@ -405,7 +405,7 @@ Dark, driving, haunted minimal techno of the German variety. All of the albums o
 
 ### Luke Hess: Facette (2017)
 
-<a name="luke-hess-facette"></a>
+<a id="luke-hess-facette"></a>
 
 Modern Detroit minimal techno. A propulsion system made from deep, dark textures and thumping beats.
 
@@ -420,7 +420,7 @@ Some artists don't fit well into the album box. And some artists make albums of 
 
 ### Basic Channel - Sampler
 
-<a name="basic-channel-sampler"></a>
+<a id="basic-channel-sampler"></a>
 
 As [Basic Channel](https://en.wikipedia.org/wiki/Basic_Channel), the duo of Moritz von Oswald and Mark Ernestus pioneered minimal dub techno in the early 90s. Except for BCD and BCD-2, their output consists of a series of cryptically labeled singles. Here's a curated selection.
 
@@ -430,7 +430,7 @@ As [Basic Channel](https://en.wikipedia.org/wiki/Basic_Channel), the duo of Mori
 
 ### Trickfinger - Sampler
 
-<a name="trickfinger-sampler"></a>
+<a id="trickfinger-sampler"></a>
 
 Did you know John Frusciante -- yes, [that John Frusciante](https://en.wikipedia.org/wiki/John_Frusciante) -- has a side gig making acid techno? Insane. There are a couple tracks here where it's hard to believe he didn't pick the melody out first on a guitar.
 
@@ -440,7 +440,7 @@ Did you know John Frusciante -- yes, [that John Frusciante](https://en.wikipedia
 
 ### Ceephax - Sampler
 
-<a name="ceephax-sampler"></a>
+<a id="ceephax-sampler"></a>
 
 No list would be complete without Andy Jenkinson, AKA Ceephax. Personally I like his stuff more than [his brother's](https://en.wikipedia.org/wiki/Squarepusher). It's funny, nostalgic, slightly unhinged, and brimming with bonafide musical genius.
 
