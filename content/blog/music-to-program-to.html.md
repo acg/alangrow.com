@@ -55,11 +55,11 @@
 .spotify {
   width: 100%;
   height: 360px;
-  margin-bottom: 4em;
+  margin: 1em 0 3em 0;
 }
 .spotify.ep {
-  height: 240px;
-  margin-bottom: 0;
+  height: 160px;
+  margin-bottom: 1em;
 }
 </style>
 
