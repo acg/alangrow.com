@@ -79,44 +79,61 @@ All music has a Spotify embed and a quick review. Know the mood you're after? St
 
 - [Deep Dark Minimal](#deep-dark-minimal)
 - [Basic Channel - Sampler](#basic-channel-sampler)
+- [Pantha Du Prince: This Bliss](#pantha-du-prince-this-bliss)
+- [Dorisburg: Irrbloss](#dorisburg-irrbloss)
+- [Skudge: Time Tracks](#skudge-time-tracks)
+- [EOD: Questionmarks](#eod-questionmarks)
+- [John Tejada: Parabolas](#john-tejada-parabolas)
+- [Anthony Naples: Fog FM](#anthony-naples-fog-fm)
+- [Anthony Naples: Scanners](#anthony-naples-scanners)
+- [Rod Modell: Kettle Point](#rod-modell-kettle-point)
 - [Maurizio: M-Series](#maurizio-m-series)
+- [The Field: Sound of Light - Nordic Hotel](#the-field-sound-of-light-nordic-light-hotel)
+- [Monoder: Ikikieriö](#monoder-ikikierio)
 - [Jonas Kopp: Desire EP](#jonas-kopp-desire-ep)
+- [Tin Man: Dripping Acid](#tin-man-dripping-acid)
+- [Ben Buitendijk: Past And Present EP](#ben-buitendijk-past-and-present)
 - [Etapp Kyle: Klockworks 10](#etapp-kyle-klockworks-10)
 - [Luke Hess: Facette](#luke-hess-facette)
-- [The Field: Sound of Light - Nordic Hotel](#the-field-sound-of-light-nordic-light-hotel)
-- [EOD: Questionmarks](#eod-questionmarks)
 - [Trickfinger - Sampler](#trickfinger-sampler)
-- [Tin Man: Dripping Acid](#tin-man-dripping-acid)
-- [Anthony Naples: Fog FM](#anthony-naples-fog-fm)
-- [John Tejada: Parabolas](#john-tejada-parabolas)
 
 ### Calmness, Contemplation, Perfection 🧘
 
 - [Microlith: Dance With Me](#microlith-dance-with-me)
-- [Martin Schulte: Slow Beauty](#martin-schulte-slow-beauty)
+- [Barker: Utility](#barker-utility)
 - [Steve Reich: Music for 18 Musicians](#steve-reich-music-for-18-musicians)
 - [Terry Riley: In C](#terry-riley-in-c)
 - [Substance: Session Elements](#substance-session-elements)
+- [Thomas Fehlmann: Gute Luft](#thomas-fehlmann-gute-luft)
+- [Youandewan: There Is No Right Time](#youandewan-there-is-no-right-time)
+- [Donato Dozzy: Magda](#donato-dozzy-magda)
+- [Ohrwert: Akwatikus](#ohrwert-akwatikus)
+- [Vril: Anima Mundi](#vril-anima-mundi)
+- [Martin Schulte: Slow Beauty](#martin-schulte-slow-beauty)
 - [EOD: Utrecht](#eod-utrecht)
 - [Automatic Tasty: Fieldwork EP](#automatic-tasty-fieldworks-ep)
 - [Khotin: Baikal Acid](#khotin-baikal-acid)
+- [Sibling & Heavenchord: Lonesome Landscape](#sibling-heavenchord-lonesome-landscape)
 
 ### Creative, Energetic, Mischevious 👿
 
 - [Modern Acid](#modern-acid)
+- [Jeigo: Etum](#jeigo-etum)
+- [Aphex Twin: Selected Ambient Works (85-92)](#aphex-twin-selected-ambient-works-85-92)
 - [Beatwife: Cornbrail Acid 2](#beatwife-cornbrail-acid-2)
-- [DMX Krew: Broken SD140 Part II](#dmx-krew-broken-sd140-part-ii)
 - [Ceephax - Sampler](#ceephax-sampler)
+- [DMX Krew: Broken SD140 Part II](#dmx-krew-broken-sd140-part-ii)
 - [Superski: Mondo Moderno](#superski-mondo-moderno)
 
 ### Wistful, Reflection 🍂
 
+- [burger/ink: las vegas](#burger-ink-las-vegas)
+- [Seb Wildblood: The One with the Emoticon](#seb-wildblood-emoticon)
 - [Mikron: Severance](#mikron-severance)
 - [Boards of Canada: Music Has The Right To Children](#boards-of-canada-music-has-the-right-to-children)
-- [Seb Wildblood: The One with the Emoticon](#seb-wildblood-emoticon)
 - [RX-101: Dopamine](#rx-101-dopamine)
-- [CN: The Expedition Beyond](#cn-the-expedition-beyond)
 - [Four Tet: New Energy](#four-tet-new-energy)
+- [CN: The Expedition Beyond](#cn-the-expedition-beyond)
 
 
 ## Playlists
@@ -152,20 +169,52 @@ Some full-length albums that won't disappoint. Each is good for about an hour of
   <iframe src="https://open.spotify.com/embed/album/6yzYSkVba6an7sxMfWcFOg" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Beatwife: Cornbrail Acid 2 (2014)
+### Pantha Du Prince: This Bliss (2007)
 
-<a id="beatwife-cornbrail-acid-2"></a> A Scottish acid madman with an artist name you can't mention in polite company. Fast, frenetic music with a quirky sense of humor. See also the [Braindance microgenre](https://daily.bandcamp.com/lists/braindance-feature).
+<a id="pantha-du-prince-this-bliss"></a> This fantastic album spent a decade in purgatory over a silly copyright dispute: there was an uncleared sample on "Saturn Strobe." It finally resurfaced on streaming services in 2024. Full of bells, chimes, frost and ice, there's an almost German fairytale quality to Hendrik Weber's techno compositions. "Eisbaden" is one of my all-time favorite electronic tracks.
 
 <div class="spotify">
-  <iframe src="https://open.spotify.com/embed/album/3qku0YYzoZPtU7G5zpY9lL" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/album/5ISoAxEvezM5hpiZzmUJ7J" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-### Tin Man: Dripping Acid (2017)
+### Barker: Utility (2019)
 
-<a id="tin-man-dripping-acid"></a> How much acid is too much acid? This monster neo acid album may provide the answer. Haunting, hypnotic tunes with slow builds.
+<a id="barker-utility"></a> Bright, clear, airy, euphoric techno from a Brit turned Berghain artist-in-residence. Sam Barker has charted new sonic territory.
 
 <div class="spotify">
-  <iframe src="https://open.spotify.com/embed/album/1rVsIxC6nSp6I3VC0QQVyy" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/album/5F3YJdIjGHhnUVuD96G1mz" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### burger/ink: \[las vegas\] (1998)
+
+<a id="burger-ink-las-vegas"></a> Guitar and bass lines sculpted into minimal techno that's not so minimal. Tonally this album is quite varied. German techno duo Jörg Burger and Wolfgang Voigt (aka Mike Ink) would go on to found Kompakt records.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/2L350q8rF8zwpCnaz42dI5" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Thomas Fehlmann: Gute Luft (2010)
+
+<a id="thomas-fehlmann-gute-luft"></a> I'm not sure why I resisted this album for so long. It's a masterpiece. Symphonic, shimmering, cerebral, a detailed sonic map of an urban landscape.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/0RfsUpca8okBJ1eFBEh9Qx" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Youandewan: There Is No Right Time (2016)
+
+<a id="youandewan-there-is-no-right-time"></a> After the opener's whispered goodbyes and stomach butterflies, a "Weird Fishes / Arpeggi" drum sample on "Be Good To Me Poly" sets the tone for what's to come. But the Radiohead-inflected melancholia gets tempered on the way to Berlin, erupting into outright dancing on tracks like "10405 (Alice)."
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/06k7aQu4Px6m6omsWYwjhs" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Donato Dozzy: Magda (2024)
+
+<a id="donato-dozzy-magda"></a> Huge, slow-building ambient techno from contemporary Italian techno legend Doz. The six tracks here average nearly 9 minutes apiece. Settle in and get lost.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/5VDhlo398SCiqC5XSoPUDl" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### Mikron: Severance (2019)
@@ -178,10 +227,18 @@ Some full-length albums that won't disappoint. Each is good for about an hour of
 
 ### Anthony Naples: Fog FM (2019)
 
-<a id="anthony-naples-fog-fm"></a> Another case of driving beats shrouded in fog, this time from an NYC-based producer.
+<a id="anthony-naples-fog-fm"></a> More driving beats shrouded in fog, this time from an NYC-based producer.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/0XBtXweoCbA6MkNZ5F2NUW" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Anthony Naples: Scanners (2025)
+
+<a id="anthony-naples-scanners"></a> A dancy late night in NYC where the darkness and grime is punctuated by fits & bouts of euphoria.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/34FmAA4EuuLWZojGnrPokh" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### Boards of Canada: Music Has The Right To Children (1998)
@@ -190,6 +247,30 @@ Some full-length albums that won't disappoint. Each is good for about an hour of
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/1vWnB0hYmluskQuzxwo25a" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Aphex Twin: Selected Ambient Works (85-92)
+
+<a id="aphex-twin-selected-ambient-works-85-92"></a> Another album I'm legally required to list here. The legendary album that started it all.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/7aNclGRxTysfh6z0d8671k" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Beatwife: Cornbrail Acid 2 (2014)
+
+<a id="beatwife-cornbrail-acid-2"></a> A Scottish acid madman with an artist name you can't mention in polite company. Fast, frenetic music with a quirky sense of humor.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/3qku0YYzoZPtU7G5zpY9lL" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Tin Man: Dripping Acid (2017)
+
+<a id="tin-man-dripping-acid"></a> How much acid is too much acid? This monster neo acid album may provide the answer. Haunting, hypnotic tunes with slow builds.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/1rVsIxC6nSp6I3VC0QQVyy" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### Maurizio: M-Series (1997)
@@ -224,12 +305,44 @@ Some full-length albums that won't disappoint. Each is good for about an hour of
   <iframe src="https://open.spotify.com/embed/album/1ysY4ZKWker8yinW7hg5Jx" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
+### Jeigo: Etum (2025)
+
+<a id="jeigo-etum"></a> Warning: vocals. I'm breaking my rule because these vocals are so simple, and often processed so heavily they become an instrumental melodic line. Jeigo does that chipmunk pitch-up thing that was popular with [witch house](https://en.wikipedia.org/wiki/Witch_house) artists like [Balam Acab](https://en.wikipedia.org/wiki/Balam_Acab), who I adore. This album draws from a number of sources – house, jungle, breaks – but metabolizes them all into a sound that's fresh, unique, emotional, and very much of the 2020s.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/779eBm7LsdWIVAiitvQhlW" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
 ### Superski: Mondo Moderno (2023)
 
-<a id="superski-mondo-moderno"></a> I'll be honest: trance is not my jam. Yet somehow these trancey, cinematic, Italo-disco-influenced techno tracks from Litrowski & Voiski won me over. Look, you can wear your sunglasses at night. They can be fine Italian sunglasses. You can even be the protagonist in a Fellini film. But if you raise them and wink like Ferris Bueller, we're not going to take you entirely seriously -- and I think that's the idea.
+<a id="superski-mondo-moderno"></a> I'll be honest: trance is not my jam. Yet somehow these trancey, cinematic, Italo-disco-influenced techno tracks from Litrowski & Voiski won me over. Look, you can wear your sunglasses at night. They can be fine Italian sunglasses. You can even be the protagonist in a Fellini film. But if you raise them and wink like Ferris Bueller, we're not going to take you entirely seriously – and I think that's the idea.
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/5NCPvM8NsBT12SwVXmUWdB" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Dorisburg: Irrbloss (2016)
+
+<a id="dorisburg-irrbloss"></a> Dark, mysterious, pagan-inflected techno from Swedish producer Alexander Berg.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/7AVm58ZATXFC4wBfuDRQxD" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Skudge: Time Tracks (2020)
+
+<a id="skudge-time-tracks"></a> A dark, pounding, slightly funky lineup from Swedish producer Elias Lanberg.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/68Kn891lqYKWGx1CeWjnkA" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Vril: Anima Mundi (2018)
+
+<a id="vril-anima-mundi"></a> Spacious, stately, teeming ambient techno from a mysterious German producer. When asked what piece of equipment his studio lacked he answered "maybe a spaceship." I hope he gets one some day.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/0NlcjOxjeSaeFoiCUk1pM5" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### CN: The Expedition Beyond (2011)
@@ -254,6 +367,14 @@ Some full-length albums that won't disappoint. Each is good for about an hour of
 
 <div class="spotify">
   <iframe src="https://open.spotify.com/embed/album/74r6JJ97ipO0CREXP9PMqZ" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Ohrwert: Akwatikus (2024)
+
+<a id="ohrwert-akwatikus"></a> Deep, resonant, fluid dub techno from Dutch producer Arjen Schat. This concept album descends track-by-track through the [oceanic zones](https://en.wikipedia.org/wiki/Oceanic_zone). "Mesopelagic" is a majestic track.
+
+<div class="spotify">
+  <iframe src="https://open.spotify.com/embed/album/1M6b09FFnij3aMgrl3cMqF" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### Steve Reich: Music for 18 Musicians (1976)
@@ -293,9 +414,33 @@ These are half-albums that nonetheless stand out as excellent music to work to. 
   <iframe src="https://open.spotify.com/embed/album/0uVF1xoHTzpsWeGIq00ILF" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
+### Seb Wildblood: The One with the Emoticon (2017)
+
+<a id="seb-wildblood-emoticon"></a> Before emoji conquered the world, we typed things like `:~^`, which is the actual name of this album, and possibly a self-portrait? Lush, organic deep house from the UK.
+
+<div class="spotify ep">
+  <iframe src="https://open.spotify.com/embed/album/0xNHXAqiVHPSSRO9ZxiewT" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Rod Modell: Kettle Point (2003)
+
+<a id="rod-modell-kettle-point"></a> Better known for his work under the Deepchord moniker, Rod Modell's two 4-track EPs of cavernous dub techno – "Kettle Point" and "Sacred Geometry" – are classics of the genre.
+
+<div class="spotify ep">
+  <iframe src="https://open.spotify.com/embed/album/54DISapbGDCL9c01qJKE5k" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Monoder: Ikikieriö (2004)
+
+<a id="monoder-ikikierio"></a> Not to be confused with Moroder, Finnish dub techno producer Jussi-Pekka Parikka makes deep, dark, chilly beats.
+
+<div class="spotify ep">
+  <iframe src="https://open.spotify.com/embed/album/3Y4MFlHV1PYX2CQY2Wzemi" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
 ### Automatic Tasty: Fieldwork EP (2012)
 
-<a id="automatic-tasty-fieldworks-ep"></a> Morning, afternoon, evening, night: you must admit this is a nice four-part cyclic structure for an EP. Although the instrumentation uses the innocent but dated sounds of early techno, Dillon also weaves in real field recordings from different times of day. The result is charming and feel-good.
+<a id="automatic-tasty-fieldworks-ep"></a> Morning, afternoon, evening, night: such a nice cyclic structure for a 4-track EP. Although the instrumentation uses the innocent but dated sounds of early techno, Dillon also weaves in real field recordings from different times of day. The result is charming and feel-good.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/0zgcTeyhSIBGCiJI17mEgp" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -303,18 +448,10 @@ These are half-albums that nonetheless stand out as excellent music to work to. 
 
 ### The Field: Sound of Light - Nordic Light Hotel (2007)
 
-<a id="the-field-sound-of-light-nordic-light-hotel"></a> Another four-part day cycle EP from Sweden. True to form, these tracks are driving, repetitive, and awash in sound -- the kind of thing that makes you hitch up the sled dogs and log a couple hundred miles of frozen tundra.
+<a id="the-field-sound-of-light-nordic-light-hotel"></a> Another 4-track day cycle EP from Sweden. True to form, these tracks are driving, repetitive, and awash in sound. The kind of thing that makes you hitch up the sled dogs and log a couple hundred miles of frozen tundra.
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/2asOJ9R5vdPsqKX3hvNCEE" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-</div>
-
-### Seb Wildblood: The One with the Emoticon (2017)
-
-<a id="seb-wildblood-emoticon"></a> Before emoji conquered the world, we typed things like `:~^`, which is the actual name of this album, and possibly a self-portrait? Lush, organic deep house from the UK.
-
-<div class="spotify ep">
-  <iframe src="https://open.spotify.com/embed/album/0xNHXAqiVHPSSRO9ZxiewT" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### DMX Krew: Broken SD140 Part II (2013)
@@ -331,6 +468,22 @@ These are half-albums that nonetheless stand out as excellent music to work to. 
 
 <div class="spotify ep">
   <iframe src="https://open.spotify.com/embed/album/6c9E0fOhQBFImF2tqS0Ocl" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Sibling & Heavenchord: Lonesome Landscape (2018)
+
+<a id="sibling-heavenchord-lonesome-landscape"></a> Landscape is right. This 4 track EP has a vast, stately sound. A cross-border dub techno collaboration between Italian duo Sibling and Russian producer Heavenchord.
+
+<div class="spotify ep">
+  <iframe src="https://open.spotify.com/embed/album/6KJstyFZ93NB1c4A34hMIX" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+### Ben Buitendijk: Past And Present EP (2017)
+
+<a id="ben-buitendijk-past-and-present"></a> A minimal dub techno EP straight outta Rotterdam.
+
+<div class="spotify ep">
+  <iframe src="https://open.spotify.com/embed/album/4ILRbzaaiQMPu1SwlGTO0S" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ### Jonas Kopp: Desire EP (2013)
