@@ -46,7 +46,13 @@ Immediately after `weechat-matrix` successfully connected, Element popped up a m
 
 What worked instead was going to Element -> Settings -> Security, finding my new "Weechat Matrix" session, and manually verifying it. To make sure things match on the other end, switch to any Matrix channel in weechat, type `/olm info`, then switch back to the first weechat buffer. You should see your new weechat device's identity keys. If they match, you can verify them in Element.
 
-You can also verify devices from weechat's perspective via `/olm verify <username>`. There's even some pattern syntax that lets you verify multiple devices at once — but be careful with this.
+You can also verify devices from weechat's perspective via:
+
+```
+/olm verify <username>
+```
+
+There's even some pattern syntax that lets you verify multiple devices at once — but be careful with this.
 
 At this point, you should be able to chat safely with other devices you've done the verification dance with, but there's still a problem: you can't read channel history. You'll see usernames and timestamps in weechat, but each message will start with `<Unable to decrypt>`.
 
@@ -54,9 +60,13 @@ At this point, you should be able to chat safely with other devices you've done 
 
 To decrypt channel history, you'll need to export keys from Element and import them into `weechat-matrix`. Element makes this pretty easy: go to Settings -> Security -> "Export keys manually." Create a passphrase for the key file, and email it to yourself.
 
-Back in weechat, use `/olm import ~/path/to/riot-keys.txt <passphrase>`. This may take a bit, and `weechat` will likely hit 100% cpu during the process.
+Back in weechat, use:
 
-On success, you still can't read channel history...that is, until you restart weechat!
+```
+/olm import ~/path/to/riot-keys.txt <passphrase>
+```
+
+This may take a bit, and `weechat` will likely hit 100% cpu during the process. On success, you still can't read channel history...that is, until you restart weechat!
 
 ### Feedback
 
