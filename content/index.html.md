@@ -12,7 +12,7 @@
 
 ## Hello World
 
-I'm Alan Grow, a software developer and startup founder. With my co-founder Pliny, I run [Endcrawl](https://endcrawl.com/), the design software [many](https://x.com/alangrow/status/1870344485089222998/photo/1) [films & TV shows](https://pro.imdb.com/company/co0446605/filmography/?ref_=co_ov_all_credits) use to make end credits.
+I'm Alan Grow, a software developer and startup founder. With my co-founder Pliny, I run [Endcrawl](https://endcrawl.com/), the design software [many](https://x.com/alangrow/status/1870344485089222998/photo/1) [films & TV shows](https://www.imdb.com/search/title/?companies=co0446605) use to make end credits.
 
 In a past life I co-founded [iLuminate](https://www.iluminate.com/), a finalist on [America's Got Talent Season 6](https://en.wikipedia.org/wiki/America%27s_Got_Talent_season_6#Grand-final_(September_13)). I've also written code for Microsoft, Bloomberg, Siemens, [ROLI](https://roli.com/), [Betaworks](https://www.betaworks.com/companies) company Blend.io, and various startups.
 
