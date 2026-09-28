@@ -158,6 +158,7 @@ article ul code,
 article ol code {
   font-family: 'Monaspace Neon', 'Noto Sans Math', courier;
   font-weight: 400;
+  font-size: 90%;
   background-color: rgba(var(--fg), 0.05);
 }
 article > .highlight,
