@@ -168,7 +168,8 @@ article > pre {
 article p code,
 article ul code,
 article ol code {
-  padding: 0 0.25em;
+  padding: 0.25em 0.25em 0.125em 0.25em;
+  margin: 0 -0.15em;
   white-space: nowrap;
 }
 article a code {
