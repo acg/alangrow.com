@@ -159,7 +159,7 @@ article ol code {
   font-family: 'Monaspace Neon', 'Noto Sans Math', courier;
   font-weight: 400;
   font-size: 90%;
-  background-color: rgba(var(--fg), 0.05);
+  background-color: rgba(var(--fg), 0.075);
 }
 article > .highlight,
 article > pre {
