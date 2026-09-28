@@ -196,6 +196,9 @@ article blockquote p:first-child {
 article blockquote strong {
   font-style: inherit;
 }
+article blockquote p {
+  padding: 0.5em 0 0 0;
+}
 article small {
   font-style: italic;
   font-size: 75%;
