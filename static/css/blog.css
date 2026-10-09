@@ -172,9 +172,6 @@ article ol code {
   margin: 0 -0.15em;
   white-space: nowrap;
 }
-article a code {
-  padding: 0;
-}
 blockquote {
   font-style: italic;
   padding: 0.5em;
