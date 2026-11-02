@@ -378,12 +378,14 @@ body, time, address, h1, h2, h3, h4, h5, a:not(.toclink), .highlight span {
   }
   article > .highlight,
   article > pre {
-    font-size: 60%;
+    font-size: 75%;
   }
   article > .highlight > pre,
   article > pre {
     padding-left: var(--gutter);
     padding-right: var(--gutter);
+    text-wrap: nowrap;
+    overflow-x: auto;
   }
   article p code {
     white-space: normal;
