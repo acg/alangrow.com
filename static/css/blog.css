@@ -32,12 +32,10 @@ h1, h2, h3, h4, h5 {
   font-family: 'Crete Round';
   font-weight: 400;
   font-style: normal;
+  line-height: 1.1;
   text-wrap: pretty;
   letter-spacing: -0.025em;
   margin: 0.75em 0 0.25em 0;
-}
-h1 {
-  line-height: 1.1;
 }
 h2, h3, h4, h5 {
   letter-spacing: -0.035em;
