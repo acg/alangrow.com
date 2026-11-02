@@ -20,17 +20,17 @@ Right away I blamed myself. Maybe I mistyped that number! Maybe my code had a si
 
 As it turned out, the outage was caused by a bug in [`kill(1)`](https://man7.org/linux/man-pages/man1/kill.1.html).
 
-This is really surprising! The `kill` program is 50 years old. Its [spec](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/kill.html) is simple and stable. It's probably exercised a billion times day.
+This is really surprising. The `kill` program is 50 years old. Its [spec](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/kill.html) is simple and stable. It's probably exercised a billion times a day.
 
-A bug in `kill` was so surprising that, once I'd found it, I couldn't stop there. I needed to know how this bug came to be, and what had led the programmers so badly astray. When I eventually found the root cause, there was an even bigger surprise. It didn't just cause this one bug. It had caused a whole series of unfortunate `kill` bugs that were shipped in Ubuntu 14, 16, 18, 22 and 24 LTS.
+A bug in `kill` was so surprising that, once I'd found it, I couldn't stop there. I needed to know how this bug came to be, and what had led the programmers so badly astray. When I eventually found the root cause, there was an even bigger surprise. It had led to not just one bug, but a whole series of `kill` bugs that shipped in Ubuntu 14, 16, 18, 22 and 24 LTS.
 
 This post documents a decade of `kill` bugs, then makes some recommendations.
 
 ## An Outage Not Understood Happens Again
 
-Back to the outage. I had a fire to put out. After that came a surprise second fire. By the end of all this I was pretty demoralized. I was ready to accept that I'd made a dumb mistake and ready to get on with the work day. There was this nagging feeling though…
+Back to the outage. I scrambled to put the fire out. After that came a surprise second fire. By the end of all this I was pretty demoralized. I was ready to accept that I'd made a dumb mistake and ready to get on with the work day. There was this nagging feeling though…
 
-Remember [that final scene in Burn After Reading](https://www.youtube.com/watch?v=kCXTq-fWWio)?
+Remember that [final scene](https://www.youtube.com/watch?v=kCXTq-fWWio) in Burn After Reading?
 
 > "What did we learn Palmer?"
 
@@ -44,11 +44,11 @@ Remember [that final scene in Burn After Reading](https://www.youtube.com/watch?
 
 What had just happened? Was I about to be hit with a third outage? How could I be sure?
 
-An outage not understood is an outage that happens again. That nagging feeling I had was a call to understand. With a sigh, I put everything else on hold and started a proper post mortem.
+An outage not understood is an outage that happens again. That nagging feeling I had was a call to understand. With a sigh, I put all my other work on hold and started a proper post mortem.
 
 ## The Proximate Cause
 
-Let's more closely examine the command that caused the outage:
+Let's examine the command that caused the outage:
 
 ```sh
 sudo kill -TERM -1490947
@@ -58,9 +58,9 @@ The negative number here is a [process group identifier](https://en.wikipedia.or
 
 I was attempting to cancel a big Endcrawl 7k test render. A normal person would have killed one of the processes involved and let failures cascade to the others. But killing the whole group simultaneously strikes me as cleaner.
 
-Process group signaling isn't some exotic operation. You use it all the time. Every time you `^C` a command, the tty sends `SIGINT` to the foreground process group. Interactive shells run all but the simplest commands in a new process group. This makes [job control](https://en.wikipedia.org/wiki/Job_control_(Unix)) possible.
+Process group signaling isn't some exotic operation. You use it all the time. Every time you `^C` a command, the tty sends `SIGINT` to the foreground process group. Interactive shells run all but the simplest commands in a new process group, which among other things makes [job control](https://en.wikipedia.org/wiki/Job_control_(Unix)) possible.
 
-I'll go even further and say that process group signaling is an awesome Unix innovation. I love it so much I [added it to daemontools](https://github.com/bruceg/daemontools-encore/pull/16), where `svc -+h` now avoids orphans in a multiprocess service bounce.
+Process group signaling is in fact an awesome Unix innovation. I love it so much I [added it to daemontools](https://github.com/bruceg/daemontools-encore/pull/16), where `svc -+h` now avoids orphans in a multiprocess service bounce.
 
 At any rate, imagine my surprise when the command didn't just kill those render processes, but killed *all processes on the machine* save one!
 
@@ -89,7 +89,7 @@ while ((i = getopt_long(argc, argv, "l::Ls:hVq:", longopts, &optindex)) != -1)
   }
 ```
 
-My guess going in was wrong. There's no underflow or overflow bug with `-1490947`.
+My initial guess was wrong. There's no underflow or overflow bug with `-1490947`.
 
 Notice we're in the unrecognized option switch case. Here's what [`getopt(3)`](https://man7.org/linux/man-pages/man3/getopt.3.html) says about unrecognized options:
 
@@ -119,7 +119,7 @@ Before I tell the tale of four bugs, let's go even farther back in Unix history.
 
 In the beginning Unix had processes. By 1973 it had the `kill(1)` program. But it took a decade to evolve process groups as we now know them. It wasn't until [Unix V9 in 1986](https://www.tuhs.org/cgi-bin/utree.pl?file=V9/cmd/kill.c) that you could kill a process group via negative pid. Near as I can tell, negative pid killing has worked fine in the BSDs all these years.
 
-In the early 90s this thing called Linux came along. Although Linux initially borrowed a lot of BSD code for its userland, by the late 90s this approach was in legal jeopardy. Everything had to be rewritten, every wheel reinvented. And fast. It was an exciting time to be a Unix programmer.
+In the early 90s this thing called Linux came along. Although Linux initially borrowed a lot of BSD code for its userland, by the late 90s this approach was in legal jeopardy. Everything had to be rewritten, every wheel reinvented. And quickly. It was an exciting time to be a unix programmer.
 
 And so it came to pass that Linux's `kill` was ~~reinvented~~ written by [Albert Calahan](https://lwn.net/Articles/851716/). After Albert DoSed himself by forking 5 children, Debian downstream maintainer [Craig Small](https://dropbear.xyz/software/) took over poor old neglected [procps](https://gitlab.com/procps-ng/procps).
 
@@ -129,7 +129,7 @@ Negative pid killing seems to have worked fine until 2013. Then the trouble bega
 
 Ubuntu 14.04 LTS included procps 3.3.9. Prior to this, the `kill` code did what the BSDs do and used pointer arithmetic to walk and parse `argv`.
 
-Personally I'm fond of that approach. Stallman isn't so fond of it though. In GNU world, you're supposed to use `getopt_long(3)` and eschew cryptic, single-character options. This is probably a good idea in the general case. But as we'll see, it was probably the wrong choice for the specific case of `kill(1)`.
+Personally I'm fond of that approach. Stallman isn't so fond of it though. In GNU world, you're supposed to standardize command line parsing via `getopt`. This is probably a good idea in the general case, but as we'll see, it was probably the wrong choice in the specific case of `kill(1)`.
 
 Here's the relevant code after the conversion to `getopt`:
 
@@ -160,21 +160,21 @@ for (i = 0; i < argc; i++) {
 }
 ```
 
-The code worked fine for multidigit negative pids. However, if you were one of those freaks who delighted in a `kill -HUP -1` now and again to restart all your services, you noticed a bug: nothing happened.
+The code worked fine for multidigit negative pids. However, if you were one of those ~~freaks~~ creative sysadmins who delighted in a `kill -HUP -1` now and again to restart all your services, you noticed a bug: nothing happened.
 
 The bug is due to [option bundling](https://www.matejka.ninja/software/argv.html#bundled-options).
 
 1. **Multidigit case**: With `kill -HUP -123`, `getopt` acts as if `-1`, `-2`, and `-3` were all separately passed. The unrecognized option case will be hit three times, and only at `-3` will the `-123` argument be consumed by incrementing `optind`. Because the code breaks out of the `getopt` loop early at `-1`, an unconsumed `-123` argument correctly makes it to the pid killer.
 
-2. **Single digit case**: With `kill -HUP -1`, `getopt` has fully consumed that argument and incremented `optind` when we break out of the loop. The pid killer sees no arguments and nothing happens.
+2. **Single digit case**: With `kill -HUP -1`, however, `getopt` has fully consumed that argument and incremented `optind` before we break out of the loop. The pid killer sees no arguments and nothing happens.
 
 ### Bug 2: Ubuntu 16 Accidentally Kills -1
 
 A cure was in order. Unfortunately it was worse than the disease.
 
-Ubuntu 16.04 LTS shipped with procps 3.3.10. The `kill -HUP -1` bug was fixed at the expense of multidigit negative pid kills. A `kill -TERM -12345` now killed everything.
+Ubuntu 16.04 LTS shipped with procps 3.3.10. The `kill -HUP -1` bug was fixed at the expense of multidigit negative pid kills: a `kill -TERM -12345` now killed everything.
 
-This is the same bug that caused the outage under Ubuntu 24. We've already unpacked this one [above](#the-bug). The only mystery here is why procps circa Ubuntu 24 resurrected the known-buggy code circa Ubuntu 16. My best guess is that the following bugs were deemed even worse.
+This is the same bug that caused the outage under Ubuntu 24. We reviewed this [above](#the-bug). The only mystery here is why procps circa Ubuntu 24 resurrected the known-buggy code circa Ubuntu 16. My best guess is that the following bugs were deemed even worse.
 
 ### Bug 3: Ubuntu 18 Segfaults Killing -1
 
@@ -205,13 +205,13 @@ while (loop == 1 && (i = getopt_long(argc, argv, "l::Ls:hV", longopts, NULL)) !=
   }
 ```
 
-This works correctly for multidigit negative pids. But if you passed a single digit negative pid, as in a `kill -TERM -1`, the final argument was fully consumed, and `optind` would run off the end of `**argv`. Segfault!
+This works correctly for multidigit negative pids. But if you passed a single digit negative pid, as in a `kill -TERM -1`, the pid argument was fully consumed, and `optind` would run off the end of `argv[]`. Segfault!
 
 ### Bug 4: Ubuntu 22 Kills Your Shell
 
 Ubuntu 22.04 LTS shipped with procps 3.3.17.
 
-This fixed the segfault by ensuring `optind` never ran off the end of `**argv`:
+This fixed the segfault by ensuring `optind` never ran off the end of `argv[]`:
 
 ```c
 opterr=0; /* suppress errors on -123 */
@@ -235,17 +235,17 @@ while ((i = getopt_long(argc, argv, "l::Ls:hVq:", longopts, NULL)) != -1)
   }
 ```
 
-Once again, it seems the contributor didn't understood how `getopt` option bundling interacts with `optind`, and by this point I'm developing some sympathy for them. Now a `kill -TERM -1` works correctly and no longer segfaults. But multidigit negative pid killing was broken for a second time, in a brand new way.
+Once again, it seems the contributor didn't understood how `getopt` option bundling interacts with `optind`, and hopefully by this point you're developing some sympathy for them. With this patch a `kill -TERM -1` works correctly and no longer segfaults. But multidigit negative pid killing was broken for a second time, in a brand new way.
 
 Suppose we try to `kill -TERM -123`. Thanks to option bundling, `optind` isn't incremented yet when we hit the unrecognized option case. Per some [quirky behavior noted below](#oh-were-halfway-there), `argv[optind-1]` is now the string `kill`.
 
-What does [`atoi(3)`](https://man7.org/linux/man-pages/man3/atoi.3.html) return for a non-integer like `"kill"`? It returns `0`.
+ How does [`atoi(3)`](https://man7.org/linux/man-pages/man3/atoi.3.html) handle a non-numeric string like `"kill"`? It returns `0`.
 
-What does the [kill](https://man7.org/linux/man-pages/man2/kill.2.html) system call do with zero?
+And what does the [kill](https://man7.org/linux/man-pages/man2/kill.2.html) system call do with zero?
 
 > If pid equals 0, then sig is sent to every process in the process group of the calling process.
 
-Run by itself as a simple command, your shell won't put `kill -TERM -123` in a new process group. So this bug will unexpectedly kill your shell. Poof!
+Because it's a simple command, your shell won't isolate `kill -TERM -123` in a new process group. So this bug will unexpectedly kill your shell. Poof!
 
 ## What Did We Learn, Palmer?
 
@@ -253,7 +253,7 @@ There are several takeaways.
 
 ### The Narrow Learning
 
-For one, the way `getopt` only advances `optind` with the final bundled option is deeply non-obvious. I didn't find evidence that any contributor understood this. I didn't understand it myself at first — that took careful study.
+For one, the way `getopt` only advances `optind` with the final bundled option is deeply non-obvious. I didn't find evidence that any contributor understood this. I didn't understand it myself at first. That took careful study.
 
 It's a real surprise. Surprising behavior like this should be avoided.
 
@@ -261,27 +261,27 @@ I feel this learning is too myopic though. Can one even avoid this surprising `g
 
 ### The Broader Learning
 
-A broader learning: `getopt` usage is considered harmful.
+Getopt Considered Harmful.
 
-At least in this specific case. The `kill(1)` program is just an unusual one. It accepts options that are actually signal names, like `-KILL`. You can also specify that same signal by number, like `-9`. And pgids are negative numbers that look like deceptively like options.
+Well okay, at least in this specific case. The `kill(1)` program is just an unusual beast. It accepts options that are actually signal names, like `-KILL`. You can also specify that same signal by number, like `-9`. And pgids are negative numbers that look deceptively like options.
 
-How should an argv like `kill -1 -9` be interpreted?
+How should a command line like `kill -1 -9` be interpreted?
 
 - Should it send SIGHUP to pgid 9?
 - Should it send SIGKILL to pgid 1, aka everything?
 - Should it send SIGTERM, the default signal, to pgids 1 and 9?
 
-If any `**argv` element can be an option or an argument, all of these interpretations are potentially valid.
+All of these interpretations are potentially valid if any `argv` element can be an option or a pid.
 
-The answer is to instead parse `**argv` positionally. Don't use `getopt`. Abandon capabilities like option bundling and option reordering that are more footgun than feature in this context. The [POSIX spec](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/kill.html) says that only `argv[1]` can specify the signal to send, and that `argv[2]` and beyond are pids and pgids.
+The solution is to instead parse `argv` positionally. Don't use `getopt` here. Abandon capabilities like option bundling and option reordering that are more footgun than feature in this context. The [POSIX spec](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/kill.html) says that only `argv[1]` can specify the signal to send, and arguments beyond that are pids and pgids. These are nice simplifying assumptions.
 
-I think the BSD approach was right. [Here's the FreeBSD `kill(1)` code](https://github.com/freebsd/freebsd-src/blob/bd4975e5fb051c2b2e8d5218940b7e8ef87b5bdf/bin/kill/kill.c#L53-L136). It parses `**argv` positionally. The approach is simple and the code is simple. By contrast with Linux's `kill`, I've found no reports of command line parsing bugs in FreeBSD's `kill`.
+I think the old-school Unix and BSD approach is the right one. Have a look at FreeBSD's [kill.c](https://github.com/freebsd/freebsd-src/blob/bd4975e5fb051c2b2e8d5218940b7e8ef87b5bdf/bin/kill/kill.c#L53-L136). Like ancestral Unix did back in the 70s, it parses `argv` positionally. The approach is simple and the code is simple. By contrast with Linux's `kill`, FreeBSD's `kill` has had no command line parsing bugs.
 
-I regard `getopt` dogma as the real root cause of the outage.
+I do regard `getopt` dogma as the real root cause of the outage.
 
 ### Oh, We're Halfway There
 
-If abandoning `getopt` for "primitive" `**argv` parsing still feels sinful, just look at what procps does before even calling `getopt_long`:
+If abandoning `getopt` for "primitive" `argv` parsing still feels sinful, just look at what procps does before even calling `getopt_long`:
 
 ```c
 if (argc < 2)
@@ -318,9 +318,9 @@ int skill_sig_option(int *argc, char **argv)
 }
 ```
 
-It scans `**argv` looking for the first element that looks like a signal spec. If it finds a `-KILL`, a `-9`, or similar, it modifies `argv` in place (!) so `getopt` doesn't have to deal with that.
+It scans `argv` looking for the first signal spec. If it finds a `-KILL`, a `-9`, or similar, it modifies `argv` in place (!) so `getopt` doesn't have to deal with that.
 
-This is already "primitive" `**argv` parsing! We're halfway there.
+This is already "primitive" `argv` parsing! We're halfway there.
 
 ### Some Final Practical Advice
 
@@ -335,6 +335,6 @@ kill -TERM -- -1490947  # yes
 
 The second form is parsed correctly even by the buggy procps versions listed above.
 
-Second, kill with least privilege. If I'd done a `sudo -u render kill` instead of a `sudo kill`, it would have only killed in-flight renders instead of all processes on the box. I feel a little insane recommending this kind of defensive shell programming — let's be clear, we're defending against bugs in `kill` — but here we are.
+Second, kill with least privilege. If I'd done a `sudo -u render kill` instead of a `sudo kill`, it would have only killed in-flight renders instead of all processes on the box. I feel a little insane recommending this kind of defensive tool usage — let's be clear, we're defending against bugs in `kill`, a small, mature, widely-used and very important tool — but here we are.
 
-Finally, the good news is that a [bugfix for Ubuntu 24](https://lists.ubuntu.com/archives/ubuntu-sponsors/2026-September/088746.html) is already on its way at the time of this writing.
+Finally, the good news is that a [bugfix for Ubuntu 24](https://lists.ubuntu.com/archives/ubuntu-sponsors/2026-September/088746.html) is already on its way at the time of publication. I still favor a simplifying rewrite of procps's `kill` though.
